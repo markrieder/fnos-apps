@@ -28,6 +28,10 @@
 | Node.js / Java 捆绑运行时 | 原生二进制 | 运行时可打包在 app.tgz 中 |
 | 复杂运行时依赖 (.NET, Python venv) | Docker 容器 | 避免依赖地狱 |
 | 上游已提供优质 Docker 镜像 | Docker 容器 | 直接复用，维护成本低 |
+| PHP 应用 (需 Web Server + PHP-FPM) | Docker 容器 | 依赖完整 LAMP/LEMP 栈，原生打包不切实际 |
+| 多服务依赖 (应用 + 数据库 + 缓存等) | Docker 容器 | docker-compose 统一编排多容器，参考 Immich |
+| 需要特定版本系统库 (glibc 等) | Docker 容器 | 容器隔离避免与宿主系统冲突 |
+| 上游自托管处于 alpha/beta 阶段 | Docker 容器 | 容器隔离降低不稳定应用对系统的风险 |
 
 ---
 
