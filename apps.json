@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-03-03T19:23:11Z",
+  "generated_at": "2026-03-03T19:23:23Z",
   "source": {
     "name": "conversun/fnos-apps",
     "url": "https://github.com/conversun/fnos-apps"
@@ -666,8 +666,8 @@
       "display_name": "Jackett",
       "description": "Torrent 索引器代理，为 Sonarr/Radarr 等工具提供统一的搜索接口。",
       "version": "0.24.1261",
-      "fpk_version": "0.24.1261-r1",
-      "release_tag": "jackett/v0.24.1261-r1",
+      "fpk_version": "0.24.1261-r2",
+      "release_tag": "jackett/v0.24.1261-r2",
       "service_port": 9117,
       "homepage_url": "https://github.com/Jackett/Jackett",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/jackett/fnos/ICON_256.PNG",
@@ -675,7 +675,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-03T18:47:10Z",
+      "updated_at": "2026-03-03T19:23:11Z",
       "download_count": 9,
       "app_type": "native",
       "category": "media"
@@ -708,8 +708,8 @@
       "display_name": "Jellyseerr",
       "description": "媒体请求管理工具，家庭成员可请求想看的影视并自动下载",
       "version": "2.7.3",
-      "fpk_version": "2.7.3",
-      "release_tag": "jellyseerr/v2.7.3",
+      "fpk_version": "2.7.3-r1",
+      "release_tag": "jellyseerr/v2.7.3-r1",
       "service_port": 5055,
       "homepage_url": "https://github.com/Fallenbagel/jellyseerr",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/jellyseerr/fnos/ICON_256.PNG",
@@ -717,7 +717,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-03T13:39:18Z",
+      "updated_at": "2026-03-03T19:23:13Z",
       "download_count": 6,
       "app_type": "docker",
       "category": "content"
@@ -898,8 +898,8 @@
       "display_name": "Lucky",
       "description": "网络工具箱，集成 DDNS、反向代理、HTTPS 证书、端口转发等功能",
       "version": "2.27.2",
-      "fpk_version": "2.27.2",
-      "release_tag": "lucky/v2.27.2",
+      "fpk_version": "2.27.2-r1",
+      "release_tag": "lucky/v2.27.2-r1",
       "service_port": 16601,
       "homepage_url": "https://lucky666.cn",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/lucky/fnos/ICON_256.PNG",
@@ -907,7 +907,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-03T13:38:29Z",
+      "updated_at": "2026-03-03T19:23:13Z",
       "download_count": 4,
       "app_type": "native",
       "category": "system"
@@ -1336,6 +1336,27 @@
       "category": "system"
     },
     {
+      "slug": "qbittorrent",
+      "appname": "qBittorrent",
+      "file_prefix": "qBittorrent",
+      "display_name": "qBittorrent",
+      "description": "qBittorrent是一个轻量级BitTorrent客户端，简单易用，功能强大。默认用户名admin，密码adminadmin。",
+      "version": "5.1.4",
+      "fpk_version": "5.1.4-r5",
+      "release_tag": "qbittorrent/v5.1.4-r5",
+      "service_port": 8085,
+      "homepage_url": "https://github.com/userdocs/qbittorrent-nox-static",
+      "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/qbittorrent/fnos/ICON_256.PNG",
+      "platforms": [
+        "x86",
+        "arm"
+      ],
+      "updated_at": "0001-01-01T00:00:00Z",
+      "download_count": 348,
+      "app_type": "native",
+      "category": "download"
+    },
+    {
       "slug": "radarr",
       "appname": "radarr",
       "file_prefix": "radarr",
@@ -1363,8 +1384,8 @@
       "display_name": "Rclone",
       "description": "强大的云存储同步工具，支持 50+ 种存储后端的文件管理和同步。",
       "version": "1.73.1",
-      "fpk_version": "1.73.1-r1",
-      "release_tag": "rclone/v1.73.1-r1",
+      "fpk_version": "1.73.1-r2",
+      "release_tag": "rclone/v1.73.1-r2",
       "service_port": 5572,
       "homepage_url": "https://rclone.org",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/rclone/fnos/ICON_256.PNG",
@@ -1372,7 +1393,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-03T18:47:26Z",
+      "updated_at": "2026-03-03T19:23:15Z",
       "download_count": 2,
       "app_type": "native",
       "category": "download"
