@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-03-03T19:23:23Z",
+  "generated_at": "2026-03-03T19:23:35Z",
   "source": {
     "name": "conversun/fnos-apps",
     "url": "https://github.com/conversun/fnos-apps"
@@ -351,8 +351,8 @@
       "display_name": "Firefox",
       "description": "Firefox 浏览器的 Docker 容器版本，通过网页即可远程访问，内置中文字体支持。",
       "version": "26.02.3",
-      "fpk_version": "26.02.3-r3",
-      "release_tag": "firefox/v26.02.3-r3",
+      "fpk_version": "26.02.3-r4",
+      "release_tag": "firefox/v26.02.3-r4",
       "service_port": 5801,
       "homepage_url": "https://github.com/jlesage/docker-firefox",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/firefox/fnos/ICON_256.PNG",
@@ -360,7 +360,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-02-28T06:24:12Z",
+      "updated_at": "2026-03-03T19:23:23Z",
       "download_count": 111,
       "app_type": "docker",
       "category": "browser"
@@ -519,8 +519,8 @@
       "display_name": "Grafana",
       "description": "可视化监控仪表盘，支持 Prometheus、Loki 等多种数据源。",
       "version": "12.4.0",
-      "fpk_version": "12.4.0-r1",
-      "release_tag": "grafana/v12.4.0-r1",
+      "fpk_version": "12.4.0-r2",
+      "release_tag": "grafana/v12.4.0-r2",
       "service_port": 3010,
       "homepage_url": "https://grafana.com",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/grafana/fnos/ICON_256.PNG",
@@ -528,7 +528,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-03T18:47:14Z",
+      "updated_at": "2026-03-03T19:23:32Z",
       "download_count": 7,
       "app_type": "native",
       "category": "system"
@@ -1004,8 +1004,8 @@
       "display_name": "MosDNS",
       "description": "DNS 分流工具，国内域名走国内 DNS、国外走加密 DNS",
       "version": "5.3.4",
-      "fpk_version": "5.3.4-r1",
-      "release_tag": "mosdns/v5.3.4-r1",
+      "fpk_version": "5.3.4-r2",
+      "release_tag": "mosdns/v5.3.4-r2",
       "service_port": 5353,
       "homepage_url": "https://github.com/IrineSistworking/mosdns",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/mosdns/fnos/ICON_256.PNG",
@@ -1013,7 +1013,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-03T18:47:07Z",
+      "updated_at": "2026-03-03T19:23:26Z",
       "download_count": 5,
       "app_type": "native",
       "category": "system"
@@ -1351,7 +1351,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "0001-01-01T00:00:00Z",
+      "updated_at": "2026-03-03T19:23:23Z",
       "download_count": 348,
       "app_type": "native",
       "category": "download"
@@ -1657,8 +1657,8 @@
       "display_name": "Uptime Kuma",
       "description": "简洁美观的服务监控工具，支持多种监控类型和告警通知",
       "version": "2.1.3",
-      "fpk_version": "2.1.3",
-      "release_tag": "uptime-kuma/v2.1.3",
+      "fpk_version": "2.1.3-r1",
+      "release_tag": "uptime-kuma/v2.1.3-r1",
       "service_port": 3001,
       "homepage_url": "https://github.com/louislam/uptime-kuma",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/uptime-kuma/fnos/ICON_256.PNG",
@@ -1666,7 +1666,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-03T13:39:03Z",
+      "updated_at": "2026-03-03T19:23:29Z",
       "download_count": 1,
       "app_type": "docker",
       "category": "system"
@@ -1720,8 +1720,8 @@
       "display_name": "Wiki.js",
       "description": "强大的自托管知识库/Wiki 系统，支持 Markdown 和多种编辑器",
       "version": "2.5.277",
-      "fpk_version": "2.5.277",
-      "release_tag": "wikijs/v2.5.277",
+      "fpk_version": "2.5.277-r1",
+      "release_tag": "wikijs/v2.5.277-r1",
       "service_port": 3100,
       "homepage_url": "https://js.wiki",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/wikijs/fnos/ICON_256.PNG",
@@ -1729,7 +1729,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-03T13:39:40Z",
+      "updated_at": "2026-03-03T19:23:32Z",
       "download_count": 4,
       "app_type": "docker",
       "category": "content"
