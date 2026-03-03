@@ -1,7 +1,7 @@
 # fnOS Apps
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-![Apps](https://img.shields.io/badge/apps-54-2ea44f)
+![Apps](https://img.shields.io/badge/apps-55-2ea44f)
 ![Platform](https://img.shields.io/badge/fnOS-third--party-orange)
 
 面向飞牛 fnOS 的第三方应用打包仓库。自动跟踪上游版本，构建可直接安装的 `.fpk` 包。
@@ -92,6 +92,12 @@
 | <img src="apps/stirling-pdf/fnos/ICON.PNG" width="28"> | [**Stirling-PDF**](apps/stirling-pdf/) | `18080` | 自托管 PDF 工具箱 | [官网](https://stirlingpdf.io) | [Release][r-stirlingpdf] |
 | <img src="apps/actual-budget/fnos/ICON.PNG" width="28"> | [**Actual Budget**](apps/actual-budget/) | `5006` | 自托管个人财务管理 | [官网](https://actualbudget.org) | [Release][r-actual] |
 | <img src="apps/lucky/fnos/ICON.PNG" width="28"> | [**Lucky**](apps/lucky/) | `16601` | DDNS/反向代理/端口转发多功能工具 | [官网](https://lucky666.cn) | [Release][r-lucky] |
+
+### 🤖 AI
+
+| | App | 端口 | 说明 | 来源 | 下载 |
+|:---:|---|---:|---|:---:|:---:|
+| <img src="apps/openclaw/fnos/ICON.PNG" width="28"> | [**OpenClaw**](apps/openclaw/) | `18789` | AI 智能体网关，支持多渠道接入 | [官网](https://docs.openclaw.ai) | [Release][r-openclaw] |
 
 ### 🌐 网络工具
 
@@ -236,5 +242,6 @@ fnos-apps/
 [r-stirlingpdf]: https://github.com/conversun/fnos-apps/releases?q=stirling-pdf
 [r-actual]: https://github.com/conversun/fnos-apps/releases?q=actual-budget
 [r-lucky]: https://github.com/conversun/fnos-apps/releases?q=lucky
+[r-openclaw]: https://github.com/conversun/fnos-apps/releases?q=openclaw
 [r-smartdns]: https://github.com/conversun/fnos-apps/releases?q=smartdns
 [r-mosdns]: https://github.com/conversun/fnos-apps/releases?q=mosdns
