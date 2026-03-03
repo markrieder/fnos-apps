@@ -1,0 +1,8 @@
+#!/bin/bash
+
+service_postinst() {
+    mkdir -p "${TRIM_PKGVAR}/config" "${TRIM_PKGVAR}/images" "${TRIM_PKGVAR}/db" 2>/dev/null || true
+    if [ ! -f "${TRIM_PKGVAR}/config/librechat.yaml" ]; then
+        touch "${TRIM_PKGVAR}/config/librechat.yaml"
+    fi
+}

@@ -1,0 +1,6 @@
+#!/bin/sh
+APP_DIR="${TRIM_APPDEST}"
+APP_DATA_DIR=$1
+
+cd "$APP_DIR" || exit 1
+exec ./headscale serve --config "$APP_DATA_DIR/config.yaml"

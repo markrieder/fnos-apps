@@ -1,0 +1,11 @@
+[
+    {
+        "stepTitle": "Home Assistant 设置",
+        "items": [
+            {
+                "type": "tips",
+                "helpText": "Home Assistant 需要宿主网络模式以发现局域网设备。USB 设备（如 Zigbee 网关）需要特权模式。"
+            }
+        ]
+    }
+]

@@ -1,0 +1,15 @@
+{
+    ".url": {
+        "localai.Application":
+        {
+            "title": "LocalAI",
+            "desc": "LocalAI",
+            "icon": "images/{0}.png",
+            "type": "url",
+            "port": "8180",
+            "protocol": "http",
+            "url": "/",
+            "allUsers": true
+        }
+    }
+}

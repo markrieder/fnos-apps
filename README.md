@@ -1,7 +1,7 @@
 # fnOS Apps
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-![Apps](https://img.shields.io/badge/apps-55-2ea44f)
+![Apps](https://img.shields.io/badge/apps-83-2ea44f)
 ![Platform](https://img.shields.io/badge/fnOS-third--party-orange)
 
 面向飞牛 fnOS 的第三方应用打包仓库。自动跟踪上游版本，构建可直接安装的 `.fpk` 包。
@@ -32,6 +32,11 @@
 | <img src="apps/tinymediamanager/fnos/ICON.PNG" width="28"> | [**tinyMediaManager**](apps/tinymediamanager/) | `5800` | 影视元数据管理 | [官网](https://www.tinymediamanager.org) | [Release][r-tmm] |
 | <img src="apps/photoprism/fnos/ICON.PNG" width="28"> | [**PhotoPrism**](apps/photoprism/) | `2342` | AI 驱动的照片管理 | [官网](https://photoprism.app) | [Release][r-photoprism] |
 | <img src="apps/jellyseerr/fnos/ICON.PNG" width="28"> | [**Jellyseerr**](apps/jellyseerr/) | `5055` | Jellyfin/Plex 媒体请求管理 | [GitHub](https://github.com/Fallenbagel/jellyseerr) | [Release][r-jellyseerr] |
+| <img src="apps/tautulli/fnos/ICON.PNG" width="28"> | [**Tautulli**](apps/tautulli/) | `8181` | Plex 使用统计与监控 | [官网](https://tautulli.com) | [Release][r-tautulli] |
+| <img src="apps/seerr/fnos/ICON.PNG" width="28"> | [**Seerr**](apps/seerr/) | `5055` | Overseerr 社区分支，媒体请求管理 | [GitHub](https://github.com/seerr-team/seerr) | [Release][r-seerr] |
+| <img src="apps/ente/fnos/ICON.PNG" width="28"> | [**Ente**](apps/ente/) | `8510` | 端到端加密照片备份 | [官网](https://ente.io) | [Release][r-ente] |
+| <img src="apps/sunshine/fnos/ICON.PNG" width="28"> | [**Sunshine**](apps/sunshine/) | `47990` | 游戏串流服务器，配合 Moonlight 使用 | [GitHub](https://github.com/LizardByte/Sunshine) | [Release][r-sunshine] |
+| <img src="apps/frigate/fnos/ICON.PNG" width="28"> | [**Frigate**](apps/frigate/) | `8971` | AI 视频监控，支持实时物体检测 | [官网](https://frigate.video) | [Release][r-frigate] |
 
 ### ⬇️ 下载工具
 
@@ -41,6 +46,9 @@
 | <img src="apps/transmission/fnos/ICON.PNG" width="28"> | [**Transmission**](apps/transmission/) | `9091` | 轻量级 BitTorrent 客户端 | [官网](https://transmissionbt.com) | [Release][r-transmission] |
 | <img src="apps/gopeed/fnos/ICON.PNG" width="28"> | [**Gopeed**](apps/gopeed/) | `9999` | 高速下载器，支持 HTTP/BT/Magnet | [官网](https://gopeed.com) | [Release][r-gopeed] |
 | <img src="apps/syncthing/fnos/ICON.PNG" width="28"> | [**Syncthing**](apps/syncthing/) | `8384` | 文件同步工具，P2P 架构 | [官网](https://syncthing.net) | [Release][r-syncthing] |
+| <img src="apps/alist/fnos/ICON.PNG" width="28"> | [**Alist**](apps/alist/) | `5246` | 网盘聚合工具，挂载阿里云盘/百度盘等 | [GitHub](https://github.com/AlistGo/alist) | [Release][r-alist] |
+| <img src="apps/rclone/fnos/ICON.PNG" width="28"> | [**Rclone**](apps/rclone/) | `5572` | 云存储同步工具，支持 50+ 存储后端 | [官网](https://rclone.org) | [Release][r-rclone] |
+| <img src="apps/cloudreve/fnos/ICON.PNG" width="28"> | [**Cloudreve**](apps/cloudreve/) | `5212` | 国产云盘系统 | [官网](https://cloudreve.org) | [Release][r-cloudreve] |
 
 ### 📚 内容管理
 
@@ -59,6 +67,7 @@
 | <img src="apps/wikijs/fnos/ICON.PNG" width="28"> | [**Wiki.js**](apps/wikijs/) | `3080` | 现代化 Wiki 引擎 | [官网](https://js.wiki) | [Release][r-wikijs] |
 | <img src="apps/mealie/fnos/ICON.PNG" width="28"> | [**Mealie**](apps/mealie/) | `9925` | 食谱管理与膳食计划 | [官网](https://mealie.io) | [Release][r-mealie] |
 | <img src="apps/paperless-ngx/fnos/ICON.PNG" width="28"> | [**Paperless-ngx**](apps/paperless-ngx/) | `8000` | 文档数字化管理，OCR 支持 | [官网](https://docs.paperless-ngx.com) | [Release][r-paperless] |
+| <img src="apps/appflowy/fnos/ICON.PNG" width="28"> | [**AppFlowy**](apps/appflowy/) | `8500` | Notion 开源替代品，协作文档平台 | [官网](https://appflowy.io) | [Release][r-appflowy] |
 
 ### 🎵 媒体自动化
 
@@ -70,6 +79,7 @@
 | <img src="apps/readarr/fnos/ICON.PNG" width="28"> | [**Readarr**](apps/readarr/) | `8787` | 电子书自动下载管理 | [官网](https://readarr.com) | [Release][r-readarr] |
 | <img src="apps/prowlarr/fnos/ICON.PNG" width="28"> | [**Prowlarr**](apps/prowlarr/) | `9696` | 索引器管理，整合 Sonarr/Radarr 等 | [官网](https://prowlarr.com) | [Release][r-prowlarr] |
 | <img src="apps/bazarr/fnos/ICON.PNG" width="28"> | [**Bazarr**](apps/bazarr/) | `6767` | 字幕自动下载管理 | [官网](https://www.bazarr.media) | [Release][r-bazarr] |
+| <img src="apps/jackett/fnos/ICON.PNG" width="28"> | [**Jackett**](apps/jackett/) | `9117` | Torrent 索引器代理，Prowlarr 替代 | [GitHub](https://github.com/Jackett/Jackett) | [Release][r-jackett] |
 
 ### 🔧 系统工具
 
@@ -92,12 +102,26 @@
 | <img src="apps/stirling-pdf/fnos/ICON.PNG" width="28"> | [**Stirling-PDF**](apps/stirling-pdf/) | `18080` | 自托管 PDF 工具箱 | [官网](https://stirlingpdf.io) | [Release][r-stirlingpdf] |
 | <img src="apps/actual-budget/fnos/ICON.PNG" width="28"> | [**Actual Budget**](apps/actual-budget/) | `5006` | 自托管个人财务管理 | [官网](https://actualbudget.org) | [Release][r-actual] |
 | <img src="apps/lucky/fnos/ICON.PNG" width="28"> | [**Lucky**](apps/lucky/) | `16601` | DDNS/反向代理/端口转发多功能工具 | [官网](https://lucky666.cn) | [Release][r-lucky] |
+| <img src="apps/1panel/fnos/ICON.PNG" width="28"> | [**1Panel**](apps/1panel/) | `10086` | 开源服务器管理面板 | [官网](https://1panel.cn) | [Release][r-1panel] |
+| <img src="apps/grafana/fnos/ICON.PNG" width="28"> | [**Grafana**](apps/grafana/) | `3010` | 可视化监控仪表盘 | [官网](https://grafana.com) | [Release][r-grafana] |
+| <img src="apps/prometheus/fnos/ICON.PNG" width="28"> | [**Prometheus**](apps/prometheus/) | `9090` | 时序数据库与监控系统 | [官网](https://prometheus.io) | [Release][r-prometheus] |
+| <img src="apps/loki/fnos/ICON.PNG" width="28"> | [**Loki**](apps/loki/) | `3100` | 日志聚合系统，Grafana 生态 | [GitHub](https://github.com/grafana/loki) | [Release][r-loki] |
+| <img src="apps/glances/fnos/ICON.PNG" width="28"> | [**Glances**](apps/glances/) | `61208` | 系统监控，Web UI 版 htop | [GitHub](https://github.com/nicolargo/glances) | [Release][r-glances] |
+| <img src="apps/n8n/fnos/ICON.PNG" width="28"> | [**n8n**](apps/n8n/) | `5678` | 工作流自动化工具 | [官网](https://n8n.io) | [Release][r-n8n] |
+| <img src="apps/ntfy/fnos/ICON.PNG" width="28"> | [**Ntfy**](apps/ntfy/) | `2586` | 自托管推送通知服务 | [官网](https://ntfy.sh) | [Release][r-ntfy] |
+| <img src="apps/gitea/fnos/ICON.PNG" width="28"> | [**Gitea**](apps/gitea/) | `3003` | 轻量级 Git 代码托管 | [官网](https://gitea.com) | [Release][r-gitea] |
+| <img src="apps/duplicati/fnos/ICON.PNG" width="28"> | [**Duplicati**](apps/duplicati/) | `8200` | 加密备份工具 | [官网](https://duplicati.com) | [Release][r-duplicati] |
+| <img src="apps/it-tools/fnos/ICON.PNG" width="28"> | [**IT-Tools**](apps/it-tools/) | `8280` | 开发者工具箱 | [官网](https://it-tools.tech) | [Release][r-it-tools] |
+| <img src="apps/mattermost/fnos/ICON.PNG" width="28"> | [**Mattermost**](apps/mattermost/) | `8065` | 企业即时通讯，Slack 替代 | [官网](https://mattermost.com) | [Release][r-mattermost] |
+| <img src="apps/homeassistant/fnos/ICON.PNG" width="28"> | [**Home Assistant**](apps/homeassistant/) | `8123` | 智能家居中枢平台 | [官网](https://www.home-assistant.io) | [Release][r-homeassistant] |
 
 ### 🤖 AI
 
 | | App | 端口 | 说明 | 来源 | 下载 |
 |:---:|---|---:|---|:---:|:---:|
 | <img src="apps/openclaw/fnos/ICON.PNG" width="28"> | [**OpenClaw**](apps/openclaw/) | `18789` | AI 智能体网关，支持多渠道接入 | [官网](https://docs.openclaw.ai) | [Release][r-openclaw] |
+| <img src="apps/localai/fnos/ICON.PNG" width="28"> | [**LocalAI**](apps/localai/) | `8180` | 本地 AI 推理，兼容 OpenAI API | [官网](https://localai.io) | [Release][r-localai] |
+| <img src="apps/librechat/fnos/ICON.PNG" width="28"> | [**LibreChat**](apps/librechat/) | `3080` | AI 聊天界面，支持多模型 | [官网](https://librechat.ai) | [Release][r-librechat] |
 
 ### 🌐 网络工具
 
@@ -105,6 +129,10 @@
 |:---:|---|---:|---|:---:|:---:|
 | <img src="apps/smartdns/fnos/ICON.PNG" width="28"> | [**SmartDNS**](apps/smartdns/) | `6580` | 本地 DNS 加速与优选 | [GitHub](https://github.com/pymumu/smartdns) | [Release][r-smartdns] |
 | <img src="apps/mosdns/fnos/ICON.PNG" width="28"> | [**MosDNS**](apps/mosdns/) | `5353` | DNS 转发与分流 | [GitHub](https://github.com/IrineSistiana/mosdns) | [Release][r-mosdns] |
+| <img src="apps/pihole/fnos/ICON.PNG" width="28"> | [**Pi-hole**](apps/pihole/) | `8053` | 全网广告拦截 (DNS) | [官网](https://pi-hole.net) | [Release][r-pihole] |
+| <img src="apps/wg-easy/fnos/ICON.PNG" width="28"> | [**WG-Easy**](apps/wg-easy/) | `51821` | WireGuard VPN 管理界面 | [GitHub](https://github.com/wg-easy/wg-easy) | [Release][r-wg-easy] |
+| <img src="apps/headscale/fnos/ICON.PNG" width="28"> | [**Headscale**](apps/headscale/) | `8480` | Tailscale 自托管控制服务器 | [GitHub](https://github.com/juanfont/headscale) | [Release][r-headscale] |
+| <img src="apps/netbird/fnos/ICON.PNG" width="28"> | [**NetBird**](apps/netbird/) | `8820` | Zero Trust VPN 平台 | [官网](https://netbird.io) | [Release][r-netbird] |
 
 ### 🌐 浏览器
 
@@ -245,3 +273,31 @@ fnos-apps/
 [r-openclaw]: https://github.com/conversun/fnos-apps/releases?q=openclaw
 [r-smartdns]: https://github.com/conversun/fnos-apps/releases?q=smartdns
 [r-mosdns]: https://github.com/conversun/fnos-apps/releases?q=mosdns
+[r-tautulli]: https://github.com/conversun/fnos-apps/releases?q=tautulli
+[r-seerr]: https://github.com/conversun/fnos-apps/releases?q=seerr
+[r-ente]: https://github.com/conversun/fnos-apps/releases?q=ente
+[r-sunshine]: https://github.com/conversun/fnos-apps/releases?q=sunshine
+[r-frigate]: https://github.com/conversun/fnos-apps/releases?q=frigate
+[r-alist]: https://github.com/conversun/fnos-apps/releases?q=alist
+[r-rclone]: https://github.com/conversun/fnos-apps/releases?q=rclone
+[r-cloudreve]: https://github.com/conversun/fnos-apps/releases?q=cloudreve
+[r-appflowy]: https://github.com/conversun/fnos-apps/releases?q=appflowy
+[r-jackett]: https://github.com/conversun/fnos-apps/releases?q=jackett
+[r-1panel]: https://github.com/conversun/fnos-apps/releases?q=1panel
+[r-grafana]: https://github.com/conversun/fnos-apps/releases?q=grafana
+[r-prometheus]: https://github.com/conversun/fnos-apps/releases?q=prometheus
+[r-loki]: https://github.com/conversun/fnos-apps/releases?q=loki
+[r-glances]: https://github.com/conversun/fnos-apps/releases?q=glances
+[r-n8n]: https://github.com/conversun/fnos-apps/releases?q=n8n
+[r-ntfy]: https://github.com/conversun/fnos-apps/releases?q=ntfy
+[r-gitea]: https://github.com/conversun/fnos-apps/releases?q=gitea
+[r-duplicati]: https://github.com/conversun/fnos-apps/releases?q=duplicati
+[r-it-tools]: https://github.com/conversun/fnos-apps/releases?q=it-tools
+[r-mattermost]: https://github.com/conversun/fnos-apps/releases?q=mattermost
+[r-homeassistant]: https://github.com/conversun/fnos-apps/releases?q=homeassistant
+[r-localai]: https://github.com/conversun/fnos-apps/releases?q=localai
+[r-librechat]: https://github.com/conversun/fnos-apps/releases?q=librechat
+[r-pihole]: https://github.com/conversun/fnos-apps/releases?q=pihole
+[r-wg-easy]: https://github.com/conversun/fnos-apps/releases?q=wg-easy
+[r-headscale]: https://github.com/conversun/fnos-apps/releases?q=headscale
+[r-netbird]: https://github.com/conversun/fnos-apps/releases?q=netbird

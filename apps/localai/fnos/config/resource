@@ -1,0 +1,25 @@
+{
+    "port-config": {
+        "protocol-file": "LocalAI.sc"
+    },
+    "data-share": {
+        "shares": [
+            {
+                "name": "LocalAI",
+                "permission": {
+                    "rw": [
+                        "localai"
+                    ]
+                }
+            }
+        ]
+    },
+    "docker-project": {
+        "projects": [
+            {
+                "name": "localai",
+                "path": "docker"
+            }
+        ]
+    }
+}

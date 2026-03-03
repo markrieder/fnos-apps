@@ -1,0 +1,19 @@
+{
+    "port-config": {
+        "protocol-file": "Headscale.sc"
+    },
+    "data-share": {
+        "shares": [
+            {
+                "name": "Headscale",
+                "permission": {
+                    "rw": [
+                        "headscale"
+                    ]
+                }
+            }
+        ]
+    },
+    "systemd-unit": {
+    }
+}

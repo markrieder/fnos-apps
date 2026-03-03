@@ -1,0 +1,19 @@
+{
+    "port-config": {
+        "protocol-file": "Ntfy.sc"
+    },
+    "data-share": {
+        "shares": [
+            {
+                "name": "Ntfy",
+                "permission": {
+                    "rw": [
+                        "ntfy"
+                    ]
+                }
+            }
+        ]
+    },
+    "systemd-unit": {
+    }
+}

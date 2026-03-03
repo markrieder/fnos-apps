@@ -1,0 +1,19 @@
+{
+    "port-config": {
+        "protocol-file": "Jackett.sc"
+    },
+    "data-share": {
+        "shares": [
+            {
+                "name": "Jackett",
+                "permission": {
+                    "rw": [
+                        "jackett"
+                    ]
+                }
+            }
+        ]
+    },
+    "systemd-unit": {
+    }
+}

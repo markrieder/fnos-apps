@@ -1,0 +1,25 @@
+{
+    "port-config": {
+        "protocol-file": "pihole.sc"
+    },
+    "data-share": {
+        "shares": [
+            {
+                "name": "Pi-hole",
+                "permission": {
+                    "rw": [
+                        "pihole"
+                    ]
+                }
+            }
+        ]
+    },
+    "docker-project": {
+        "projects": [
+            {
+                "name": "pihole",
+                "path": "docker"
+            }
+        ]
+    }
+}

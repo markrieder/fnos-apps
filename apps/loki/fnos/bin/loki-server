@@ -1,0 +1,6 @@
+#!/bin/sh
+APP_DIR="${TRIM_APPDEST}"
+APP_DATA_DIR=$1
+
+cd "$APP_DIR" || exit 1
+exec ./loki -config.file="$APP_DATA_DIR/loki-config.yaml" -server.http-listen-address=0.0.0.0 -server.http-listen-port=${TRIM_SERVICE_PORT:-3100}

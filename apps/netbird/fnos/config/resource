@@ -1,0 +1,25 @@
+{
+    "port-config": {
+        "protocol-file": "NetBird.sc"
+    },
+    "data-share": {
+        "shares": [
+            {
+                "name": "NetBird",
+                "permission": {
+                    "rw": [
+                        "netbird"
+                    ]
+                }
+            }
+        ]
+    },
+    "docker-project": {
+        "projects": [
+            {
+                "name": "netbird",
+                "path": "docker"
+            }
+        ]
+    }
+}

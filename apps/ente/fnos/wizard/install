@@ -1,0 +1,15 @@
+[
+    {
+        "stepTitle": "安装说明",
+        "items": [
+            {
+                "type": "tips",
+                "helpText": "Ente 是端到端加密照片备份和存储服务。<br><br>应用包含 3 个服务容器（Ente、PostgreSQL、MinIO），首次启动需要拉取镜像并初始化依赖。"
+            },
+            {
+                "type": "tips",
+                "helpText": "默认数据库与对象存储账号为示例值，仅用于快速启动。<br>生产环境建议修改 docker-compose 中的默认密码并启用 HTTPS。"
+            }
+        ]
+    }
+]

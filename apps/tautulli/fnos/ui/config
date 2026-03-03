@@ -1,0 +1,15 @@
+{
+    ".url": {
+        "tautulli.Application":
+        {
+            "title": "Tautulli",
+            "desc": "Tautulli",
+            "icon": "images/{0}.png",
+            "type": "url",
+            "port": "8181",
+            "protocol": "http",
+            "url": "/",
+            "allUsers": true
+        }
+    }
+}

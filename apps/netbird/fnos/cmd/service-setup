@@ -1,0 +1,27 @@
+#!/bin/bash
+
+service_postinst() {
+    local env_file="${TRIM_APPDEST}/docker/.env"
+    mkdir -p "${TRIM_PKGVAR}/config" 2>/dev/null || true
+
+    : > "$env_file"
+    if [ -n "${wizard_setup_key}" ]; then
+        echo "NB_SETUP_KEY=${wizard_setup_key}" >> "$env_file"
+        chmod 600 "$env_file"
+    else
+        rm -f "$env_file"
+    fi
+}
+
+service_preupgrade() {
+    if [ -f "${TRIM_APPDEST}/docker/.env" ]; then
+        cp "${TRIM_APPDEST}/docker/.env" "${TRIM_PKGVAR}/.env.bak"
+    fi
+}
+
+service_restore() {
+    if [ -f "${TRIM_PKGVAR}/.env.bak" ]; then
+        cp "${TRIM_PKGVAR}/.env.bak" "${TRIM_APPDEST}/docker/.env"
+        rm -f "${TRIM_PKGVAR}/.env.bak"
+    fi
+}

@@ -1,0 +1,15 @@
+{
+    ".url": {
+        "librechat.Application":
+        {
+            "title": "LibreChat",
+            "desc": "LibreChat",
+            "icon": "images/{0}.png",
+            "type": "url",
+            "port": "3080",
+            "protocol": "http",
+            "url": "/",
+            "allUsers": true
+        }
+    }
+}

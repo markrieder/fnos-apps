@@ -1,0 +1,8 @@
+#!/bin/sh
+APP_DIR="${TRIM_APPDEST}"
+APP_DATA_DIR=$1
+
+mkdir -p "$APP_DATA_DIR/attachments"
+
+cd "$APP_DIR" || exit 1
+exec ./ntfy serve --listen-http :${TRIM_SERVICE_PORT:-2586} --cache-file "$APP_DATA_DIR/cache.db" --attachment-cache-dir "$APP_DATA_DIR/attachments"

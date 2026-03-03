@@ -1,0 +1,25 @@
+{
+    "port-config": {
+        "protocol-file": "Mattermost.sc"
+    },
+    "data-share": {
+        "shares": [
+            {
+                "name": "Mattermost",
+                "permission": {
+                    "rw": [
+                        "mattermost"
+                    ]
+                }
+            }
+        ]
+    },
+    "docker-project": {
+        "projects": [
+            {
+                "name": "mattermost",
+                "path": "docker"
+            }
+        ]
+    }
+}

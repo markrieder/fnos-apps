@@ -1,0 +1,19 @@
+{
+    "port-config": {
+        "protocol-file": "Gitea.sc"
+    },
+    "data-share": {
+        "shares": [
+            {
+                "name": "Gitea",
+                "permission": {
+                    "rw": [
+                        "gitea"
+                    ]
+                }
+            }
+        ]
+    },
+    "systemd-unit": {
+    }
+}

@@ -6,79 +6,73 @@
 
 ---
 
-## P0 - 高优先级 (核心需求、用户量大、打包难度低)
+## P0 - 高优先级 (核心需求、用户量大、打包难度低) — ✅ 全部完成
 
-| # | 应用 | 端口 | 技术栈 | 来源 | Issue | 说明 |
-|---|------|------|--------|------|-------|------|
-| 1 | **Jackett** | ? | C# | [GitHub](https://github.com/Jackett/Jackett) | #68 | *arr 套件索引器，Prowlarr 的替代方案 |
-| 2 | **Alist** | ? | Go | [GitHub](https://github.com/AlistGo/alist) | #41 | 网盘聚合工具，挂载阿里云盘/百度盘等 |
-| 3 | **Rclone** | ? | Go | [GitHub](https://github.com/rclone/rclone) | #37 | 强大的网盘同步工具，支持 50+ 存储后端 |
-| 4 | **Pi-hole** | ? | Shell | [GitHub](https://github.com/pi-hole/pi-hole) | #36 | 全网广告拦截，AdGuardHome 的竞品 |
-| 5 | **1Panel** | ? | Go/Vue | [GitHub](https://github.com/1Panel-dev/1Panel) | #52 | 国产服务器面板，与 fnOS 功能互补 |
+| # | 应用 | 端口 | 技术栈 | 来源 | Issue | 状态 | 说明 |
+|---|------|------|--------|------|-------|------|------|
+| 1 | **Jackett** | 9117 | C# | [GitHub](https://github.com/Jackett/Jackett) | #68 | ✅ 已完成 | *arr 套件索引器，Prowlarr 的替代方案 |
+| 2 | **Alist** | 5246 | Go | [GitHub](https://github.com/AlistGo/alist) | #41 | ✅ 已完成 | 网盘聚合工具，挂载阿里云盘/百度盘等 |
+| 3 | **Rclone** | 5572 | Go | [GitHub](https://github.com/rclone/rclone) | #37 | ✅ 已完成 | 强大的网盘同步工具，支持 50+ 存储后端 |
+| 4 | **Pi-hole** | 8053 | Docker | [GitHub](https://github.com/pi-hole/pi-hole) | #36 | ✅ 已完成 | 全网广告拦截，AdGuardHome 的竞品 |
+| 5 | **1Panel** | 10086 | Go | [GitHub](https://github.com/1Panel-dev/1Panel) | #52 | ✅ 已完成 | 国产服务器面板，与 fnOS 功能互补 |
 
-### P0 详细说明
+### P0 实现详情
 
-#### Jackett (#68)
-- **技术**: C# (.NET 原生二进制)
-- **打包**: 同 Prowlarr 模式，复用 .NET 打包模板
-- **需求**: 作为 Prowlarr 的替代品，部分索引器仅支持 Jackett
+#### Jackett (#68) — ✅ `apps/jackett/` (端口 9117)
+- **打包模式**: 原生 C# .NET 自包含二进制
+- **特殊处理**: 架构映射 AMDx64/ARM64（非标准 amd64/arm64）
 
-#### Alist (#41)
-- **技术**: Go 单二进制
-- **打包**: 原生 Go，难度低
-- **需求**: 中国用户刚需，挂载阿里云盘/百度网盘到本地
+#### Alist (#41) — ✅ `apps/alist/` (端口 5246)
+- **打包模式**: 原生 Go 二进制
+- **端口说明**: 默认 5244 与 OpenList 冲突，改用 5246
 
-#### Rclone (#37)
-- **技术**: Go
-- **打包**: 原生二进制
-- **需求**: 跨网盘同步备份，NAS 用户核心工具
+#### Rclone (#37) — ✅ `apps/rclone/` (端口 5572)
+- **打包模式**: 原生 Go 二进制（zip 嵌套目录）
 
-#### Pi-hole (#36)
-- **技术**: Shell/PHP
-- **打包**: Docker 或原生
-- **需求**: AdGuardHome 的竞品，部分用户偏好
+#### Pi-hole (#36) — ✅ `apps/pihole/` (端口 8053)
+- **打包模式**: Docker，额外端口 53/tcp+udp (DNS)
+- **安装向导**: 管理员密码设置 + DNS 端口冲突警告
 
-#### 1Panel (#52)
-- **技术**: Go + Vue
-- **打包**: Docker
-- **需求**: 国产服务器管理面板，与 fnOS 互补而非竞争
+#### 1Panel (#52) — ✅ `apps/1panel/` (端口 10086)
+- **打包模式**: 原生 Go 二进制
+- **特殊处理**: 二进制从 resource.1panel.pro 下载（非 GitHub Releases）
 
 ---
 
-## P1 - 中高优先级 (特定场景需求、打包中等难度)
+## P1 - 中高优先级 (特定场景需求、打包中等难度) — ✅ 全部完成
 
-| # | 应用 | 端口 | 技术栈 | 来源 | Issue | 说明 |
-|---|------|------|--------|------|-------|------|
-| 6 | **Tautulli** | ? | Python | [GitHub](https://github.com/Tautulli/Tautulli) | #74 | Plex 使用统计与通知 |
-| 7 | **Seerr** | ? | Node.js | [GitHub](https://github.com/seerr-team/seerr) | #73 | Overseerr 新分支，媒体请求管理 |
-| 8 | **Grafana** | ? | Go/Node | [GitHub](https://github.com/grafana/grafana) | #33 | 可视化监控仪表盘，配 Prometheus |
-| 9 | **Prometheus** | ? | Go | [GitHub](https://github.com/prometheus/prometheus) | #35 | 时序数据库，系统监控核心 |
-| 10 | **Loki** | ? | Go | [GitHub](https://github.com/grafana/loki) | #62 | 日志聚合系统，Grafana 生态 |
-| 11 | **Home Assistant** | ? | Python | [GitHub](https://github.com/home-assistant/core) | #32 | 智能家居中枢，用户量巨大 |
-| 12 | **n8n** | ? | Node.js | [GitHub](https://github.com/n8n-io/n8n) | #31 | 工作流自动化，类 Zapier |
-| 13 | **Ntfy** | ? | Go | [GitHub](https://github.com/binwiederhier/ntfy) | #60 | 自托管推送通知，替代 Gotify |
-| 14 | **Gitea** | ? | Go | [GitHub](https://github.com/go-gitea/gitea) | #39 | 轻量级 Git 服务器 |
-| 15 | **WG-Easy** | ? | Node.js | [GitHub](https://github.com/wg-easy/wg-easy) | #66 | WireGuard VPN 管理界面 |
-| 16 | **Headscale** | ? | Go | [GitHub](https://github.com/juanfont/headscale) | #47 | Tailscale 自托管服务端 |
+| # | 应用 | 端口 | 技术栈 | 来源 | Issue | 状态 | 说明 |
+|---|------|------|--------|------|-------|------|------|
+| 6 | **Tautulli** | 8181 | Docker | [GitHub](https://github.com/Tautulli/Tautulli) | #74 | ✅ 已完成 | Plex 使用统计与通知 |
+| 7 | **Seerr** | 5055 | Docker | [GitHub](https://github.com/seerr-team/seerr) | #73 | ✅ 已完成 | Overseerr 新分支，媒体请求管理 |
+| 8 | **Grafana** | 3010 | Go | [GitHub](https://github.com/grafana/grafana) | #33 | ✅ 已完成 | 可视化监控仪表盘，配 Prometheus |
+| 9 | **Prometheus** | 9090 | Go | [GitHub](https://github.com/prometheus/prometheus) | #35 | ✅ 已完成 | 时序数据库，系统监控核心 |
+| 10 | **Loki** | 3100 | Go | [GitHub](https://github.com/grafana/loki) | #62 | ✅ 已完成 | 日志聚合系统，Grafana 生态 |
+| 11 | **Home Assistant** | 8123 | Docker | [GitHub](https://github.com/home-assistant/core) | #32 | ✅ 已完成 | 智能家居中枢，用户量巨大 |
+| 12 | **n8n** | 5678 | Docker | [GitHub](https://github.com/n8n-io/n8n) | #31 | ✅ 已完成 | 工作流自动化，类 Zapier |
+| 13 | **Ntfy** | 2586 | Go | [GitHub](https://github.com/binwiederhier/ntfy) | #60 | ✅ 已完成 | 自托管推送通知，替代 Gotify |
+| 14 | **Gitea** | 3003 | Go | [GitHub](https://github.com/go-gitea/gitea) | #39 | ✅ 已完成 | 轻量级 Git 服务器 |
+| 15 | **WG-Easy** | 51821 | Docker | [GitHub](https://github.com/wg-easy/wg-easy) | #66 | ✅ 已完成 | WireGuard VPN 管理界面 |
+| 16 | **Headscale** | 8480 | Go | [GitHub](https://github.com/juanfont/headscale) | #47 | ✅ 已完成 | Tailscale 自托管服务端 |
 
 ---
 
-## P2 - 中优先级 (特定用户群、打包较复杂)
+## P2 - 中优先级 (特定用户群、打包较复杂) — ✅ 全部完成
 
-| # | 应用 | 端口 | 技术栈 | 来源 | Issue | 说明 |
-|---|------|------|--------|------|-------|------|
-| 17 | **Duplicati** | ? | C# | [GitHub](https://github.com/duplicati/duplicati) | #69 | 加密备份工具，支持云存储 |
-| 18 | **Frigate** | ? | Python | [GitHub](https://github.com/blakeblackshear/frigate) | #59 | AI 视频监控，支持物体检测 |
-| 19 | **Glances** | ? | Python | [GitHub](https://github.com/nicolargo/glances) | #58 | 系统监控，Web UI 版 htop |
-| 20 | **Cloudreve** | ? | Go | [GitHub](https://github.com/cloudreve/cloudreve) | #64 | 国产网盘系统 |
-| 21 | **LibreChat** | ? | Node.js | [GitHub](https://github.com/danny-avila/LibreChat) | #51 | AI 聊天界面，支持多模型 |
-| 22 | **LocalAI** | ? | Go/C++ | [GitHub](https://github.com/mudler/LocalAI) | #42 | 本地 AI 模型推理 |
-| 23 | **Sunshine** | ? | C++ | [GitHub](https://github.com/LizardByte/Sunshine) | #50 | 游戏串流服务器，Moonlight 配对 |
-| 24 | **Mattermost** | ? | Go | [GitHub](https://github.com/mattermost/mattermost) | #48 | 企业级即时通讯，Slack 替代 |
-| 25 | **It-Tools** | ? | Node.js | [GitHub](https://github.com/CorentinTh/it-tools) | #46 | 开发者工具箱，JSON/YAML 转换等 |
-| 26 | **AppFlowy** | ? | Rust/Dart | [GitHub](https://github.com/AppFlowy-IO/AppFlowy) | #34 | Notion 替代品，本地优先 |
-| 27 | **Ente** | ? | Go/Dart | [GitHub](https://github.com/ente-io/ente) | #65 | 端到端加密照片备份 |
-| 28 | **NetBird** | ? | Go | [GitHub](https://github.com/netbirdio/netbird) | #67 | Zero Trust VPN 平台 |
+| # | 应用 | 端口 | 技术栈 | 来源 | Issue | 状态 | 说明 |
+|---|------|------|--------|------|-------|------|------|
+| 17 | **Duplicati** | 8200 | Docker | [GitHub](https://github.com/duplicati/duplicati) | #69 | ✅ 已完成 | 加密备份工具，支持云存储 |
+| 18 | **Frigate** | 8971 | Docker | [GitHub](https://github.com/blakeblackshear/frigate) | #59 | ✅ 已完成 | AI 视频监控，支持物体检测 |
+| 19 | **Glances** | 61208 | Docker | [GitHub](https://github.com/nicolargo/glances) | #58 | ✅ 已完成 | 系统监控，Web UI 版 htop |
+| 20 | **Cloudreve** | 5212 | Go | [GitHub](https://github.com/cloudreve/cloudreve) | #64 | ✅ 已完成 | 国产网盘系统 |
+| 21 | **LibreChat** | 3080 | Docker | [GitHub](https://github.com/danny-avila/LibreChat) | #51 | ✅ 已完成 | AI 聊天界面，支持多模型 |
+| 22 | **LocalAI** | 8180 | Docker | [GitHub](https://github.com/mudler/LocalAI) | #42 | ✅ 已完成 | 本地 AI 模型推理 |
+| 23 | **Sunshine** | 47990 | Docker | [GitHub](https://github.com/LizardByte/Sunshine) | #50 | ✅ 已完成 | 游戏串流服务器，Moonlight 配对 |
+| 24 | **Mattermost** | 8065 | Docker | [GitHub](https://github.com/mattermost/mattermost) | #48 | ✅ 已完成 | 企业级即时通讯，Slack 替代 |
+| 25 | **It-Tools** | 8280 | Docker | [GitHub](https://github.com/CorentinTh/it-tools) | #46 | ✅ 已完成 | 开发者工具箱，JSON/YAML 转换等 |
+| 26 | **AppFlowy** | 8500 | Docker | [GitHub](https://github.com/AppFlowy-IO/AppFlowy) | #34 | ✅ 已完成 | Notion 替代品，本地优先 |
+| 27 | **Ente** | 8510 | Docker | [GitHub](https://github.com/ente-io/ente) | #65 | ✅ 已完成 | 端到端加密照片备份 |
+| 28 | **NetBird** | 8820 | Docker | [GitHub](https://github.com/netbirdio/netbird) | #67 | ✅ 已完成 | Zero Trust VPN 平台 |
 
 ---
 
@@ -123,25 +117,42 @@
 
 ---
 
-## 推荐开发顺序
+## 开发完成总结
 
-### 第一阶段 (Go/C# 原生应用，快速迭代)
-1. Alist (#41) - 中国用户刚需
-2. Rclone (#37) - 通用工具
-3. Jackett (#68) - *arr 生态补全
-4. Ntfy (#60) - Gotify 替代
+P0/P1/P2 全部 28 款应用已于 2026-03-03 完成打包，分为以下模式：
 
-### 第二阶段 (监控与基础设施)
-5. Grafana (#33) + Prometheus (#35) + Loki (#62)
-6. Pi-hole (#36) - 与 AdGuardHome 并存
-7. Glances (#58) - 轻量监控
+### 原生二进制 (11 款)
+| 应用 | 端口 | 语言 | 特殊处理 |
+|------|------|------|----------|
+| Alist | 5246 | Go | 端口避让 OpenList |
+| Rclone | 5572 | Go | zip 嵌套目录 |
+| Cloudreve | 5212 | Go | — |
+| Ntfy | 2586 | Go | 默认端口 80 不适用 |
+| Gitea | 3003 | Go | 额外 SSH 端口 2222，裸二进制 |
+| Headscale | 8480 | Go | 裸二进制 |
+| Prometheus | 9090 | Go | tar.gz 嵌套目录 |
+| Loki | 3100 | Go | zip + 二进制重命名 |
+| Grafana | 3010 | Go | 保留 bin/conf/public 目录结构 |
+| 1Panel | 10086 | Go | 从 resource.1panel.pro 下载 |
+| Jackett | 9117 | C# | 架构映射 AMDx64/ARM64 |
 
-### 第三阶段 (平台级应用)
-8. 1Panel (#52) - 服务器管理
-9. Gitea (#39) - Git 托管
-10. Home Assistant (#32) - 智能家居
-
-### 第四阶段 (AI/新兴工具)
-11. LibreChat (#51) / LocalAI (#42)
-12. It-Tools (#46)
-13. Seerr (#73) - 观察 Overseerr 替代情况
+### Docker 容器 (17 款)
+| 应用 | 端口 | 镜像 | 特殊配置 |
+|------|------|------|----------|
+| Tautulli | 8181 | linuxserver/tautulli | PUID/PGID |
+| Seerr | 5055 | seerrteam/seerr | — |
+| n8n | 5678 | n8nio/n8n | — |
+| It-Tools | 8280 | corentinth/it-tools | 无状态 |
+| Duplicati | 8200 | linuxserver/duplicati | PUID/PGID |
+| Glances | 61208 | nicolargo/glances | pid: host |
+| LocalAI | 8180 | localai/localai | CPU 模式 |
+| Sunshine | 47990 | linuxserver/sunshine | GPU + 多端口 |
+| Pi-hole | 8053 | pihole/pihole | DNS 53 端口 |
+| WG-Easy | 51821 | wg-easy/wg-easy | NET_ADMIN + sysctls |
+| Home Assistant | 8123 | linuxserver/homeassistant | host 网络 + 特权 |
+| Frigate | 8971 | blakeblackshear/frigate | GPU + shm_size |
+| Mattermost | 8065 | mattermost-team-edition | + PostgreSQL |
+| LibreChat | 3080 | danny-avila/librechat | + MongoDB |
+| AppFlowy | 8500 | appflowyinc/appflowy_cloud | — |
+| Ente | 8510 | ente-io/server | + PostgreSQL + MinIO |
+| NetBird | 8820 | netbirdio/netbird | host 网络，客户端模式 |

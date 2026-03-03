@@ -1,0 +1,15 @@
+{
+    ".url": {
+        "ente.Application":
+        {
+            "title": "Ente",
+            "desc": "Ente",
+            "icon": "images/{0}.png",
+            "type": "url",
+            "port": "8510",
+            "protocol": "http",
+            "url": "/",
+            "allUsers": true
+        }
+    }
+}

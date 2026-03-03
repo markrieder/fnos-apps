@@ -1,0 +1,19 @@
+{
+    "port-config": {
+        "protocol-file": "Rclone.sc"
+    },
+    "data-share": {
+        "shares": [
+            {
+                "name": "Rclone",
+                "permission": {
+                    "rw": [
+                        "rclone"
+                    ]
+                }
+            }
+        ]
+    },
+    "systemd-unit": {
+    }
+}
