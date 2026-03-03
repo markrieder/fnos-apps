@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-03-03T15:02:09Z",
+  "generated_at": "2026-03-03T15:02:18Z",
   "source": {
     "name": "conversun/fnos-apps",
     "url": "https://github.com/conversun/fnos-apps"
@@ -64,7 +64,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "0001-01-01T00:00:00Z",
+      "updated_at": "2026-03-03T15:02:08Z",
       "download_count": 0,
       "app_type": "native",
       "category": "download"
@@ -403,7 +403,7 @@
         "arm"
       ],
       "updated_at": "2026-03-03T13:54:11Z",
-      "download_count": 1268,
+      "download_count": 1215,
       "app_type": "native",
       "category": "store"
     },
@@ -471,6 +471,27 @@
       "category": "system"
     },
     {
+      "slug": "glances",
+      "appname": "glances",
+      "file_prefix": "glances",
+      "display_name": "Glances",
+      "description": "系统监控工具，提供 Web UI 的实时系统资源监控。",
+      "version": "latest-full",
+      "fpk_version": "latest-full",
+      "release_tag": "glances/vlatest-full",
+      "service_port": 61208,
+      "homepage_url": "https://nicolargo.github.io/glances/",
+      "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/glances/fnos/ICON_256.PNG",
+      "platforms": [
+        "x86",
+        "arm"
+      ],
+      "updated_at": "2026-03-03T15:02:09Z",
+      "download_count": 0,
+      "app_type": "docker",
+      "category": "system"
+    },
+    {
       "slug": "gotify",
       "appname": "gotify",
       "file_prefix": "gotify",
@@ -488,6 +509,27 @@
       ],
       "updated_at": "2026-03-01T08:08:16Z",
       "download_count": 30,
+      "app_type": "native",
+      "category": "system"
+    },
+    {
+      "slug": "grafana",
+      "appname": "grafana",
+      "file_prefix": "grafana",
+      "display_name": "Grafana",
+      "description": "可视化监控仪表盘，支持 Prometheus、Loki 等多种数据源。",
+      "version": "12.4.0",
+      "fpk_version": "12.4.0",
+      "release_tag": "grafana/v12.4.0",
+      "service_port": 3010,
+      "homepage_url": "https://grafana.com",
+      "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/grafana/fnos/ICON_256.PNG",
+      "platforms": [
+        "x86",
+        "arm"
+      ],
+      "updated_at": "0001-01-01T00:00:00Z",
+      "download_count": 0,
       "app_type": "native",
       "category": "system"
     },
@@ -676,7 +718,7 @@
         "arm"
       ],
       "updated_at": "2026-02-28T06:24:04Z",
-      "download_count": 88,
+      "download_count": 85,
       "app_type": "docker",
       "category": "media"
     },
@@ -785,6 +827,27 @@
       "download_count": 1,
       "app_type": "docker",
       "category": "content"
+    },
+    {
+      "slug": "localai",
+      "appname": "localai",
+      "file_prefix": "localai",
+      "display_name": "LocalAI",
+      "description": "本地 AI 模型推理服务器，兼容 OpenAI API 接口。",
+      "version": "3.12.1",
+      "fpk_version": "3.12.1",
+      "release_tag": "localai/v3.12.1",
+      "service_port": 8180,
+      "homepage_url": "https://localai.io",
+      "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/localai/fnos/ICON_256.PNG",
+      "platforms": [
+        "x86",
+        "arm"
+      ],
+      "updated_at": "2026-03-03T15:02:09Z",
+      "download_count": 0,
+      "app_type": "docker",
+      "category": "system"
     },
     {
       "slug": "loki",
@@ -951,7 +1014,7 @@
         "arm"
       ],
       "updated_at": "2026-03-03T08:18:37Z",
-      "download_count": 196,
+      "download_count": 203,
       "app_type": "docker",
       "category": "content",
       "post_install_note": "请在 Web UI 中设置媒体库和下载目录，确保与下载工具（如 qBittorrent）使用的路径一致。"
@@ -1519,7 +1582,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "0001-01-01T00:00:00Z",
+      "updated_at": "2026-03-03T15:02:07Z",
       "download_count": 0,
       "app_type": "docker",
       "category": "media"
