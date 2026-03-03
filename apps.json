@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-03-03T19:22:27Z",
+  "generated_at": "2026-03-03T19:22:40Z",
   "source": {
     "name": "conversun/fnos-apps",
     "url": "https://github.com/conversun/fnos-apps"
@@ -76,8 +76,8 @@
       "display_name": "ANI-RSS",
       "description": "动漫 RSS 自动追番、订阅、下载和刮削工具，支持自动识别季数集数和重命名。默认用户名admin，密码admin。",
       "version": "3.0.3",
-      "fpk_version": "3.0.3",
-      "release_tag": "ani-rss/v3.0.3",
+      "fpk_version": "3.0.3-r1",
+      "release_tag": "ani-rss/v3.0.3-r1",
       "service_port": 7789,
       "homepage_url": "https://github.com/wushuo894/ani-rss",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/ani-rss/fnos/ICON_256.PNG",
@@ -85,7 +85,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-03T08:12:15Z",
+      "updated_at": "2026-03-03T19:22:30Z",
       "download_count": 156,
       "app_type": "docker",
       "category": "content"
@@ -245,8 +245,8 @@
       "display_name": "Cloudreve",
       "description": "国产云盘系统，支持多种存储策略和离线下载。",
       "version": "4.14.1",
-      "fpk_version": "4.14.1-r1",
-      "release_tag": "cloudreve/v4.14.1-r1",
+      "fpk_version": "4.14.1-r2",
+      "release_tag": "cloudreve/v4.14.1-r2",
       "service_port": 5212,
       "homepage_url": "https://cloudreve.org",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/cloudreve/fnos/ICON_256.PNG",
@@ -254,8 +254,8 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-03T18:47:18Z",
-      "download_count": 4,
+      "updated_at": "2026-03-03T19:22:28Z",
+      "download_count": 2,
       "app_type": "native",
       "category": "system"
     },
@@ -287,8 +287,8 @@
       "display_name": "Duplicati",
       "description": "加密备份工具，支持增量备份到云存储和本地。",
       "version": "2.2.0.3_stable_2026-01-06",
-      "fpk_version": "2.2.0.3_stable_2026-01-06",
-      "release_tag": "duplicati/v2.2.0.3_stable_2026-01-06",
+      "fpk_version": "2.2.0.3_stable_2026-01-06-r1",
+      "release_tag": "duplicati/v2.2.0.3_stable_2026-01-06-r1",
       "service_port": 8200,
       "homepage_url": "https://duplicati.com",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/duplicati/fnos/ICON_256.PNG",
@@ -296,7 +296,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-03T15:01:47Z",
+      "updated_at": "2026-03-03T19:22:34Z",
       "download_count": 1,
       "app_type": "docker",
       "category": "system"
@@ -372,8 +372,8 @@
       "display_name": "fnOS Apps",
       "description": "fnOS第三方应用中心，支持一键安装、更新和卸载来自conversun/fnos-apps的所有应用。",
       "version": "1.5.2",
-      "fpk_version": "1.5.2",
-      "release_tag": "fnos-apps-store/v1.5.2",
+      "fpk_version": "1.5.2-r1",
+      "release_tag": "fnos-apps-store/v1.5.2-r1",
       "service_port": 8011,
       "homepage_url": "https://github.com/conversun/fnos-store",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/fnos-apps-store/fnos/ICON_256.PNG",
@@ -381,7 +381,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-03T13:54:11Z",
+      "updated_at": "2026-03-03T19:22:37Z",
       "download_count": 1246,
       "app_type": "native",
       "category": "store"
@@ -561,8 +561,8 @@
       "display_name": "Homarr",
       "description": "可视化应用仪表盘，深度集成 *arr 套件状态展示",
       "version": "1.54.0",
-      "fpk_version": "1.54.0",
-      "release_tag": "homarr/v1.54.0",
+      "fpk_version": "1.54.0-r1",
+      "release_tag": "homarr/v1.54.0-r1",
       "service_port": 7575,
       "homepage_url": "https://homarr.dev",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/homarr/fnos/ICON_256.PNG",
@@ -570,7 +570,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-03T13:43:05Z",
+      "updated_at": "2026-03-03T19:22:33Z",
       "download_count": 1,
       "app_type": "docker",
       "category": "system"
@@ -835,8 +835,8 @@
       "display_name": "Linkwarden",
       "description": "协作式书签管理器，支持网页存档和标签分类",
       "version": "2.13.5",
-      "fpk_version": "2.13.5",
-      "release_tag": "linkwarden/v2.13.5",
+      "fpk_version": "2.13.5-r1",
+      "release_tag": "linkwarden/v2.13.5-r1",
       "service_port": 3050,
       "homepage_url": "https://linkwarden.app",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/linkwarden/fnos/ICON_256.PNG",
@@ -844,7 +844,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-03T13:43:24Z",
+      "updated_at": "2026-03-03T19:22:27Z",
       "download_count": 2,
       "app_type": "docker",
       "category": "content"
@@ -962,8 +962,8 @@
       "display_name": "Memos",
       "description": "轻量级自托管笔记服务,支持Markdown,适合个人知识管理和日常记录。",
       "version": "0.26.2",
-      "fpk_version": "0.26.2-r3",
-      "release_tag": "memos/v0.26.2-r3",
+      "fpk_version": "0.26.2-r4",
+      "release_tag": "memos/v0.26.2-r4",
       "service_port": 5230,
       "homepage_url": "https://www.usememos.com",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/memos/fnos/ICON_256.PNG",
@@ -971,7 +971,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-03T18:47:09Z",
+      "updated_at": "2026-03-03T19:22:30Z",
       "download_count": 25,
       "app_type": "native",
       "category": "content"
@@ -1258,8 +1258,8 @@
       "display_name": "Pi-hole",
       "description": "全网广告拦截工具，通过 DNS 过滤广告和追踪器。",
       "version": "2026.02.0",
-      "fpk_version": "2026.02.0",
-      "release_tag": "pihole/v2026.02.0",
+      "fpk_version": "2026.02.0-r1",
+      "release_tag": "pihole/v2026.02.0-r1",
       "service_port": 8053,
       "homepage_url": "https://pi-hole.net",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/pihole/fnos/ICON_256.PNG",
@@ -1267,7 +1267,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-03T15:01:58Z",
+      "updated_at": "2026-03-03T19:22:25Z",
       "download_count": 0,
       "app_type": "docker",
       "category": "system"
@@ -1334,27 +1334,6 @@
       "download_count": 8,
       "app_type": "docker",
       "category": "system"
-    },
-    {
-      "slug": "qbittorrent",
-      "appname": "qBittorrent",
-      "file_prefix": "qBittorrent",
-      "display_name": "qBittorrent",
-      "description": "qBittorrent是一个轻量级BitTorrent客户端，简单易用，功能强大。默认用户名admin，密码adminadmin。",
-      "version": "5.1.4",
-      "fpk_version": "5.1.4-r4",
-      "release_tag": "qbittorrent/v5.1.4-r4",
-      "service_port": 8085,
-      "homepage_url": "https://github.com/userdocs/qbittorrent-nox-static",
-      "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/qbittorrent/fnos/ICON_256.PNG",
-      "platforms": [
-        "x86",
-        "arm"
-      ],
-      "updated_at": "2026-02-22T10:35:59Z",
-      "download_count": 348,
-      "app_type": "native",
-      "category": "download"
     },
     {
       "slug": "radarr",
@@ -1426,8 +1405,8 @@
       "display_name": "Rocket.Chat",
       "description": "开源团队协作通讯平台,支持即时消息、音视频通话和文件共享。",
       "version": "8.2.0",
-      "fpk_version": "8.2.0",
-      "release_tag": "rocketchat/v8.2.0",
+      "fpk_version": "8.2.0-r1",
+      "release_tag": "rocketchat/v8.2.0-r1",
       "service_port": 3003,
       "homepage_url": "https://rocket.chat",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/rocketchat/fnos/ICON_256.PNG",
@@ -1435,7 +1414,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-03T08:05:40Z",
+      "updated_at": "2026-03-03T19:22:32Z",
       "download_count": 3,
       "app_type": "docker",
       "category": "content"
@@ -1447,8 +1426,8 @@
       "display_name": "Seerr",
       "description": "影视媒体请求管理工具，支持 Plex/Jellyfin/Emby，Overseerr 的社区分支。",
       "version": "3.1.0",
-      "fpk_version": "3.1.0",
-      "release_tag": "seerr/v3.1.0",
+      "fpk_version": "3.1.0-r1",
+      "release_tag": "seerr/v3.1.0-r1",
       "service_port": 5055,
       "homepage_url": "https://github.com/seerr-team/seerr",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/seerr/fnos/ICON_256.PNG",
@@ -1456,7 +1435,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-03T15:01:52Z",
+      "updated_at": "2026-03-03T19:22:31Z",
       "download_count": 0,
       "app_type": "docker",
       "category": "media"
@@ -1636,8 +1615,8 @@
       "display_name": "Transmission",
       "description": "Transmission 是一个轻量级的 BitTorrent 客户端，以简洁高效著称，支持 Web 远程管理。",
       "version": "4.1.1",
-      "fpk_version": "4.1.1-r1-ls333",
-      "release_tag": "transmission/v4.1.1-r1-ls333",
+      "fpk_version": "4.1.1-r1-ls333-r1",
+      "release_tag": "transmission/v4.1.1-r1-ls333-r1",
       "service_port": 9091,
       "homepage_url": "https://transmissionbt.com",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/transmission/fnos/ICON_256.PNG",
@@ -1645,8 +1624,8 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-02T08:18:25Z",
-      "download_count": 60,
+      "updated_at": "2026-03-03T19:22:29Z",
+      "download_count": 53,
       "app_type": "docker",
       "category": "download"
     },
@@ -1688,7 +1667,7 @@
         "arm"
       ],
       "updated_at": "2026-03-03T19:21:23Z",
-      "download_count": 50,
+      "download_count": 44,
       "app_type": "docker",
       "category": "system"
     },
