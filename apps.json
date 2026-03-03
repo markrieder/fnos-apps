@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-03-03T18:47:57Z",
+  "generated_at": "2026-03-03T19:05:07Z",
   "source": {
     "name": "conversun/fnos-apps",
     "url": "https://github.com/conversun/fnos-apps"
@@ -65,7 +65,7 @@
         "arm"
       ],
       "updated_at": "2026-03-03T18:47:22Z",
-      "download_count": 0,
+      "download_count": 2,
       "app_type": "native",
       "category": "download"
     },
@@ -192,7 +192,7 @@
         "arm"
       ],
       "updated_at": "2026-03-03T18:47:25Z",
-      "download_count": 25,
+      "download_count": 27,
       "app_type": "native",
       "category": "system"
     },
@@ -255,7 +255,7 @@
         "arm"
       ],
       "updated_at": "2026-03-03T18:47:18Z",
-      "download_count": 0,
+      "download_count": 2,
       "app_type": "native",
       "category": "system"
     },
@@ -471,6 +471,27 @@
       "category": "system"
     },
     {
+      "slug": "gopeed",
+      "appname": "gopeed",
+      "file_prefix": "gopeed",
+      "display_name": "Gopeed",
+      "description": "Gopeed是一款支持HTTP、BitTorrent、Magnet等协议的高速下载器。",
+      "version": "1.9.1",
+      "fpk_version": "1.9.1-r2",
+      "release_tag": "gopeed/v1.9.1-r2",
+      "service_port": 9999,
+      "homepage_url": "https://gopeed.com",
+      "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/gopeed/fnos/ICON_256.PNG",
+      "platforms": [
+        "x86",
+        "arm"
+      ],
+      "updated_at": "2026-03-03T19:04:51Z",
+      "download_count": 103,
+      "app_type": "native",
+      "category": "download"
+    },
+    {
       "slug": "gotify",
       "appname": "gotify",
       "file_prefix": "gotify",
@@ -655,7 +676,7 @@
         "arm"
       ],
       "updated_at": "2026-03-03T18:47:10Z",
-      "download_count": 7,
+      "download_count": 9,
       "app_type": "native",
       "category": "media"
     },
@@ -666,8 +687,8 @@
       "display_name": "Jellyfin",
       "description": "Jellyfin 是一款免费开源的媒体系统，让您管理和播放您的媒体内容。支持电影、电视剧、音乐等多种媒体类型的管理和流式传输。",
       "version": "10.11.6",
-      "fpk_version": "10.11.6-r2",
-      "release_tag": "jellyfin/v10.11.6-r2",
+      "fpk_version": "10.11.6-r3",
+      "release_tag": "jellyfin/v10.11.6-r3",
       "service_port": 8097,
       "homepage_url": "https://jellyfin.org",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/jellyfin/fnos/ICON_256.PNG",
@@ -675,7 +696,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-02T15:47:19Z",
+      "updated_at": "2026-03-03T18:47:57Z",
       "download_count": 204,
       "app_type": "native",
       "category": "media"
@@ -866,7 +887,7 @@
         "arm"
       ],
       "updated_at": "2026-03-03T18:47:11Z",
-      "download_count": 0,
+      "download_count": 2,
       "app_type": "native",
       "category": "system"
     },
@@ -1184,7 +1205,7 @@
         "arm"
       ],
       "updated_at": "2026-03-03T18:47:18Z",
-      "download_count": 53,
+      "download_count": 55,
       "app_type": "native",
       "category": "content"
     },
@@ -1373,7 +1394,7 @@
         "arm"
       ],
       "updated_at": "2026-03-03T18:47:26Z",
-      "download_count": 0,
+      "download_count": 2,
       "app_type": "native",
       "category": "download"
     },
@@ -1457,7 +1478,7 @@
         "arm"
       ],
       "updated_at": "2026-03-03T18:47:12Z",
-      "download_count": 5,
+      "download_count": 7,
       "app_type": "native",
       "category": "system"
     },
