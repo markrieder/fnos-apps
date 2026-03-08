@@ -1,0 +1,19 @@
+{
+    "port-config": {
+        "protocol-file": "Forgejo.sc"
+    },
+    "data-share": {
+        "shares": [
+            {
+                "name": "Forgejo",
+                "permission": {
+                    "rw": [
+                        "forgejo"
+                    ]
+                }
+            }
+        ]
+    },
+    "systemd-unit": {
+    }
+}

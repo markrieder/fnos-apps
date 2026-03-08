@@ -1,0 +1,25 @@
+{
+    "port-config": {
+        "protocol-file": "Netdata.sc"
+    },
+    "data-share": {
+        "shares": [
+            {
+                "name": "Netdata",
+                "permission": {
+                    "rw": [
+                        "netdata"
+                    ]
+                }
+            }
+        ]
+    },
+    "docker-project": {
+        "projects": [
+            {
+                "name": "netdata",
+                "path": "docker"
+            }
+        ]
+    }
+}

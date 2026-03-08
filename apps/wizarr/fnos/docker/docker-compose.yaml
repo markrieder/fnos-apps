@@ -1,0 +1,11 @@
+services:
+  wizarr:
+    image: ${DOCKER_MIRROR}ghcr.io/wizarrrr/wizarr:${VERSION}
+    container_name: wizarr
+    ports:
+      - "${TRIM_SERVICE_PORT}:5690"
+    volumes:
+      - ${TRIM_PKGVAR}/data:/data/database
+    environment:
+      - TZ=Asia/Shanghai
+    restart: unless-stopped

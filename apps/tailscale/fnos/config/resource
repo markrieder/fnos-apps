@@ -1,0 +1,25 @@
+{
+    "port-config": {
+        "protocol-file": "tailscale.sc"
+    },
+    "data-share": {
+        "shares": [
+            {
+                "name": "Tailscale",
+                "permission": {
+                    "rw": [
+                        "tailscale"
+                    ]
+                }
+            }
+        ]
+    },
+    "docker-project": {
+        "projects": [
+            {
+                "name": "tailscale",
+                "path": "docker"
+            }
+        ]
+    }
+}

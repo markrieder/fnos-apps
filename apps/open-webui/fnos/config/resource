@@ -1,0 +1,25 @@
+{
+    "port-config": {
+        "protocol-file": "Open-WebUI.sc"
+    },
+    "data-share": {
+        "shares": [
+            {
+                "name": "open-webui",
+                "permission": {
+                    "rw": [
+                        "open-webui"
+                    ]
+                }
+            }
+        ]
+    },
+    "docker-project": {
+        "projects": [
+            {
+                "name": "open-webui",
+                "path": "docker"
+            }
+        ]
+    }
+}

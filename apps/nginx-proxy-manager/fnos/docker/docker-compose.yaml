@@ -1,0 +1,14 @@
+services:
+  nginx-proxy-manager:
+    image: ${DOCKER_MIRROR}docker.io/jc21/nginx-proxy-manager:${VERSION}
+    container_name: nginx-proxy-manager
+    ports:
+      - "80:80"
+      - "${TRIM_SERVICE_PORT}:81"
+      - "443:443"
+    volumes:
+      - ${TRIM_PKGVAR}/data:/data
+      - ${TRIM_PKGVAR}/letsencrypt:/etc/letsencrypt
+    environment:
+      - TZ=Asia/Shanghai
+    restart: unless-stopped

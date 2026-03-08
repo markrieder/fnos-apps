@@ -1,0 +1,19 @@
+#!/bin/bash
+set -euo pipefail
+
+INPUT_VERSION="${1:-}"
+
+if [ -n "$INPUT_VERSION" ]; then
+  VERSION="$INPUT_VERSION"
+else
+  TAG=$(curl -sL "https://api.github.com/repos/Cisco-Talos/clamav/releases/latest" | jq -r '.tag_name')
+  VERSION=$(echo "$TAG" | sed -E 's/^clamav-//' | sed -E 's/^v//')
+fi
+
+[ -z "$VERSION" ] && { echo "Failed to resolve version for clamav" >&2; exit 1; }
+
+echo "VERSION=$VERSION"
+
+if [ -n "${GITHUB_OUTPUT:-}" ]; then
+  echo "version=$VERSION" >> "$GITHUB_OUTPUT"
+fi

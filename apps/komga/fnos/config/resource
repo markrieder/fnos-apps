@@ -1,0 +1,33 @@
+{
+    "port-config": {
+        "protocol-file": "Komga.sc"
+    },
+    "data-share": {
+        "shares": [
+            {
+                "name": "Komga",
+                "permission": {
+                    "rw": [
+                        "komga"
+                    ]
+                }
+            },
+            {
+                "name": "KomgaMedia",
+                "permission": {
+                    "rw": [
+                        "komga"
+                    ]
+                }
+            }
+        ]
+    },
+    "docker-project": {
+        "projects": [
+            {
+                "name": "komga",
+                "path": "docker"
+            }
+        ]
+    }
+}

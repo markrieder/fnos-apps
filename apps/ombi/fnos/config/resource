@@ -1,0 +1,25 @@
+{
+    "port-config": {
+        "protocol-file": "Ombi.sc"
+    },
+    "data-share": {
+        "shares": [
+            {
+                "name": "Ombi",
+                "permission": {
+                    "rw": [
+                        "ombi"
+                    ]
+                }
+            }
+        ]
+    },
+    "docker-project": {
+        "projects": [
+            {
+                "name": "ombi",
+                "path": "docker"
+            }
+        ]
+    }
+}

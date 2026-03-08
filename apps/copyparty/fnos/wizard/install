@@ -1,0 +1,11 @@
+[
+    {
+        "stepTitle": "安装说明",
+        "items": [
+            {
+                "type": "tips",
+                "helpText": "CopyParty 是文件共享工具。首次访问即可上传和共享文件。"
+            }
+        ]
+    }
+]

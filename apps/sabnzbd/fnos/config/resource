@@ -1,0 +1,25 @@
+{
+    "port-config": {
+        "protocol-file": "SABnzbd.sc"
+    },
+    "data-share": {
+        "shares": [
+            {
+                "name": "SABnzbd",
+                "permission": {
+                    "rw": [
+                        "sabnzbd"
+                    ]
+                }
+            }
+        ]
+    },
+    "docker-project": {
+        "projects": [
+            {
+                "name": "sabnzbd",
+                "path": "docker"
+            }
+        ]
+    }
+}

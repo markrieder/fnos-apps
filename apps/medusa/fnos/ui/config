@@ -1,0 +1,15 @@
+{
+    ".url": {
+        "medusa.Application":
+        {
+            "title": "Medusa",
+            "desc": "TV automation manager",
+            "icon": "images/{0}.png",
+            "type": "url",
+            "port": "8081",
+            "protocol": "http",
+            "url": "/",
+            "allUsers": true
+        }
+    }
+}

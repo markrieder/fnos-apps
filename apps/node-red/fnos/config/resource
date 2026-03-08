@@ -1,0 +1,25 @@
+{
+    "port-config": {
+        "protocol-file": "Node-RED.sc"
+    },
+    "data-share": {
+        "shares": [
+            {
+                "name": "Node-RED",
+                "permission": {
+                    "rw": [
+                        "node-red"
+                    ]
+                }
+            }
+        ]
+    },
+    "docker-project": {
+        "projects": [
+            {
+                "name": "node-red",
+                "path": "docker"
+            }
+        ]
+    }
+}

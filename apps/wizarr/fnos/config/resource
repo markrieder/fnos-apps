@@ -1,0 +1,25 @@
+{
+    "port-config": {
+        "protocol-file": "Wizarr.sc"
+    },
+    "data-share": {
+        "shares": [
+            {
+                "name": "Wizarr",
+                "permission": {
+                    "rw": [
+                        "wizarr"
+                    ]
+                }
+            }
+        ]
+    },
+    "docker-project": {
+        "projects": [
+            {
+                "name": "wizarr",
+                "path": "docker"
+            }
+        ]
+    }
+}

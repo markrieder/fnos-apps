@@ -1,0 +1,25 @@
+{
+    "port-config": {
+        "protocol-file": "Medusa.sc"
+    },
+    "data-share": {
+        "shares": [
+            {
+                "name": "Medusa",
+                "permission": {
+                    "rw": [
+                        "medusa"
+                    ]
+                }
+            }
+        ]
+    },
+    "docker-project": {
+        "projects": [
+            {
+                "name": "medusa",
+                "path": "docker"
+            }
+        ]
+    }
+}

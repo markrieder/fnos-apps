@@ -1,0 +1,25 @@
+{
+    "port-config": {
+        "protocol-file": "CopyParty.sc"
+    },
+    "data-share": {
+        "shares": [
+            {
+                "name": "CopyParty",
+                "permission": {
+                    "rw": [
+                        "copyparty"
+                    ]
+                }
+            }
+        ]
+    },
+    "docker-project": {
+        "projects": [
+            {
+                "name": "copyparty",
+                "path": "docker"
+            }
+        ]
+    }
+}

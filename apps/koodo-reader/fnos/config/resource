@@ -1,0 +1,25 @@
+{
+    "port-config": {
+        "protocol-file": "Koodo Reader.sc"
+    },
+    "data-share": {
+        "shares": [
+            {
+                "name": "Koodo Reader",
+                "permission": {
+                    "rw": [
+                        "koodo-reader"
+                    ]
+                }
+            }
+        ]
+    },
+    "docker-project": {
+        "projects": [
+            {
+                "name": "koodo-reader",
+                "path": "docker"
+            }
+        ]
+    }
+}

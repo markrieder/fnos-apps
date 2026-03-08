@@ -1,0 +1,25 @@
+{
+    "port-config": {
+        "protocol-file": "Reactive Resume.sc"
+    },
+    "data-share": {
+        "shares": [
+            {
+                "name": "Reactive Resume",
+                "permission": {
+                    "rw": [
+                        "reactive-resume"
+                    ]
+                }
+            }
+        ]
+    },
+    "docker-project": {
+        "projects": [
+            {
+                "name": "reactive-resume",
+                "path": "docker"
+            }
+        ]
+    }
+}

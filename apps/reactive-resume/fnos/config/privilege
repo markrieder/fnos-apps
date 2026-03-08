@@ -1,0 +1,7 @@
+{
+    "defaults": {
+        "run-as": "package"
+    },
+    "username": "reactive-resume",
+    "groupname": "reactive-resume"
+}

@@ -1,0 +1,7 @@
+{
+    "defaults": {
+        "run-as": "package"
+    },
+    "username": "koodo-reader",
+    "groupname": "koodo-reader"
+}
