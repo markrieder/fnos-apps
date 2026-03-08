@@ -23,6 +23,12 @@ DOWNLOAD_DATA=$(gh api "repos/${REPO}/releases" --paginate | jq '[.[] | {tag: .t
 
 NOW=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
 
+# Load existing apps.json to preserve historical download counts
+EXISTING_APPS_JSON=""
+if [ -f "$OUTPUT" ]; then
+  EXISTING_APPS_JSON=$(cat "$OUTPUT")
+fi
+
 APPS_JSON="[]"
 
 for app_dir in "${REPO_ROOT}"/scripts/apps/*/; do
@@ -69,9 +75,23 @@ for app_dir in "${REPO_ROOT}"/scripts/apps/*/; do
   release_tag=$(echo "$latest_release" | jq -r '.tagName')
   updated_at=$(echo "$latest_release" | jq -r '.publishedAt')
 
-  download_count=$(echo "$DOWNLOAD_DATA" | jq \
+  github_count=$(echo "$DOWNLOAD_DATA" | jq \
     --arg prefix "${slug}/" \
     '[.[] | select(.tag | startswith($prefix)) | .downloads] | add // 0')
+
+  existing_count=0
+  if [ -n "$EXISTING_APPS_JSON" ]; then
+    existing_count=$(echo "$EXISTING_APPS_JSON" | jq -r \
+      --arg slug "$slug" \
+      '.apps[]? | select(.slug == $slug) | .download_count // 0')
+    existing_count="${existing_count:-0}"
+  fi
+
+  if [ "$existing_count" -gt "$github_count" ]; then
+    download_count="$existing_count"
+  else
+    download_count="$github_count"
+  fi
 
   tag_version="${release_tag#${slug}/v}"
   version="${tag_version%%-r[0-9]*}"
