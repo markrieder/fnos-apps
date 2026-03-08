@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-03-08T08:03:43Z",
+  "generated_at": "2026-03-08T08:03:54Z",
   "source": {
     "name": "conversun/fnos-apps",
     "url": "https://github.com/conversun/fnos-apps"
@@ -266,8 +266,8 @@
       "display_name": "Cloudreve",
       "description": "国产云盘系统，支持多种存储策略和离线下载。",
       "version": "4.14.1",
-      "fpk_version": "4.14.1-r2",
-      "release_tag": "cloudreve/v4.14.1-r2",
+      "fpk_version": "4.14.1",
+      "release_tag": "cloudreve/v4.14.1",
       "service_port": 5212,
       "homepage_url": "https://cloudreve.org",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/cloudreve/fnos/ICON_256.PNG",
@@ -275,8 +275,8 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-03T19:22:28Z",
-      "download_count": 20,
+      "updated_at": "2026-03-08T08:03:50Z",
+      "download_count": 0,
       "app_type": "native",
       "category": "system"
     },
@@ -318,7 +318,7 @@
         "arm"
       ],
       "updated_at": "2026-03-03T19:22:34Z",
-      "download_count": 7,
+      "download_count": 0,
       "app_type": "docker",
       "category": "system"
     },
@@ -414,8 +414,8 @@
       "display_name": "fnOS Apps",
       "description": "fnOS第三方应用中心，支持一键安装、更新和卸载来自conversun/fnos-apps的所有应用。",
       "version": "1.5.2",
-      "fpk_version": "1.5.2-r1",
-      "release_tag": "fnos-apps-store/v1.5.2-r1",
+      "fpk_version": "1.5.2",
+      "release_tag": "fnos-apps-store/v1.5.2",
       "service_port": 8011,
       "homepage_url": "https://github.com/conversun/fnos-store",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/fnos-apps-store/fnos/ICON_256.PNG",
@@ -423,8 +423,8 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-03T19:22:37Z",
-      "download_count": 702,
+      "updated_at": "2026-03-08T08:03:44Z",
+      "download_count": 81,
       "app_type": "native",
       "category": "store"
     },
@@ -519,8 +519,8 @@
       "display_name": "Gopeed",
       "description": "Gopeed是一款支持HTTP、BitTorrent、Magnet等协议的高速下载器。",
       "version": "1.9.1",
-      "fpk_version": "1.9.1-r3",
-      "release_tag": "gopeed/v1.9.1-r3",
+      "fpk_version": "1.9.1",
+      "release_tag": "gopeed/v1.9.1",
       "service_port": 9999,
       "homepage_url": "https://gopeed.com",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/gopeed/fnos/ICON_256.PNG",
@@ -528,8 +528,8 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-03T19:22:18Z",
-      "download_count": 38,
+      "updated_at": "2026-03-08T08:03:51Z",
+      "download_count": 0,
       "app_type": "native",
       "category": "download"
     },
@@ -687,8 +687,8 @@
       "display_name": "IT-Tools",
       "description": "开发者工具箱，提供 JSON/YAML 转换、编码解码等常用工具。",
       "version": "2024.10.22-7ca5933",
-      "fpk_version": "2024.10.22-7ca5933-r1",
-      "release_tag": "it-tools/v2024.10.22-7ca5933-r1",
+      "fpk_version": "2024.10.22-7ca5933",
+      "release_tag": "it-tools/v2024.10.22-7ca5933",
       "service_port": 8280,
       "homepage_url": "https://it-tools.tech",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/it-tools/fnos/ICON_256.PNG",
@@ -696,8 +696,8 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-03T19:20:09Z",
-      "download_count": 9,
+      "updated_at": "2026-03-08T08:03:43Z",
+      "download_count": 0,
       "app_type": "docker",
       "category": "system"
     },
@@ -792,8 +792,8 @@
       "display_name": "KodBox",
       "description": "KodBox (可道云) 是一个开源的私有云存储和文件管理平台，支持在线文档编辑和多人协作。",
       "version": "1.63",
-      "fpk_version": "1.63-r5",
-      "release_tag": "kodbox/v1.63-r5",
+      "fpk_version": "1.63",
+      "release_tag": "kodbox/v1.63",
       "service_port": 8500,
       "homepage_url": "https://kodcloud.com",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/kodbox/fnos/ICON_256.PNG",
@@ -801,8 +801,8 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-02-28T06:24:07Z",
-      "download_count": 29,
+      "updated_at": "2026-03-08T08:03:45Z",
+      "download_count": 0,
       "app_type": "docker",
       "category": "content"
     },
@@ -1321,8 +1321,8 @@
       "display_name": "Pi-hole",
       "description": "全网广告拦截工具，通过 DNS 过滤广告和追踪器。",
       "version": "2026.02.0",
-      "fpk_version": "2026.02.0-r1",
-      "release_tag": "pihole/v2026.02.0-r1",
+      "fpk_version": "2026.02.0",
+      "release_tag": "pihole/v2026.02.0",
       "service_port": 8053,
       "homepage_url": "https://pi-hole.net",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/pihole/fnos/ICON_256.PNG",
@@ -1330,8 +1330,8 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-03T19:22:25Z",
-      "download_count": 15,
+      "updated_at": "2026-03-08T08:03:42Z",
+      "download_count": 0,
       "app_type": "docker",
       "category": "system"
     },
@@ -1510,8 +1510,8 @@
       "display_name": "Rocket.Chat",
       "description": "开源团队协作通讯平台,支持即时消息、音视频通话和文件共享。",
       "version": "8.2.0",
-      "fpk_version": "8.2.0-r1",
-      "release_tag": "rocketchat/v8.2.0-r1",
+      "fpk_version": "8.2.0",
+      "release_tag": "rocketchat/v8.2.0",
       "service_port": 3003,
       "homepage_url": "https://rocket.chat",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/rocketchat/fnos/ICON_256.PNG",
@@ -1519,8 +1519,8 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-03T19:22:32Z",
-      "download_count": 15,
+      "updated_at": "2026-03-08T08:03:44Z",
+      "download_count": 0,
       "app_type": "docker",
       "category": "content"
     },
@@ -1657,8 +1657,8 @@
       "display_name": "Syncthing",
       "description": "开源的文件同步工具，支持多设备间安全同步",
       "version": "2.0.15",
-      "fpk_version": "2.0.15-r3",
-      "release_tag": "syncthing/v2.0.15-r3",
+      "fpk_version": "2.0.15",
+      "release_tag": "syncthing/v2.0.15",
       "service_port": 8384,
       "homepage_url": "https://syncthing.net",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/syncthing/fnos/ICON_256.PNG",
@@ -1666,8 +1666,8 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-03T19:21:20Z",
-      "download_count": 20,
+      "updated_at": "2026-03-08T08:03:43Z",
+      "download_count": 4,
       "app_type": "native",
       "category": "download"
     },
