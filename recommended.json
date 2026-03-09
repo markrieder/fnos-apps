@@ -6,8 +6,8 @@
       "description": "开源 AI Agent 运行时，支持 Windows/Mac/Linux/fnOS 一键部署",
       "source_url": "https://blog.910501.xyz/archives/openclaw",
       "github_repo": "cline/cline",
-      "latest_version": "",
-      "updated_at": ""
+      "latest_version": "3.71.0",
+      "updated_at": "2026-03-06T18:32:26Z"
     },
     {
       "name": "peerbanhelper",
@@ -15,8 +15,8 @@
       "description": "BT 反吸血工具，自动封禁异常上传的吸血客户端",
       "source_url": "https://github.com/liumingye/fnos_fpk/releases/tag/v1.0.0",
       "github_repo": "PBH-BTN/PeerBanHelper",
-      "latest_version": "",
-      "updated_at": ""
+      "latest_version": "9.3.8",
+      "updated_at": "2026-02-28T19:01:52Z"
     },
     {
       "name": "bilisync",
@@ -33,8 +33,8 @@
       "description": "自动签到框架，支持 HTTP 请求模板和定时任务",
       "source_url": "https://github.com/liumingye/fnos_fpk/releases/tag/v1.0.2",
       "github_repo": "qd-today/qd",
-      "latest_version": "",
-      "updated_at": ""
+      "latest_version": "20250803",
+      "updated_at": "2025-08-03T14:14:30Z"
     },
     {
       "name": "onlyoffice",
@@ -42,8 +42,8 @@
       "description": "在线文档编辑套件，支持 Word/Excel/PPT 协作编辑",
       "source_url": "https://github.com/tf4fun/onlyoffice-fnos/releases",
       "github_repo": "tf4fun/onlyoffice-fnos",
-      "latest_version": "",
-      "updated_at": ""
+      "latest_version": "0.1.0",
+      "updated_at": "2026-01-12T16:56:22Z"
     },
     {
       "name": "reader",
@@ -51,8 +51,8 @@
       "description": "阅读 (Legado) 服务端，网页版小说/漫画书源阅读器",
       "source_url": "https://github.com/yuexps/reader-fnos/releases",
       "github_repo": "yuexps/reader-fnos",
-      "latest_version": "",
-      "updated_at": ""
+      "latest_version": "3.2.14",
+      "updated_at": "2025-12-01T11:59:30Z"
     },
     {
       "name": "qreader",
@@ -60,8 +60,8 @@
       "description": "轻量级阅读后端服务，支持书源导入和在线阅读",
       "source_url": "https://github.com/UCKETX/qreader-fnos/releases",
       "github_repo": "UCKETX/qreader-fnos",
-      "latest_version": "",
-      "updated_at": ""
+      "latest_version": "3.3.3",
+      "updated_at": "2025-12-01T15:52:23Z"
     },
     {
       "name": "iventoy",
@@ -69,8 +69,8 @@
       "description": "PXE 网络启动工具，局域网内批量安装操作系统",
       "source_url": "https://github.com/UCKETX/iventoy/releases",
       "github_repo": "UCKETX/iventoy",
-      "latest_version": "",
-      "updated_at": ""
+      "latest_version": "1.0.20",
+      "updated_at": "2025-12-04T13:25:51Z"
     },
     {
       "name": "grafana-alloy",
@@ -78,8 +78,8 @@
       "description": "Grafana 官方数据采集代理，收集日志、指标和链路追踪数据",
       "source_url": "https://github.com/jianyun8023/fnos-alloy/releases",
       "github_repo": "jianyun8023/fnos-alloy",
-      "latest_version": "",
-      "updated_at": ""
+      "latest_version": "1.13.2",
+      "updated_at": "2026-02-24T21:45:46Z"
     },
     {
       "name": "scrutiny-collector",
@@ -87,8 +87,8 @@
       "description": "硬盘 S.M.A.R.T. 健康数据采集器，配合 Scrutiny 面板使用",
       "source_url": "https://github.com/jianyun8023/fnos-scrutiny-collector/releases",
       "github_repo": "jianyun8023/fnos-scrutiny-collector",
-      "latest_version": "",
-      "updated_at": ""
+      "latest_version": "1.41.0",
+      "updated_at": "2026-03-06T21:43:01Z"
     },
     {
       "name": "fn-fan",
@@ -96,8 +96,8 @@
       "description": "根据 CPU 和硬盘温度自动调节机箱风扇转速 (DXP4800)",
       "source_url": "https://github.com/ii9394/fn-apps/releases",
       "github_repo": "ii9394/fn-apps",
-      "latest_version": "",
-      "updated_at": ""
+      "latest_version": "20260126",
+      "updated_at": "2026-01-26T06:24:37Z"
     },
     {
       "name": "fn-led",
@@ -105,8 +105,8 @@
       "description": "根据硬盘和网络状态自动控制机箱 LED 指示灯 (DXP4800)",
       "source_url": "https://github.com/ii9394/fn-apps/releases",
       "github_repo": "ii9394/fn-apps",
-      "latest_version": "",
-      "updated_at": ""
+      "latest_version": "20260126",
+      "updated_at": "2026-01-26T06:24:37Z"
     },
     {
       "name": "hp-lite",
@@ -114,8 +114,8 @@
       "description": "HP 打印机管理客户端，支持无线打印和扫描",
       "source_url": "https://github.com/zyh-htu/hp-lite-for-fnOS/releases",
       "github_repo": "zyh-htu/hp-lite-for-fnOS",
-      "latest_version": "",
-      "updated_at": ""
+      "latest_version": "hp-lite-for-fnOS",
+      "updated_at": "2026-03-03T15:19:33Z"
     },
     {
       "name": "pansou",
@@ -123,8 +123,8 @@
       "description": "网盘资源搜索聚合工具，支持多平台网盘搜索",
       "source_url": "https://github.com/hugiot/pansou-fpk/releases",
       "github_repo": "hugiot/pansou-fpk",
-      "latest_version": "",
-      "updated_at": ""
+      "latest_version": "2.0.0",
+      "updated_at": "2025-12-16T07:48:55Z"
     },
     {
       "name": "2fmusic",
@@ -141,8 +141,8 @@
       "description": "轻量级 BT 下载客户端，ARM64 架构专用原生包",
       "source_url": "https://github.com/sushazhi/fnos-transmission/releases",
       "github_repo": "sushazhi/fnos-transmission",
-      "latest_version": "",
-      "updated_at": ""
+      "latest_version": "4.1.1",
+      "updated_at": "2026-02-21T14:02:36Z"
     },
     {
       "name": "xunlei-arm",
@@ -150,8 +150,8 @@
       "description": "迅雷远程下载服务，ARM 架构飞牛 NAS 专用",
       "source_url": "https://github.com/xm0625/docker-xunlei-arm-fpk/releases",
       "github_repo": "xm0625/docker-xunlei-arm-fpk",
-      "latest_version": "",
-      "updated_at": ""
+      "latest_version": "1.1.9",
+      "updated_at": "2026-02-15T11:36:03Z"
     },
     {
       "name": "f2-web-app",
@@ -159,8 +159,8 @@
       "description": "抖音/TikTok 数据采集与备份工具，提供 Web 管理界面",
       "source_url": "https://github.com/wangZeKaihhhh/f2_web_app/releases",
       "github_repo": "wangZeKaihhhh/f2_web_app",
-      "latest_version": "",
-      "updated_at": ""
+      "latest_version": "0.2.0",
+      "updated_at": "2026-03-06T09:08:18Z"
     }
   ]
 }
