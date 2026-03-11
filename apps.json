@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-03-11T18:23:09Z",
+  "generated_at": "2026-03-11T18:23:18Z",
   "source": {
     "name": "conversun/fnos-apps",
     "url": "https://github.com/conversun/fnos-apps"
@@ -34,8 +34,8 @@
       "display_name": "AdGuardHome",
       "description": "AdGuardHome 是一个网络范围的广告和跟踪器拦截 DNS 服务器，支持 DNS-over-HTTPS、DNS-over-TLS。",
       "version": "0.107.73",
-      "fpk_version": "0.107.73",
-      "release_tag": "adguardhome/v0.107.73",
+      "fpk_version": "0.107.73-r1",
+      "release_tag": "adguardhome/v0.107.73-r1",
       "service_port": 3080,
       "homepage_url": "https://adguard.com/adguard-home/overview.html",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/adguardhome/fnos/ICON_256.PNG",
@@ -43,7 +43,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-11T17:45:31Z",
+      "updated_at": "2026-03-11T18:23:08Z",
       "download_count": 10,
       "app_type": "docker",
       "category": "system"
@@ -771,8 +771,8 @@
       "display_name": "Homarr",
       "description": "可视化应用仪表盘，深度集成 *arr 套件状态展示",
       "version": "1.55.0",
-      "fpk_version": "1.55.0",
-      "release_tag": "homarr/v1.55.0",
+      "fpk_version": "1.55.0-r1",
+      "release_tag": "homarr/v1.55.0-r1",
       "service_port": 7575,
       "homepage_url": "https://homarr.dev",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/homarr/fnos/ICON_256.PNG",
@@ -780,7 +780,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-11T17:45:38Z",
+      "updated_at": "2026-03-11T18:23:15Z",
       "download_count": 21,
       "app_type": "docker",
       "category": "system"
@@ -1235,8 +1235,8 @@
       "display_name": "Medusa",
       "description": "电视剧自动化下载管理工具，支持自动搜索和下载新剧集。",
       "version": "1.0.25",
-      "fpk_version": "1.0.25",
-      "release_tag": "medusa/v1.0.25",
+      "fpk_version": "1.0.25-r1",
+      "release_tag": "medusa/v1.0.25-r1",
       "service_port": 8081,
       "homepage_url": "https://github.com/pymedusa/Medusa",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/medusa/fnos/ICON_256.PNG",
@@ -1244,7 +1244,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-11T17:44:11Z",
+      "updated_at": "2026-03-11T18:23:09Z",
       "download_count": 36,
       "app_type": "docker",
       "category": "media"
@@ -1298,8 +1298,8 @@
       "display_name": "Miniflux",
       "description": "极简 RSS 阅读器，Go 编写，性能优异",
       "version": "2.2.17",
-      "fpk_version": "2.2.17",
-      "release_tag": "miniflux/v2.2.17",
+      "fpk_version": "2.2.17-r1",
+      "release_tag": "miniflux/v2.2.17-r1",
       "service_port": 8190,
       "homepage_url": "https://miniflux.app",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/miniflux/fnos/ICON_256.PNG",
@@ -1307,7 +1307,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-11T17:44:29Z",
+      "updated_at": "2026-03-11T18:23:08Z",
       "download_count": 6,
       "app_type": "docker",
       "category": "content"
@@ -1594,8 +1594,8 @@
       "display_name": "Ombi",
       "description": "媒体请求管理工具，用户可请求添加电影/电视剧到 Plex/Jellyfin。",
       "version": "4.53.4",
-      "fpk_version": "4.53.4",
-      "release_tag": "ombi/v4.53.4",
+      "fpk_version": "4.53.4-r1",
+      "release_tag": "ombi/v4.53.4-r1",
       "service_port": 3579,
       "homepage_url": "https://github.com/Ombi-app/Ombi",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/ombi/fnos/ICON_256.PNG",
@@ -1603,7 +1603,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-11T17:45:41Z",
+      "updated_at": "2026-03-11T18:23:10Z",
       "download_count": 2,
       "app_type": "docker",
       "category": "media"
@@ -1825,8 +1825,8 @@
       "display_name": "Puter",
       "description": "开源云桌面环境,在浏览器中提供完整的桌面体验,支持文件管理和应用生态。",
       "version": "2.5.1",
-      "fpk_version": "2.5.1",
-      "release_tag": "puter/v2.5.1",
+      "fpk_version": "2.5.1-r1",
+      "release_tag": "puter/v2.5.1-r1",
       "service_port": 4100,
       "homepage_url": "https://puter.com",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/puter/fnos/ICON_256.PNG",
@@ -1834,7 +1834,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-11T17:45:17Z",
+      "updated_at": "2026-03-11T18:23:09Z",
       "download_count": 45,
       "app_type": "docker",
       "category": "system"
@@ -1972,8 +1972,8 @@
       "display_name": "SABnzbd",
       "description": "Usenet 二进制新闻组下载客户端，支持自动解压和后处理。",
       "version": "4.5.5",
-      "fpk_version": "4.5.5",
-      "release_tag": "sabnzbd/v4.5.5",
+      "fpk_version": "4.5.5-r1",
+      "release_tag": "sabnzbd/v4.5.5-r1",
       "service_port": 8780,
       "homepage_url": "https://github.com/sabnzbd/sabnzbd",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/sabnzbd/fnos/ICON_256.PNG",
@@ -1981,7 +1981,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-11T17:44:22Z",
+      "updated_at": "2026-03-11T18:23:11Z",
       "download_count": 6,
       "app_type": "docker",
       "category": "download"
@@ -2056,8 +2056,8 @@
       "display_name": "Stirling-PDF",
       "description": "功能强大的本地 PDF 工具箱，支持合并、拆分、OCR 等操作",
       "version": "2.7.0",
-      "fpk_version": "2.7.0",
-      "release_tag": "stirling-pdf/v2.7.0",
+      "fpk_version": "2.7.0-r1",
+      "release_tag": "stirling-pdf/v2.7.0-r1",
       "service_port": 18080,
       "homepage_url": "https://stirlingpdf.io",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/stirling-pdf/fnos/ICON_256.PNG",
@@ -2065,7 +2065,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-11T17:44:39Z",
+      "updated_at": "2026-03-11T18:23:15Z",
       "download_count": 64,
       "app_type": "docker",
       "category": "system"
@@ -2287,8 +2287,8 @@
       "display_name": "WG-Easy",
       "description": "WireGuard VPN 管理界面，提供简洁的 Web UI 管理 VPN 连接。",
       "version": "15.2.2",
-      "fpk_version": "15.2.2",
-      "release_tag": "wg-easy/v15.2.2",
+      "fpk_version": "15.2.2-r1",
+      "release_tag": "wg-easy/v15.2.2-r1",
       "service_port": 51821,
       "homepage_url": "https://github.com/wg-easy/wg-easy",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/wg-easy/fnos/ICON_256.PNG",
@@ -2296,7 +2296,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-11T17:45:12Z",
+      "updated_at": "2026-03-11T18:23:15Z",
       "download_count": 13,
       "app_type": "docker",
       "category": "system"
