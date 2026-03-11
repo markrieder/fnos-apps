@@ -14,6 +14,22 @@
                 "type": "text",
                 "field": "wizard_library_dir",
                 "label": "书库目录（漫画/小说/电子书）"
+            },
+            {
+                "type": "text",
+                "field": "wizard_port",
+                "label": "Web UI 端口",
+                "initValue": "5000",
+                "rules": [
+                    {
+                        "required": true,
+                        "message": "请输入端口号"
+                    },
+                    {
+                        "pattern": "^[0-9]+$",
+                        "message": "端口必须为数字"
+                    }
+                ]
             }
         ]
     }

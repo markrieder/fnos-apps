@@ -5,6 +5,22 @@
             {
                 "type": "tips",
                 "helpText": "ClamAV 是开源杀毒引擎。通过 TCP 端口 3310 提供扫描服务，可配合其他工具使用。"
+            },
+            {
+                "type": "text",
+                "field": "wizard_port",
+                "label": "Web UI 端口",
+                "initValue": "3310",
+                "rules": [
+                    {
+                        "required": true,
+                        "message": "请输入端口号"
+                    },
+                    {
+                        "pattern": "^[0-9]+$",
+                        "message": "端口必须为数字"
+                    }
+                ]
             }
         ]
     }

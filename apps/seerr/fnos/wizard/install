@@ -5,6 +5,22 @@
             {
                 "type": "tips",
                 "helpText": "Seerr 是 Overseerr 的社区分支。首次访问时需配置媒体服务器连接。"
+            },
+            {
+                "type": "text",
+                "field": "wizard_port",
+                "label": "Web UI 端口",
+                "initValue": "5055",
+                "rules": [
+                    {
+                        "required": true,
+                        "message": "请输入端口号"
+                    },
+                    {
+                        "pattern": "^[0-9]+$",
+                        "message": "端口必须为数字"
+                    }
+                ]
             }
         ]
     }

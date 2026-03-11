@@ -5,6 +5,22 @@
             {
                 "type": "tips",
                 "helpText": "Netdata 是实时系统监控工具，安装后即可查看 NAS 运行状态。"
+            },
+            {
+                "type": "text",
+                "field": "wizard_port",
+                "label": "Web UI 端口",
+                "initValue": "19999",
+                "rules": [
+                    {
+                        "required": true,
+                        "message": "请输入端口号"
+                    },
+                    {
+                        "pattern": "^[0-9]+$",
+                        "message": "端口必须为数字"
+                    }
+                ]
             }
         ]
     }

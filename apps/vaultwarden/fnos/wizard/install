@@ -5,6 +5,22 @@
             {
                 "type": "tips",
                 "helpText": "Vaultwarden 是轻量级 Bitwarden 兼容密码管理服务器。<br>首次访问时需创建管理员账号。"
+            },
+            {
+                "type": "text",
+                "field": "wizard_port",
+                "label": "Web UI 端口",
+                "initValue": "8880",
+                "rules": [
+                    {
+                        "required": true,
+                        "message": "请输入端口号"
+                    },
+                    {
+                        "pattern": "^[0-9]+$",
+                        "message": "端口必须为数字"
+                    }
+                ]
             }
         ]
     }

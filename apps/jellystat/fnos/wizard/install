@@ -5,6 +5,22 @@
             {
                 "type": "tips",
                 "helpText": "Jellystat 是 Jellyfin 统计面板。需要先安装 Jellyfin，然后在设置中填入 Jellyfin 服务器地址。"
+            },
+            {
+                "type": "text",
+                "field": "wizard_port",
+                "label": "Web UI 端口",
+                "initValue": "3004",
+                "rules": [
+                    {
+                        "required": true,
+                        "message": "请输入端口号"
+                    },
+                    {
+                        "pattern": "^[0-9]+$",
+                        "message": "端口必须为数字"
+                    }
+                ]
             }
         ]
     }

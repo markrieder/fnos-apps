@@ -9,6 +9,22 @@
             {
                 "type": "tips",
                 "helpText": "默认数据库与对象存储账号为示例值，仅用于快速启动。<br>生产环境建议修改 docker-compose 中的默认密码并启用 HTTPS。"
+            },
+            {
+                "type": "text",
+                "field": "wizard_port",
+                "label": "Web UI 端口",
+                "initValue": "8510",
+                "rules": [
+                    {
+                        "required": true,
+                        "message": "请输入端口号"
+                    },
+                    {
+                        "pattern": "^[0-9]+$",
+                        "message": "端口必须为数字"
+                    }
+                ]
             }
         ]
     }

@@ -5,6 +5,22 @@
             {
                 "type": "tips",
                 "helpText": "Rocket.Chat 是开源团队协作通讯平台，支持即时消息、音视频通话和文件共享。<br><br>应用包含 2 个服务容器（Rocket.Chat、MongoDB），首次启动需要较长时间拉取镜像。<br>MongoDB 会自动配置为副本集模式。"
+            },
+            {
+                "type": "text",
+                "field": "wizard_port",
+                "label": "Web UI 端口",
+                "initValue": "3003",
+                "rules": [
+                    {
+                        "required": true,
+                        "message": "请输入端口号"
+                    },
+                    {
+                        "pattern": "^[0-9]+$",
+                        "message": "端口必须为数字"
+                    }
+                ]
             }
         ]
     }

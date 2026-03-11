@@ -5,6 +5,22 @@
             {
                 "type": "tips",
                 "helpText": "Nginx Proxy Manager 是图形化反向代理。默认管理员: admin@example.com / changeme，首次登录后请立即修改。"
+            },
+            {
+                "type": "text",
+                "field": "wizard_port",
+                "label": "Web UI 端口",
+                "initValue": "81",
+                "rules": [
+                    {
+                        "required": true,
+                        "message": "请输入端口号"
+                    },
+                    {
+                        "pattern": "^[0-9]+$",
+                        "message": "端口必须为数字"
+                    }
+                ]
             }
         ]
     }

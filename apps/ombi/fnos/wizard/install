@@ -5,6 +5,22 @@
             {
                 "type": "tips",
                 "helpText": "Ombi 用于管理媒体请求。配置后用户可自助请求添加影片到媒体库。"
+            },
+            {
+                "type": "text",
+                "field": "wizard_port",
+                "label": "Web UI 端口",
+                "initValue": "3579",
+                "rules": [
+                    {
+                        "required": true,
+                        "message": "请输入端口号"
+                    },
+                    {
+                        "pattern": "^[0-9]+$",
+                        "message": "端口必须为数字"
+                    }
+                ]
             }
         ]
     }

@@ -5,6 +5,22 @@
             {
                 "type": "tips",
                 "helpText": "Frigate 是 AI 视频监控系统。<br>需要 GPU 支持进行物体检测。<br>请在 /config/config.yml 中配置摄像头。"
+            },
+            {
+                "type": "text",
+                "field": "wizard_port",
+                "label": "Web UI 端口",
+                "initValue": "8971",
+                "rules": [
+                    {
+                        "required": true,
+                        "message": "请输入端口号"
+                    },
+                    {
+                        "pattern": "^[0-9]+$",
+                        "message": "端口必须为数字"
+                    }
+                ]
             }
         ]
     }

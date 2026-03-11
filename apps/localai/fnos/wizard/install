@@ -5,6 +5,22 @@
             {
                 "type": "tips",
                 "helpText": "LocalAI 兼容 OpenAI API。将模型文件放入模型目录即可使用。默认使用 CPU 推理。"
+            },
+            {
+                "type": "text",
+                "field": "wizard_port",
+                "label": "Web UI 端口",
+                "initValue": "8180",
+                "rules": [
+                    {
+                        "required": true,
+                        "message": "请输入端口号"
+                    },
+                    {
+                        "pattern": "^[0-9]+$",
+                        "message": "端口必须为数字"
+                    }
+                ]
             }
         ]
     }

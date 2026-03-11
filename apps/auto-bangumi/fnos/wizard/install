@@ -5,6 +5,22 @@
             {
                 "type": "tips",
                 "helpText": "AutoBangumi 是基于 RSS 的全自动追番下载整理工具。<br>默认账号: admin / adminadmin<br>需要配合 qBittorrent 使用。"
+            },
+            {
+                "type": "text",
+                "field": "wizard_port",
+                "label": "Web UI 端口",
+                "initValue": "7892",
+                "rules": [
+                    {
+                        "required": true,
+                        "message": "请输入端口号"
+                    },
+                    {
+                        "pattern": "^[0-9]+$",
+                        "message": "端口必须为数字"
+                    }
+                ]
             }
         ]
     }

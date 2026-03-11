@@ -1,16 +1,12 @@
 [
     {
-        "stepTitle": "安装说明",
+        "stepTitle": "安装设置",
         "items": [
-            {
-                "type": "tips",
-                "helpText": "Medusa 是电视剧自动化管理。首次访问完成初始配置，添加索引器和下载客户端。"
-            },
             {
                 "type": "text",
                 "field": "wizard_port",
                 "label": "Web UI 端口",
-                "initValue": "8081",
+                "initValue": "3100",
                 "rules": [
                     {
                         "required": true,

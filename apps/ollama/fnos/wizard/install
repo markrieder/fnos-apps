@@ -9,6 +9,22 @@
             {
                 "type": "tips",
                 "helpText": "Ollama 默认仅提供 API 服务，不包含 Web 管理界面。建议同时安装 Open WebUI 进行可视化交互。"
+            },
+            {
+                "type": "text",
+                "field": "wizard_port",
+                "label": "Web UI 端口",
+                "initValue": "11434",
+                "rules": [
+                    {
+                        "required": true,
+                        "message": "请输入端口号"
+                    },
+                    {
+                        "pattern": "^[0-9]+$",
+                        "message": "端口必须为数字"
+                    }
+                ]
             }
         ]
     }

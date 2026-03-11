@@ -5,6 +5,22 @@
             {
                 "type": "tips",
                 "helpText": "Open WebUI 是 AI 聊天界面。如已安装 Ollama，将自动连接本地大模型服务。首次访问创建管理员账号。"
+            },
+            {
+                "type": "text",
+                "field": "wizard_port",
+                "label": "Web UI 端口",
+                "initValue": "8080",
+                "rules": [
+                    {
+                        "required": true,
+                        "message": "请输入端口号"
+                    },
+                    {
+                        "pattern": "^[0-9]+$",
+                        "message": "端口必须为数字"
+                    }
+                ]
             }
         ]
     }

@@ -21,6 +21,22 @@
                 "field": "wizard_download_dir",
                 "label": "下载目录（与下载工具保持一致）",
                 "placeholder": "/vol1/downloads"
+            },
+            {
+                "type": "text",
+                "field": "wizard_port",
+                "label": "Web UI 端口",
+                "initValue": "3000",
+                "rules": [
+                    {
+                        "required": true,
+                        "message": "请输入端口号"
+                    },
+                    {
+                        "pattern": "^[0-9]+$",
+                        "message": "端口必须为数字"
+                    }
+                ]
             }
         ]
     }

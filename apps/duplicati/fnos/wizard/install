@@ -5,6 +5,22 @@
             {
                 "type": "tips",
                 "helpText": "Duplicati 首次使用时请先确认备份源目录映射。<br>默认映射 ${BACKUP_SOURCE:-/vol1} 到容器内 /source。"
+            },
+            {
+                "type": "text",
+                "field": "wizard_port",
+                "label": "Web UI 端口",
+                "initValue": "8200",
+                "rules": [
+                    {
+                        "required": true,
+                        "message": "请输入端口号"
+                    },
+                    {
+                        "pattern": "^[0-9]+$",
+                        "message": "端口必须为数字"
+                    }
+                ]
             }
         ]
     }

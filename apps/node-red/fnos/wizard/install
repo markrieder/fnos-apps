@@ -5,6 +5,22 @@
             {
                 "type": "tips",
                 "helpText": "Node-RED 是可视化工作流工具。首次访问即可开始创建自动化流程。与 Home Assistant 搭配使用效果更佳。"
+            },
+            {
+                "type": "text",
+                "field": "wizard_port",
+                "label": "Web UI 端口",
+                "initValue": "1880",
+                "rules": [
+                    {
+                        "required": true,
+                        "message": "请输入端口号"
+                    },
+                    {
+                        "pattern": "^[0-9]+$",
+                        "message": "端口必须为数字"
+                    }
+                ]
             }
         ]
     }

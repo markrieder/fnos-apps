@@ -9,6 +9,22 @@
             {
                 "type": "tips",
                 "helpText": "应用包含 3 个服务容器（Web、PostgreSQL、Chrome），首次启动需要拉取镜像并初始化数据库。"
+            },
+            {
+                "type": "text",
+                "field": "wizard_port",
+                "label": "Web UI 端口",
+                "initValue": "3200",
+                "rules": [
+                    {
+                        "required": true,
+                        "message": "请输入端口号"
+                    },
+                    {
+                        "pattern": "^[0-9]+$",
+                        "message": "端口必须为数字"
+                    }
+                ]
             }
         ]
     }

@@ -5,6 +5,22 @@
             {
                 "type": "tips",
                 "helpText": "Komga 是漫画/电子书管理器。首次访问创建管理员账号，然后添加漫画库目录。"
+            },
+            {
+                "type": "text",
+                "field": "wizard_port",
+                "label": "Web UI 端口",
+                "initValue": "25600",
+                "rules": [
+                    {
+                        "required": true,
+                        "message": "请输入端口号"
+                    },
+                    {
+                        "pattern": "^[0-9]+$",
+                        "message": "端口必须为数字"
+                    }
+                ]
             }
         ]
     }

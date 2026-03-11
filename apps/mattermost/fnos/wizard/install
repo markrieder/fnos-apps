@@ -9,6 +9,22 @@
             {
                 "type": "tips",
                 "helpText": "首次访问后需要完成初始化向导并创建管理员账号。<br>内置数据库默认账号/密码为 <b>mattermost/mattermost</b>，可在 docker-compose 中自行修改。"
+            },
+            {
+                "type": "text",
+                "field": "wizard_port",
+                "label": "Web UI 端口",
+                "initValue": "8065",
+                "rules": [
+                    {
+                        "required": true,
+                        "message": "请输入端口号"
+                    },
+                    {
+                        "pattern": "^[0-9]+$",
+                        "message": "端口必须为数字"
+                    }
+                ]
             }
         ]
     }

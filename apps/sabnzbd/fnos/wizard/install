@@ -5,6 +5,22 @@
             {
                 "type": "tips",
                 "helpText": "SABnzbd 是 Usenet 下载客户端。首次访问完成快速设置向导。"
+            },
+            {
+                "type": "text",
+                "field": "wizard_port",
+                "label": "Web UI 端口",
+                "initValue": "8780",
+                "rules": [
+                    {
+                        "required": true,
+                        "message": "请输入端口号"
+                    },
+                    {
+                        "pattern": "^[0-9]+$",
+                        "message": "端口必须为数字"
+                    }
+                ]
             }
         ]
     }

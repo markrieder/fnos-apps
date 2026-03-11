@@ -5,6 +5,22 @@
             {
                 "type": "tips",
                 "helpText": "Immich 是自托管的照片和视频备份方案，支持人脸识别、智能搜索和时间线浏览。<br><br>应用包含 4 个服务容器（Web 服务、机器学习、PostgreSQL、Redis），首次启动需要较长时间拉取镜像。"
+            },
+            {
+                "type": "text",
+                "field": "wizard_port",
+                "label": "Web UI 端口",
+                "initValue": "2283",
+                "rules": [
+                    {
+                        "required": true,
+                        "message": "请输入端口号"
+                    },
+                    {
+                        "pattern": "^[0-9]+$",
+                        "message": "端口必须为数字"
+                    }
+                ]
             }
         ]
     },

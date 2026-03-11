@@ -5,6 +5,22 @@
             {
                 "type": "tips",
                 "helpText": "Tautulli 是 Plex 使用统计工具。安装后请在 Web UI 中配置 Plex 服务器连接。"
+            },
+            {
+                "type": "text",
+                "field": "wizard_port",
+                "label": "Web UI 端口",
+                "initValue": "8181",
+                "rules": [
+                    {
+                        "required": true,
+                        "message": "请输入端口号"
+                    },
+                    {
+                        "pattern": "^[0-9]+$",
+                        "message": "端口必须为数字"
+                    }
+                ]
             }
         ]
     }

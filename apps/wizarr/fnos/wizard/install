@@ -5,6 +5,22 @@
             {
                 "type": "tips",
                 "helpText": "Wizarr 用于管理 Plex/Jellyfin 的用户邀请。首次访问完成初始设置。"
+            },
+            {
+                "type": "text",
+                "field": "wizard_port",
+                "label": "Web UI 端口",
+                "initValue": "5690",
+                "rules": [
+                    {
+                        "required": true,
+                        "message": "请输入端口号"
+                    },
+                    {
+                        "pattern": "^[0-9]+$",
+                        "message": "端口必须为数字"
+                    }
+                ]
             }
         ]
     }

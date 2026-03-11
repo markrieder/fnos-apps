@@ -9,6 +9,22 @@
             {
                 "type": "tips",
                 "helpText": "当前采用简化单服务部署（gotrue 端口映射为 8025）。首次启动需要拉取镜像并初始化服务。"
+            },
+            {
+                "type": "text",
+                "field": "wizard_port",
+                "label": "Web UI 端口",
+                "initValue": "8500",
+                "rules": [
+                    {
+                        "required": true,
+                        "message": "请输入端口号"
+                    },
+                    {
+                        "pattern": "^[0-9]+$",
+                        "message": "端口必须为数字"
+                    }
+                ]
             }
         ]
     }
