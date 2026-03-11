@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-03-11T06:52:25Z",
+  "generated_at": "2026-03-11T06:52:33Z",
   "source": {
     "name": "conversun/fnos-apps",
     "url": "https://github.com/conversun/fnos-apps"
@@ -266,8 +266,8 @@
       "display_name": "ClamAV",
       "description": "开源杀毒引擎，提供文件扫描和病毒检测服务。",
       "version": "1.5.2",
-      "fpk_version": "1.5.2",
-      "release_tag": "clamav/v1.5.2",
+      "fpk_version": "1.5.2-r1",
+      "release_tag": "clamav/v1.5.2-r1",
       "service_port": 3310,
       "homepage_url": "https://github.com/Cisco-Talos/clamav",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/clamav/fnos/ICON_256.PNG",
@@ -275,7 +275,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-08T18:04:44Z",
+      "updated_at": "2026-03-11T06:52:30Z",
       "download_count": 13,
       "app_type": "docker",
       "category": "system"
@@ -750,8 +750,8 @@
       "display_name": "Immich",
       "description": "自托管照片和视频备份方案,支持人脸识别和智能搜索。",
       "version": "2.5.6",
-      "fpk_version": "2.5.6",
-      "release_tag": "immich/v2.5.6",
+      "fpk_version": "2.5.6-r1",
+      "release_tag": "immich/v2.5.6-r1",
       "service_port": 2283,
       "homepage_url": "https://github.com/immich-app/immich",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/immich/fnos/ICON_256.PNG",
@@ -759,7 +759,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-08T08:04:35Z",
+      "updated_at": "2026-03-11T06:52:24Z",
       "download_count": 65,
       "app_type": "docker",
       "category": "media"
@@ -855,8 +855,8 @@
       "display_name": "Jellystat",
       "description": "Jellyfin 媒体服务器的使用统计和监控面板。",
       "version": "1.1.8",
-      "fpk_version": "1.1.8",
-      "release_tag": "jellystat/v1.1.8",
+      "fpk_version": "1.1.8-r1",
+      "release_tag": "jellystat/v1.1.8-r1",
       "service_port": 3004,
       "homepage_url": "https://github.com/CyferShepard/Jellystat",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/jellystat/fnos/ICON_256.PNG",
@@ -864,7 +864,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-08T18:04:41Z",
+      "updated_at": "2026-03-11T06:52:24Z",
       "download_count": 4,
       "app_type": "docker",
       "category": "media"
@@ -897,8 +897,8 @@
       "display_name": "KodBox",
       "description": "KodBox (可道云) 是一个开源的私有云存储和文件管理平台，支持在线文档编辑和多人协作。",
       "version": "1.63",
-      "fpk_version": "1.63",
-      "release_tag": "kodbox/v1.63",
+      "fpk_version": "1.63-r1",
+      "release_tag": "kodbox/v1.63-r1",
       "service_port": 8500,
       "homepage_url": "https://kodcloud.com",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/kodbox/fnos/ICON_256.PNG",
@@ -906,7 +906,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-08T08:03:45Z",
+      "updated_at": "2026-03-11T06:52:28Z",
       "download_count": 12,
       "app_type": "docker",
       "category": "content"
@@ -1635,9 +1635,9 @@
       "file_prefix": "pihole",
       "display_name": "Pi-hole",
       "description": "全网广告拦截工具，通过 DNS 过滤广告和追踪器。",
-      "version": "2026.02.0",
-      "fpk_version": "2026.02.0",
-      "release_tag": "pihole/v2026.02.0",
+      "version": "null",
+      "fpk_version": "null",
+      "release_tag": "pihole/vnull",
       "service_port": 8053,
       "homepage_url": "https://pi-hole.net",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/pihole/fnos/ICON_256.PNG",
@@ -1645,7 +1645,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-08T08:03:42Z",
+      "updated_at": "2026-03-11T06:52:31Z",
       "download_count": 12,
       "app_type": "docker",
       "category": "system"
@@ -2182,8 +2182,8 @@
       "display_name": "Wiki.js",
       "description": "强大的自托管知识库/Wiki 系统，支持 Markdown 和多种编辑器",
       "version": "2.5.277",
-      "fpk_version": "2.5.277",
-      "release_tag": "wikijs/v2.5.277",
+      "fpk_version": "2.5.277-r1",
+      "release_tag": "wikijs/v2.5.277-r1",
       "service_port": 3100,
       "homepage_url": "https://js.wiki",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/wikijs/fnos/ICON_256.PNG",
@@ -2191,7 +2191,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-08T08:04:34Z",
+      "updated_at": "2026-03-11T06:52:31Z",
       "download_count": 13,
       "app_type": "docker",
       "category": "content"
