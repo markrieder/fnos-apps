@@ -25,20 +25,29 @@ if (!gatewayToken && tokenFile) {
 }
 
 // 生成注入到首页 HTML 中的 script
-// 作用: 在 OpenClaw SPA 加载前，把 token 写入 localStorage，
-// 这样前端自动使用 token 认证，无需设备身份验证
+// 作用: 在 OpenClaw SPA 加载前:
+//   1. 将 token 写入 URL hash (#token=xxx)，SPA 从 URL 读取 token (不从 localStorage)
+//   2. 将 gatewayUrl 写入 localStorage settings，确保 WS 连回本代理
 function getInjectionScript() {
   if (!gatewayToken) return '';
   return `<script>
 (function(){
-  // 自动配置 OpenClaw Control UI 连接参数
+  // 1) SPA 从 URL hash 读取 token，不从 localStorage 读取
+  //    确保 hash 中包含 token=，SPA 的 Vf() 会解析并使用
+  if (!location.hash || location.hash.indexOf('token=') === -1) {
+    var h = location.hash ? location.hash.slice(1) : '';
+    var sep = h ? '&' : '';
+    location.replace(location.pathname + location.search + '#' + h + sep + 'token=${gatewayToken}');
+    return; // replace 会重新加载页面
+  }
+
+  // 2) 配置 gatewayUrl 指向本代理（SPA 从 localStorage 读取 gatewayUrl）
   var SETTINGS_KEY = 'openclaw.control.settings.v1';
   var wsProto = location.protocol === 'https:' ? 'wss' : 'ws';
   var wsUrl = wsProto + '://' + location.host;
   try {
     var existing = JSON.parse(localStorage.getItem(SETTINGS_KEY) || '{}');
     existing.gatewayUrl = wsUrl;
-    existing.token = '${gatewayToken}';
     if (!existing.sessionKey) existing.sessionKey = 'main';
     localStorage.setItem(SETTINGS_KEY, JSON.stringify(existing));
   } catch(e) {}
