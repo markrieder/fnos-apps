@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-03-11T17:37:35Z",
+  "generated_at": "2026-03-11T17:37:44Z",
   "source": {
     "name": "conversun/fnos-apps",
     "url": "https://github.com/conversun/fnos-apps"
@@ -140,8 +140,8 @@
       "display_name": "AutoBangumi",
       "description": "基于 RSS 的全自动追番下载整理工具，支持 Mikan 等数据源，自动下载并重命名为 Plex/Jellyfin 兼容格式。",
       "version": "3.2.6",
-      "fpk_version": "3.2.6",
-      "release_tag": "auto-bangumi/v3.2.6",
+      "fpk_version": "3.2.6-r1",
+      "release_tag": "auto-bangumi/v3.2.6-r1",
       "service_port": 7892,
       "homepage_url": "https://github.com/EstrellaXD/Auto_Bangumi",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/auto-bangumi/fnos/ICON_256.PNG",
@@ -149,7 +149,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-11T08:08:53Z",
+      "updated_at": "2026-03-11T17:37:37Z",
       "download_count": 12,
       "app_type": "docker",
       "category": "content"
@@ -939,8 +939,8 @@
       "display_name": "Kavita",
       "description": "开源的漫画、轻小说和电子书阅读服务器",
       "version": "0.8.9",
-      "fpk_version": "0.8.9",
-      "release_tag": "kavita/v0.8.9",
+      "fpk_version": "0.8.9-r1",
+      "release_tag": "kavita/v0.8.9-r1",
       "service_port": 5000,
       "homepage_url": "https://github.com/Kareadita/Kavita",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/kavita/fnos/ICON_256.PNG",
@@ -948,7 +948,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-11T08:09:11Z",
+      "updated_at": "2026-03-11T17:37:41Z",
       "download_count": 12,
       "app_type": "docker",
       "category": "media"
@@ -1383,8 +1383,8 @@
       "display_name": "NetBird",
       "description": "零信任 VPN 管理平台，提供简单的私有网络组建。",
       "version": "0.66.3",
-      "fpk_version": "0.66.3",
-      "release_tag": "netbird/v0.66.3",
+      "fpk_version": "0.66.3-r1",
+      "release_tag": "netbird/v0.66.3-r1",
       "service_port": 8820,
       "homepage_url": "https://netbird.io",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/netbird/fnos/ICON_256.PNG",
@@ -1392,7 +1392,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-11T06:52:22Z",
+      "updated_at": "2026-03-11T17:37:38Z",
       "download_count": 17,
       "app_type": "docker",
       "category": "system",
@@ -1930,8 +1930,8 @@
       "display_name": "Rocket.Chat",
       "description": "开源团队协作通讯平台,支持即时消息、音视频通话和文件共享。",
       "version": "8.2.0",
-      "fpk_version": "8.2.0",
-      "release_tag": "rocketchat/v8.2.0",
+      "fpk_version": "8.2.0-r1",
+      "release_tag": "rocketchat/v8.2.0-r1",
       "service_port": 3003,
       "homepage_url": "https://rocket.chat",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/rocketchat/fnos/ICON_256.PNG",
@@ -1939,7 +1939,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-11T08:08:52Z",
+      "updated_at": "2026-03-11T17:37:34Z",
       "download_count": 6,
       "app_type": "docker",
       "category": "content"
@@ -2035,8 +2035,8 @@
       "display_name": "Stirling-PDF",
       "description": "功能强大的本地 PDF 工具箱，支持合并、拆分、OCR 等操作",
       "version": "2.7.0",
-      "fpk_version": "2.7.0",
-      "release_tag": "stirling-pdf/v2.7.0",
+      "fpk_version": "2.7.0-r1",
+      "release_tag": "stirling-pdf/v2.7.0-r1",
       "service_port": 18080,
       "homepage_url": "https://stirlingpdf.io",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/stirling-pdf/fnos/ICON_256.PNG",
@@ -2044,7 +2044,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-11T08:09:22Z",
+      "updated_at": "2026-03-11T17:37:41Z",
       "download_count": 64,
       "app_type": "docker",
       "category": "system"
@@ -2182,8 +2182,8 @@
       "display_name": "tinyMediaManager",
       "description": "影视文件元数据管理工具，支持从 TheMovieDB、IMDb 刮削元数据，为 Kodi、Emby、Jellyfin、Plex 创建 NFO 文件，自动重命名和整理。含内置 JRE，通过虚拟显示运行。",
       "version": "5.2.8",
-      "fpk_version": "5.2.8",
-      "release_tag": "tinymediamanager/v5.2.8",
+      "fpk_version": "5.2.8-r1",
+      "release_tag": "tinymediamanager/v5.2.8-r1",
       "service_port": 5800,
       "homepage_url": "https://www.tinymediamanager.org",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/tinymediamanager/fnos/ICON_256.PNG",
@@ -2191,7 +2191,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-11T08:08:18Z",
+      "updated_at": "2026-03-11T17:37:39Z",
       "download_count": 44,
       "app_type": "docker",
       "category": "media"
