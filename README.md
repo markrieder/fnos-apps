@@ -1,7 +1,7 @@
 # fnOS Apps
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-![Apps](https://img.shields.io/badge/apps-106-2ea44f)
+![Apps](https://img.shields.io/badge/apps-113-2ea44f)
 ![Platform](https://img.shields.io/badge/fnOS-third--party-orange)
 
 面向飞牛 fnOS 的第三方应用打包仓库。自动跟踪上游版本，构建可直接安装的 `.fpk` 包。
@@ -43,6 +43,7 @@
 | <img src="apps/ombi/fnos/ICON.PNG" width="28"> | **Ombi** | `3579` | 媒体请求与用户管理 | [GitHub](https://github.com/Ombi-app/Ombi) | [Release][r-ombi] |
 | <img src="apps/wizarr/fnos/ICON.PNG" width="28"> | **Wizarr** | `5690` | Plex/Jellyfin 用户邀请管理 | [GitHub](https://github.com/wizarrrr/wizarr) | [Release][r-wizarr] |
 | <img src="apps/medusa/fnos/ICON.PNG" width="28"> | **Medusa** | `8081` | 电视剧自动下载管理 | [GitHub](https://github.com/pymedusa/Medusa) | [Release][r-medusa] |
+| <img src="apps/bililive-go/fnos/ICON.PNG" width="28"> | **Bililive-go** | `8680` | 多平台直播录制工具，支持 Bilibili、斗鱼、虎牙等 | [GitHub](https://github.com/hr3lxphr6j/bililive-go) | [Release][r-bililive-go] |
 
 ### ⬇️ 下载工具
 
@@ -129,6 +130,9 @@
 | <img src="apps/node-red/fnos/ICON.PNG" width="28"> | **Node-RED** | `1880` | 可视化流程自动化工具 | [官网](https://nodered.org) | [Release][r-nodered] |
 | <img src="apps/forgejo/fnos/ICON.PNG" width="28"> | **Forgejo** | `3005` | 社区驱动的 Git 代码托管 | [官网](https://forgejo.org) | [Release][r-forgejo] |
 | <img src="apps/clamav/fnos/ICON.PNG" width="28"> | **ClamAV** | `3310` | 开源杀毒引擎 | [官网](https://www.clamav.net) | [Release][r-clamav] |
+| <img src="apps/ezbookkeeping/fnos/ICON.PNG" width="28"> | **EZBookkeeping** | `8580` | 轻量级个人记账应用，支持多币种、多账户和预算管理 | [GitHub](https://github.com/mayswind/ezbookkeeping) | [Release][r-ezbookkeeping] |
+| <img src="apps/penpot/fnos/ICON.PNG" width="28"> | **Penpot** | `9001` | 开源设计和原型工具，Figma 的自托管替代方案 | [官网](https://penpot.app) | [Release][r-penpot] |
+| <img src="apps/surveyking/fnos/ICON.PNG" width="28"> | **SurveyKing** | `1991` | 开源问卷调查和在线考试系统，支持多种题型、逻辑跳转和数据导出 | [官网](https://github.com/anji-plus/survey) | [Release][r-surveyking] |
 
 ### 🤖 AI
 
@@ -151,6 +155,8 @@
 | <img src="apps/headscale/fnos/ICON.PNG" width="28"> | **Headscale** | `8480` | Tailscale 自托管控制服务器 | [GitHub](https://github.com/juanfont/headscale) | [Release][r-headscale] |
 | <img src="apps/netbird/fnos/ICON.PNG" width="28"> | **NetBird** | `8820` | Zero Trust VPN 平台 | [官网](https://netbird.io) | [Release][r-netbird] |
 | <img src="apps/tailscale/fnos/ICON.PNG" width="28"> | **Tailscale** | `8088` | Mesh VPN 客户端 | [官网](https://tailscale.com) | [Release][r-tailscale] |
+| <img src="apps/cloudflared/fnos/ICON.PNG" width="28"> | **Cloudflare Tunnel** | `14333` | Cloudflare 内网穿透隧道，通过 Web 界面管理 Tunnel Token 配置 | [GitHub](https://github.com/WisdomSky/Cloudflared-web) | [Release][r-cloudflared] |
+| <img src="apps/easytier/fnos/ICON.PNG" width="28"> | **EasyTier** | `11211` | 简单安全的去中心化异地组网方案，支持 Web 管理和子网代理 | [GitHub](https://github.com/EasyTier/EasyTier) | [Release][r-easytier] |
 
 ### 🌐 浏览器
 

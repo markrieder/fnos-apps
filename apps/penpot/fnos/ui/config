@@ -1,0 +1,15 @@
+{
+    ".url": {
+        "penpot.Application":
+        {
+            "title": "Penpot",
+            "desc": "Open source design and prototyping platform",
+            "icon": "images/{0}.png",
+            "type": "url",
+            "port": "9001",
+            "protocol": "http",
+            "url": "/",
+            "allUsers": true
+        }
+    }
+}

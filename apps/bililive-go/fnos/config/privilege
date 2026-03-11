@@ -1,0 +1,7 @@
+{
+    "defaults": {
+        "run-as": "package"
+    },
+    "username": "bililive-go",
+    "groupname": "bililive-go"
+}

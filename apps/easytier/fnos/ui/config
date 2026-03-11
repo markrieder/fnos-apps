@@ -1,0 +1,15 @@
+{
+    ".url": {
+        "easytier.Application":
+        {
+            "title": "EasyTier",
+            "desc": "Decentralized VPN web console",
+            "icon": "images/{0}.png",
+            "type": "url",
+            "port": "11211",
+            "protocol": "http",
+            "url": "/",
+            "allUsers": true
+        }
+    }
+}

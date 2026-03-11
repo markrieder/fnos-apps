@@ -1,0 +1,25 @@
+{
+    "port-config": {
+        "protocol-file": "Penpot.sc"
+    },
+    "data-share": {
+        "shares": [
+            {
+                "name": "Penpot",
+                "permission": {
+                    "rw": [
+                        "penpot"
+                    ]
+                }
+            }
+        ]
+    },
+    "docker-project": {
+        "projects": [
+            {
+                "name": "penpot",
+                "path": "docker"
+            }
+        ]
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "port-config": {
+        "protocol-file": "EZBookkeeping.sc"
+    },
+    "data-share": {
+        "shares": [
+            {
+                "name": "EZBookkeeping",
+                "permission": {
+                    "rw": [
+                        "ezbookkeeping"
+                    ]
+                }
+            }
+        ]
+    },
+    "systemd-unit": {
+    }
+}
