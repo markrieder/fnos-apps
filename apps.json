@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-03-11T08:09:24Z",
+  "generated_at": "2026-03-11T08:09:30Z",
   "source": {
     "name": "conversun/fnos-apps",
     "url": "https://github.com/conversun/fnos-apps"
@@ -97,8 +97,8 @@
       "display_name": "AppFlowy",
       "description": "开源 Notion 替代品，支持自托管的协作文档平台。",
       "version": "0.9.64",
-      "fpk_version": "0.9.64-r1",
-      "release_tag": "appflowy/v0.9.64-r1",
+      "fpk_version": "0.9.64",
+      "release_tag": "appflowy/v0.9.64",
       "service_port": 8500,
       "homepage_url": "https://appflowy.io",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/appflowy/fnos/ICON_256.PNG",
@@ -106,7 +106,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-11T06:52:04Z",
+      "updated_at": "2026-03-11T08:09:23Z",
       "download_count": 25,
       "app_type": "docker",
       "category": "system",
@@ -1363,8 +1363,8 @@
       "display_name": "Nextcloud",
       "description": "开源私有云存储平台,支持文件同步、在线文档协作和日历联系人管理。",
       "version": "33.0.0",
-      "fpk_version": "33.0.0-r1",
-      "release_tag": "nextcloud/v33.0.0-r1",
+      "fpk_version": "33.0.0",
+      "release_tag": "nextcloud/v33.0.0",
       "service_port": 8082,
       "homepage_url": "https://nextcloud.com",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/nextcloud/fnos/ICON_256.PNG",
@@ -1372,7 +1372,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-11T06:52:04Z",
+      "updated_at": "2026-03-11T08:09:22Z",
       "download_count": 17,
       "app_type": "docker",
       "category": "content"
