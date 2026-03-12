@@ -99,7 +99,7 @@
       "version": "0.9.64",
       "fpk_version": "0.9.64",
       "release_tag": "appflowy/v0.9.64",
-      "service_port": 8500,
+      "service_port": 8501,
       "homepage_url": "https://appflowy.io",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/appflowy/fnos/ICON_256.PNG",
       "platforms": [
@@ -436,7 +436,7 @@
       "version": "2.4.5",
       "fpk_version": "2.4.5",
       "release_tag": "easytier/v2.4.5",
-      "service_port": 11211,
+      "service_port": 11210,
       "homepage_url": "https://github.com/EasyTier/EasyTier",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/easytier/fnos/ICON_256.PNG",
       "platforms": [
@@ -647,7 +647,7 @@
       "version": "1.25.4",
       "fpk_version": "1.25.4",
       "release_tag": "gitea/v1.25.4",
-      "service_port": 3003,
+      "service_port": 3033,
       "homepage_url": "https://gitea.com",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/gitea/fnos/ICON_256.PNG",
       "platforms": [
@@ -1067,7 +1067,7 @@
       "version": "0.8.3",
       "fpk_version": "0.8.3",
       "release_tag": "librechat/v0.8.3",
-      "service_port": 3080,
+      "service_port": 3085,
       "homepage_url": "https://librechat.ai",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/librechat/fnos/ICON_256.PNG",
       "platforms": [
@@ -1131,7 +1131,7 @@
       "version": "3.12.1",
       "fpk_version": "3.12.1",
       "release_tag": "localai/v3.12.1",
-      "service_port": 8180,
+      "service_port": 8185,
       "homepage_url": "https://localai.io",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/localai/fnos/ICON_256.PNG",
       "platforms": [
@@ -1342,7 +1342,7 @@
       "version": "5.3.4",
       "fpk_version": "5.3.4",
       "release_tag": "mosdns/v5.3.4",
-      "service_port": 5353,
+      "service_port": 5354,
       "homepage_url": "https://github.com/IrineSistworking/mosdns",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/mosdns/fnos/ICON_256.PNG",
       "platforms": [
@@ -2331,7 +2331,7 @@
       "version": "2.5.277",
       "fpk_version": "2.5.277",
       "release_tag": "wikijs/v2.5.277",
-      "service_port": 3100,
+      "service_port": 3110,
       "homepage_url": "https://js.wiki",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/wikijs/fnos/ICON_256.PNG",
       "platforms": [
@@ -2373,7 +2373,7 @@
       "version": "1.7.71",
       "fpk_version": "1.7.71",
       "release_tag": "wolgoweb/v1.7.71",
-      "service_port": 9090,
+      "service_port": 9095,
       "homepage_url": "https://github.com/xiaoxinpro/WolGoWeb",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/wolgoweb/fnos/ICON_256.PNG",
       "platforms": [

@@ -2,5 +2,5 @@
 title="LibreChat"
 desc="LibreChat Web UI"
 port_forward="yes"
-src.ports="3080/tcp"
-dst.ports="3080/tcp"
+src.ports="3085/tcp"
+dst.ports="3085/tcp"

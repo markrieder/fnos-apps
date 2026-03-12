@@ -6,7 +6,7 @@
             "desc": "MosDNS",
             "icon": "images/{0}.png",
             "type": "url",
-            "port": "5353",
+            "port": "5354",
             "protocol": "http",
             "url": "/",
             "allUsers": true

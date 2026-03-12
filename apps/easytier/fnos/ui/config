@@ -6,7 +6,7 @@
             "desc": "Decentralized VPN web console",
             "icon": "images/{0}.png",
             "type": "url",
-            "port": "11211",
+            "port": "11210",
             "protocol": "http",
             "url": "/",
             "allUsers": true

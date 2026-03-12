@@ -5,4 +5,4 @@ APP_DATA_DIR=$1
 mkdir -p "$APP_DATA_DIR/custom"
 
 cd "$APP_DIR" || exit 1
-exec ./gitea web --port ${TRIM_SERVICE_PORT:-3003} --custom-path "$APP_DATA_DIR/custom" --work-path "$APP_DATA_DIR"
+exec ./gitea web --port ${TRIM_SERVICE_PORT:-3033} --custom-path "$APP_DATA_DIR/custom" --work-path "$APP_DATA_DIR"

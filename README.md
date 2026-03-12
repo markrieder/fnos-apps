@@ -23,8 +23,8 @@
 | | App | 端口 | 说明 | 来源 | 下载 |
 |:---:|---|---:|---|:---:|:---:|
 | <img src="apps/openclaw/fnos/ICON.PNG" width="28"> | **OpenClaw** | `18789` | AI 智能体网关。配置复杂, Bug多, 建议使用 [sophnet.com](https://sophnet.com) 快速体验，或使用 MaxKB | [官网](https://docs.openclaw.ai) | [Release][r-openclaw] |
-| <img src="apps/localai/fnos/ICON.PNG" width="28"> | **LocalAI** | `8180` | 本地 AI 推理，兼容 OpenAI API | [官网](https://localai.io) | [Release][r-localai] |
-| <img src="apps/librechat/fnos/ICON.PNG" width="28"> | **LibreChat** | `3080` | AI 聊天界面，支持多模型 | [官网](https://librechat.ai) | [Release][r-librechat] |
+| <img src="apps/localai/fnos/ICON.PNG" width="28"> | **LocalAI** | `8185` | 本地 AI 推理，兼容 OpenAI API | [官网](https://localai.io) | [Release][r-localai] |
+| <img src="apps/librechat/fnos/ICON.PNG" width="28"> | **LibreChat** | `3085` | AI 聊天界面，支持多模型 | [官网](https://librechat.ai) | [Release][r-librechat] |
 | <img src="apps/open-webui/fnos/ICON.PNG" width="28"> | **Open WebUI** | `8080` | AI 聊天界面，支持多模型对话 | [GitHub](https://github.com/open-webui/open-webui) | [Release][r-openwebui] |
 | <img src="apps/ollama/fnos/ICON.PNG" width="28"> | **Ollama** | `11434` | 本地大语言模型运行引擎 | [官网](https://ollama.com) | [Release][r-ollama] |
 | <img src="apps/maxkb/fnos/ICON.PNG" width="28"> | **MaxKB** | `8083` | AI 知识库问答系统，支持 RAG 和多模型对接 | [GitHub](https://github.com/1Panel-dev/MaxKB) | [Release][r-maxkb] |
@@ -84,10 +84,10 @@
 | <img src="apps/freshrss/fnos/ICON.PNG" width="28"> | **FreshRSS** | `8082` | 自托管 RSS 阅读器 | [官网](https://freshrss.org) | [Release][r-freshrss] |
 | <img src="apps/miniflux/fnos/ICON.PNG" width="28"> | **Miniflux** | `8084` | 极简 RSS 阅读器 | [官网](https://miniflux.app) | [Release][r-miniflux] |
 | <img src="apps/linkwarden/fnos/ICON.PNG" width="28"> | **Linkwarden** | `3005` | 协作式书签管理 | [官网](https://linkwarden.app) | [Release][r-linkwarden] |
-| <img src="apps/wikijs/fnos/ICON.PNG" width="28"> | **Wiki.js** | `3080` | 现代化 Wiki 引擎 | [官网](https://js.wiki) | [Release][r-wikijs] |
+| <img src="apps/wikijs/fnos/ICON.PNG" width="28"> | **Wiki.js** | `3110` | 现代化 Wiki 引擎 | [官网](https://js.wiki) | [Release][r-wikijs] |
 | <img src="apps/mealie/fnos/ICON.PNG" width="28"> | **Mealie** | `9925` | 食谱管理与膳食计划 | [官网](https://mealie.io) | [Release][r-mealie] |
 | <img src="apps/paperless-ngx/fnos/ICON.PNG" width="28"> | **Paperless-ngx** | `8000` | 文档数字化管理，OCR 支持 | [官网](https://docs.paperless-ngx.com) | [Release][r-paperless] |
-| <img src="apps/appflowy/fnos/ICON.PNG" width="28"> | **AppFlowy** | `8500` | Notion 开源替代品，协作文档平台 | [官网](https://appflowy.io) | [Release][r-appflowy] |
+| <img src="apps/appflowy/fnos/ICON.PNG" width="28"> | **AppFlowy** | `8501` | Notion 开源替代品，协作文档平台 | [官网](https://appflowy.io) | [Release][r-appflowy] |
 | <img src="apps/reactive-resume/fnos/ICON.PNG" width="28"> | **Reactive Resume** | `3200` | 在线简历制作工具 | [GitHub](https://github.com/AmruthPillworking/Reactive-Resume) | [Release][r-reactive-resume] |
 
 ### 🎵 媒体自动化
@@ -115,7 +115,7 @@
 | <img src="apps/nginx-ui/fnos/ICON.PNG" width="28"> | **Nginx UI** | `9000` | Nginx 可视化管理面板，内置 Nginx 引擎 | [GitHub](https://github.com/0xJacky/nginx-ui) | [Release][r-nginx-ui] |
 | <img src="apps/gotify/fnos/ICON.PNG" width="28"> | **Gotify** | `8070` | 自托管推送通知服务 | [官网](https://gotify.net) | [Release][r-gotify] |
 | <img src="apps/ddns-go/fnos/ICON.PNG" width="28"> | **DDNS-GO** | `9876` | 动态 DNS 解析客户端 | [GitHub](https://github.com/jeessy2/ddns-go) | [Release][r-ddnsgo] |
-| <img src="apps/wolgoweb/fnos/ICON.PNG" width="28"> | **WolGoWeb** | `9090` | 网络唤醒 (Wake-on-LAN) 管理 | [GitHub](https://github.com/xiaoxinpro/WolGoWeb) | [Release][r-wolgoweb] |
+| <img src="apps/wolgoweb/fnos/ICON.PNG" width="28"> | **WolGoWeb** | `9095` | 网络唤醒 (Wake-on-LAN) 管理 | [GitHub](https://github.com/xiaoxinpro/WolGoWeb) | [Release][r-wolgoweb] |
 | <img src="apps/adguardhome/fnos/ICON.PNG" width="28"> | **AdGuardHome** | `3080` | 全网广告拦截与 DNS 管理 | [官网](https://adguard.com/adguard-home/overview.html) | [Release][r-adguardhome] |
 | <img src="apps/uptime-kuma/fnos/ICON.PNG" width="28"> | **Uptime Kuma** | `3001` | 自托管服务监控 | [GitHub](https://github.com/louislam/uptime-kuma) | [Release][r-uptimekuma] |
 | <img src="apps/beszel/fnos/ICON.PNG" width="28"> | **Beszel** | `18090` | 轻量级服务器监控 | [GitHub](https://github.com/henrygd/beszel) | [Release][r-beszel] |
@@ -130,7 +130,7 @@
 | <img src="apps/glances/fnos/ICON.PNG" width="28"> | **Glances** | `61208` | 系统监控，Web UI 版 htop | [GitHub](https://github.com/nicolargo/glances) | [Release][r-glances] |
 | <img src="apps/n8n/fnos/ICON.PNG" width="28"> | **n8n** | `5678` | 工作流自动化工具 | [官网](https://n8n.io) | [Release][r-n8n] |
 | <img src="apps/ntfy/fnos/ICON.PNG" width="28"> | **Ntfy** | `2586` | 自托管推送通知服务 | [官网](https://ntfy.sh) | [Release][r-ntfy] |
-| <img src="apps/gitea/fnos/ICON.PNG" width="28"> | **Gitea** | `3003` | 轻量级 Git 代码托管 | [官网](https://gitea.com) | [Release][r-gitea] |
+| <img src="apps/gitea/fnos/ICON.PNG" width="28"> | **Gitea** | `3033` | 轻量级 Git 代码托管 | [官网](https://gitea.com) | [Release][r-gitea] |
 | <img src="apps/duplicati/fnos/ICON.PNG" width="28"> | **Duplicati** | `8200` | 加密备份工具 | [官网](https://duplicati.com) | [Release][r-duplicati] |
 | <img src="apps/it-tools/fnos/ICON.PNG" width="28"> | **IT-Tools** | `8280` | 开发者工具箱 | [官网](https://it-tools.tech) | [Release][r-it-tools] |
 | <img src="apps/mattermost/fnos/ICON.PNG" width="28"> | **Mattermost** | `8065` | 企业即时通讯，Slack 替代 | [官网](https://mattermost.com) | [Release][r-mattermost] |
@@ -150,14 +150,14 @@
 | | App | 端口 | 说明 | 来源 | 下载 |
 |:---:|---|---:|---|:---:|:---:|
 | <img src="apps/smartdns/fnos/ICON.PNG" width="28"> | **SmartDNS** | `6580` | 本地 DNS 加速与优选 | [GitHub](https://github.com/pymumu/smartdns) | [Release][r-smartdns] |
-| <img src="apps/mosdns/fnos/ICON.PNG" width="28"> | **MosDNS** | `5353` | DNS 转发与分流 | [GitHub](https://github.com/IrineSistiana/mosdns) | [Release][r-mosdns] |
+| <img src="apps/mosdns/fnos/ICON.PNG" width="28"> | **MosDNS** | `5354` | DNS 转发与分流 | [GitHub](https://github.com/IrineSistiana/mosdns) | [Release][r-mosdns] |
 | <img src="apps/pihole/fnos/ICON.PNG" width="28"> | **Pi-hole** | `8053` | 全网广告拦截 (DNS) | [官网](https://pi-hole.net) | [Release][r-pihole] |
 | <img src="apps/wg-easy/fnos/ICON.PNG" width="28"> | **WG-Easy** | `51821` | WireGuard VPN 管理界面 | [GitHub](https://github.com/wg-easy/wg-easy) | [Release][r-wg-easy] |
 | <img src="apps/headscale/fnos/ICON.PNG" width="28"> | **Headscale** | `8480` | Tailscale 自托管控制服务器 | [GitHub](https://github.com/juanfont/headscale) | [Release][r-headscale] |
 | <img src="apps/netbird/fnos/ICON.PNG" width="28"> | **NetBird** | `8820` | Zero Trust VPN 平台 | [官网](https://netbird.io) | [Release][r-netbird] |
 | <img src="apps/tailscale/fnos/ICON.PNG" width="28"> | **Tailscale** | `8088` | Mesh VPN 客户端 | [官网](https://tailscale.com) | [Release][r-tailscale] |
 | <img src="apps/cloudflared/fnos/ICON.PNG" width="28"> | **Cloudflare Tunnel** | `14333` | Cloudflare 内网穿透隧道，通过 Web 界面管理 Tunnel Token 配置 | [GitHub](https://github.com/WisdomSky/Cloudflared-web) | [Release][r-cloudflared] |
-| <img src="apps/easytier/fnos/ICON.PNG" width="28"> | **EasyTier** | `11211` | 简单安全的去中心化异地组网方案，支持 Web 管理和子网代理 | [GitHub](https://github.com/EasyTier/EasyTier) | [Release][r-easytier] |
+| <img src="apps/easytier/fnos/ICON.PNG" width="28"> | **EasyTier** | `11210` | 简单安全的去中心化异地组网方案，支持 Web 管理和子网代理 | [GitHub](https://github.com/EasyTier/EasyTier) | [Release][r-easytier] |
 
 ### 🌐 浏览器
 
