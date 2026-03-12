@@ -9,6 +9,6 @@ distributor_url = https://github.com/conversun/fnos-apps
 desktop_uidir   = ui
 desktop_applaunchname = rclone.Application
 service_port    = 5572
-desc            = 强大的云存储同步工具，支持 50+ 种存储后端的文件管理和同步。
+desc            = 强大的云存储同步工具，支持 50+ 种存储后端的文件管理和同步。默认用户名admin，密码admin。
 source          = thirdparty
 checksum        = 
