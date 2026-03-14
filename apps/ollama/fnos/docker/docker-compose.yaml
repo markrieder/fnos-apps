@@ -9,4 +9,11 @@ services:
     environment:
       - OLLAMA_HOST=0.0.0.0
       - TZ=Asia/Shanghai
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: all
+              capabilities: [gpu]
     restart: unless-stopped
