@@ -5,8 +5,8 @@ services:
     ports:
       - "${TRIM_SERVICE_PORT}:7789"
     volumes:
-      - ${TRIM_PKGVAR}/config:/config
-      - ${DOWNLOAD_DIR:-${TRIM_PKGVAR}/downloads}:/downloads
+      - ${TRIM_PKGVAR:?}/config:/config
+      - ${DOWNLOAD_DIR:-${TRIM_PKGVAR:?}/downloads}:/downloads
     environment:
       - TZ=Asia/Shanghai
       - PUID=${TRIM_UID}

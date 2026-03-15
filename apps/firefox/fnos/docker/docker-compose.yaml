@@ -5,8 +5,8 @@ services:
     ports:
       - "${TRIM_SERVICE_PORT}:5800"
     volumes:
-      - ${TRIM_PKGVAR}/config:/config
-      - ${TRIM_PKGVAR}/fonts:/usr/share/fonts
+      - ${TRIM_PKGVAR:?}/config:/config
+      - ${TRIM_PKGVAR:?}/fonts:/usr/share/fonts
     environment:
       - USER_ID=${TRIM_UID}
       - GROUP_ID=${TRIM_GID}

@@ -5,8 +5,8 @@ services:
     ports:
       - "${TRIM_SERVICE_PORT}:3000"
     volumes:
-      - ${TRIM_PKGVAR}/data:/app/data
-      - ${TRIM_PKGVAR}/music:/app/music
+      - ${TRIM_PKGVAR:?}/data:/app/data
+      - ${TRIM_PKGVAR:?}/music:/app/music
     environment:
       - NODE_ENV=production
       - PORT=3000

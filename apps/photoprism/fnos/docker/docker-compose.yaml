@@ -5,8 +5,8 @@ services:
     ports:
       - "${TRIM_SERVICE_PORT}:2342"
     volumes:
-      - ${TRIM_PKGVAR}/storage:/photoprism/storage
-      - ${TRIM_PKGVAR}/originals:/photoprism/originals
+      - ${TRIM_PKGVAR:?}/storage:/photoprism/storage
+      - ${TRIM_PKGVAR:?}/originals:/photoprism/originals
     environment:
       - TZ=Asia/Shanghai
       - PHOTOPRISM_ADMIN_PASSWORD=admin

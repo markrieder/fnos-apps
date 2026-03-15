@@ -7,8 +7,8 @@ services:
       - "8554:8554/tcp"
       - "1935:1935/tcp"
     volumes:
-      - ${TRIM_PKGVAR}/config:/config
-      - ${TRIM_PKGVAR}/media:/media/frigate
+      - ${TRIM_PKGVAR:?}/config:/config
+      - ${TRIM_PKGVAR:?}/media:/media/frigate
     environment:
       - TZ=Asia/Shanghai
     devices:

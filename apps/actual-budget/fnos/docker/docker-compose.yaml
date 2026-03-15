@@ -5,7 +5,7 @@ services:
     ports:
       - "${TRIM_SERVICE_PORT}:5006"
     volumes:
-      - ${TRIM_PKGVAR}/data:/data
+      - ${TRIM_PKGVAR:?}/data:/data
     environment:
       - TZ=Asia/Shanghai
     restart: unless-stopped

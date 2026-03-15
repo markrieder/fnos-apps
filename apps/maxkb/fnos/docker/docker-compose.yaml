@@ -5,7 +5,7 @@ services:
     ports:
       - "${TRIM_SERVICE_PORT}:8080"
     volumes:
-      - ${TRIM_PKGVAR}/data:/opt/maxkb
+      - ${TRIM_PKGVAR:?}/data:/opt/maxkb
     environment:
       - TZ=Asia/Shanghai
     restart: unless-stopped

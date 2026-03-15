@@ -5,7 +5,7 @@ services:
     ports:
       - "${TRIM_SERVICE_PORT}:3000"
     volumes:
-      - ${TRIM_PKGVAR}/uploads:/app/uploads
+      - ${TRIM_PKGVAR:?}/uploads:/app/uploads
     environment:
       - TZ=Asia/Shanghai
       - MONGO_URL=mongodb://rocketchat-mongo:27017/rocketchat?replicaSet=rs0
@@ -30,5 +30,5 @@ services:
       - MONGODB_ADVERTISED_HOSTNAME=rocketchat-mongo
       - ALLOW_EMPTY_PASSWORD=yes
     volumes:
-      - ${TRIM_PKGVAR}/mongodb:/bitnami/mongodb
+      - ${TRIM_PKGVAR:?}/mongodb:/bitnami/mongodb
     restart: unless-stopped

@@ -5,9 +5,9 @@ services:
     ports:
       - "${TRIM_SERVICE_PORT}:8080"
     volumes:
-      - ${TRIM_PKGVAR}/config:/config
-      - ${TRIM_PKGVAR}/downloads:/downloads
-      - ${TRIM_PKGVAR}/incomplete:/incomplete-downloads
+      - ${TRIM_PKGVAR:?}/config:/config
+      - ${TRIM_PKGVAR:?}/downloads:/downloads
+      - ${TRIM_PKGVAR:?}/incomplete:/incomplete-downloads
     environment:
       - TZ=Asia/Shanghai
       - PUID=1000

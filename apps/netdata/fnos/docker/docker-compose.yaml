@@ -5,9 +5,9 @@ services:
     ports:
       - "${TRIM_SERVICE_PORT}:19999"
     volumes:
-      - ${TRIM_PKGVAR}/data:/etc/netdata
-      - ${TRIM_PKGVAR}/lib:/var/lib/netdata
-      - ${TRIM_PKGVAR}/cache:/var/cache/netdata
+      - ${TRIM_PKGVAR:?}/data:/etc/netdata
+      - ${TRIM_PKGVAR:?}/lib:/var/lib/netdata
+      - ${TRIM_PKGVAR:?}/cache:/var/cache/netdata
       - /etc/passwd:/host/etc/passwd:ro
       - /etc/group:/host/etc/group:ro
       - /etc/localtime:/etc/localtime:ro

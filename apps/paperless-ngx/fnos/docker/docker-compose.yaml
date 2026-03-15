@@ -12,10 +12,10 @@ services:
     ports:
       - "${TRIM_SERVICE_PORT}:8000"
     volumes:
-      - ${TRIM_PKGVAR}/data:/usr/src/paperless/data
-      - ${TRIM_PKGVAR}/media:/usr/src/paperless/media
-      - ${TRIM_PKGVAR}/export:/usr/src/paperless/export
-      - ${TRIM_PKGVAR}/consume:/usr/src/paperless/consume
+      - ${TRIM_PKGVAR:?}/data:/usr/src/paperless/data
+      - ${TRIM_PKGVAR:?}/media:/usr/src/paperless/media
+      - ${TRIM_PKGVAR:?}/export:/usr/src/paperless/export
+      - ${TRIM_PKGVAR:?}/consume:/usr/src/paperless/consume
     environment:
       - PAPERLESS_REDIS=redis://redis:6379
       - PAPERLESS_DBENGINE=sqlite

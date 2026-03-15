@@ -5,7 +5,7 @@ services:
     ports:
       - "${TRIM_SERVICE_PORT}:5055"
     volumes:
-      - ${TRIM_PKGVAR}/config:/app/config
+      - ${TRIM_PKGVAR:?}/config:/app/config
     environment:
       - TZ=Asia/Shanghai
     restart: unless-stopped

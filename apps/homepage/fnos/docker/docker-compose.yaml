@@ -5,8 +5,8 @@ services:
     ports:
       - "${TRIM_SERVICE_PORT}:3000"
     volumes:
-      - ${TRIM_PKGVAR}/config:/app/config
-      - ${TRIM_PKGVAR}/icons:/app/public/icons
+      - ${TRIM_PKGVAR:?}/config:/app/config
+      - ${TRIM_PKGVAR:?}/icons:/app/public/icons
     environment:
       - TZ=Asia/Shanghai
       - HOMEPAGE_ALLOWED_HOSTS=*

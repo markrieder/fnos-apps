@@ -7,8 +7,8 @@ services:
     ports:
       - "${TRIM_SERVICE_PORT}:3080"
     volumes:
-      - ${TRIM_PKGVAR}/config/librechat.yaml:/app/librechat.yaml
-      - ${TRIM_PKGVAR}/images:/app/client/public/images
+      - ${TRIM_PKGVAR:?}/config/librechat.yaml:/app/librechat.yaml
+      - ${TRIM_PKGVAR:?}/images:/app/client/public/images
     environment:
       - MONGO_URI=mongodb://librechat-mongo:27017/LibreChat
       - JWT_SECRET=fnos-librechat-secret-change-me
@@ -20,5 +20,5 @@ services:
     image: ${DOCKER_MIRROR}docker.io/mongo:7
     container_name: librechat-mongo
     volumes:
-      - ${TRIM_PKGVAR}/db:/data/db
+      - ${TRIM_PKGVAR:?}/db:/data/db
     restart: unless-stopped

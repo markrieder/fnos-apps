@@ -5,8 +5,8 @@ services:
     ports:
       - "${TRIM_SERVICE_PORT}:25600"
     volumes:
-      - ${TRIM_PKGVAR}/config:/config
-      - ${TRIM_PKGVAR}/data:/data
+      - ${TRIM_PKGVAR:?}/config:/config
+      - ${TRIM_PKGVAR:?}/data:/data
     environment:
       - TZ=Asia/Shanghai
     restart: unless-stopped

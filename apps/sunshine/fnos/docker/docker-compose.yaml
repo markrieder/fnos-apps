@@ -10,7 +10,7 @@ services:
       - "48002:48002/udp"
       - "48010:48010/udp"
     volumes:
-      - ${TRIM_PKGVAR}/config:/config
+      - ${TRIM_PKGVAR:?}/config:/config
     devices:
       - /dev/dri:/dev/dri
     environment:

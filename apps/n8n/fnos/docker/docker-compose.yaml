@@ -5,7 +5,7 @@ services:
     ports:
       - "${TRIM_SERVICE_PORT}:5678"
     volumes:
-      - ${TRIM_PKGVAR}/data:/home/node/.n8n
+      - ${TRIM_PKGVAR:?}/data:/home/node/.n8n
     environment:
       - TZ=Asia/Shanghai
       - GENERIC_TIMEZONE=Asia/Shanghai

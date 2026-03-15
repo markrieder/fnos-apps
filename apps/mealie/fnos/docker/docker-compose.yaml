@@ -5,7 +5,7 @@ services:
     ports:
       - "${TRIM_SERVICE_PORT}:9000"
     volumes:
-      - ${TRIM_PKGVAR}/data:/app/data
+      - ${TRIM_PKGVAR:?}/data:/app/data
     environment:
       - TZ=Asia/Shanghai
       - ALLOW_SIGNUP=true

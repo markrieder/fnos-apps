@@ -5,8 +5,8 @@ services:
     ports:
       - "${TRIM_SERVICE_PORT}:3310"
     volumes:
-      - ${TRIM_PKGVAR}/virus_db:/var/lib/clamav
-      - ${TRIM_PKGVAR}/config:/etc/clamav
+      - ${TRIM_PKGVAR:?}/virus_db:/var/lib/clamav
+      - ${TRIM_PKGVAR:?}/config:/etc/clamav
     environment:
       - TZ=Asia/Shanghai
     restart: unless-stopped

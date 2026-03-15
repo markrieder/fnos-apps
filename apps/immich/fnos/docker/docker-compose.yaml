@@ -5,7 +5,7 @@ services:
     ports:
       - "${TRIM_SERVICE_PORT}:2283"
     volumes:
-      - ${UPLOAD_LOCATION:-${TRIM_PKGVAR}/upload}:/data
+      - ${UPLOAD_LOCATION:-${TRIM_PKGVAR:?}/upload}:/data
       - /etc/localtime:/etc/localtime:ro
     environment:
       - TZ=Asia/Shanghai
@@ -45,7 +45,7 @@ services:
       - POSTGRES_DB=immich
       - POSTGRES_INITDB_ARGS=--data-checksums
     volumes:
-      - ${TRIM_PKGVAR}/postgres:/var/lib/postgresql/data
+      - ${TRIM_PKGVAR:?}/postgres:/var/lib/postgresql/data
     shm_size: 128mb
     restart: unless-stopped
 

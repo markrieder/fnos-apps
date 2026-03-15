@@ -6,7 +6,7 @@ services:
       - "${TRIM_SERVICE_PORT}:51821"
       - "51820:51820/udp"
     volumes:
-      - ${TRIM_PKGVAR}/config:/etc/wireguard
+      - ${TRIM_PKGVAR:?}/config:/etc/wireguard
     environment:
       - TZ=Asia/Shanghai
       - WG_HOST=${WG_HOST:-}

@@ -7,7 +7,7 @@ services:
     ports:
       - "${TRIM_SERVICE_PORT}:3000"
     volumes:
-      - ${TRIM_PKGVAR}/data:/app/backend/db
+      - ${TRIM_PKGVAR:?}/data:/app/backend/db
     environment:
       - TZ=Asia/Shanghai
       - JS_BASE_URL=/
@@ -27,5 +27,5 @@ services:
       - POSTGRES_PASSWORD=jellystat_pass
       - POSTGRES_DB=jellystat
     volumes:
-      - ${TRIM_PKGVAR}/db:/var/lib/postgresql/data
+      - ${TRIM_PKGVAR:?}/db:/var/lib/postgresql/data
     restart: unless-stopped

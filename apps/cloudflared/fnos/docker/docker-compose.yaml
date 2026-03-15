@@ -4,8 +4,8 @@ services:
     container_name: cloudflared
     network_mode: host
     volumes:
-      - ${TRIM_PKGVAR}/config:/config
-      - ${TRIM_PKGVAR}/cloudflared:/root/.cloudflared
+      - ${TRIM_PKGVAR:?}/config:/config
+      - ${TRIM_PKGVAR:?}/cloudflared:/root/.cloudflared
     environment:
       - TZ=Asia/Shanghai
     restart: unless-stopped

@@ -5,7 +5,7 @@ services:
     ports:
       - "${TRIM_SERVICE_PORT}:80"
     volumes:
-      - ${TRIM_PKGVAR}/uploads:/app/uploads
+      - ${TRIM_PKGVAR:?}/uploads:/app/uploads
     environment:
       - TZ=Asia/Shanghai
     restart: unless-stopped

@@ -5,8 +5,8 @@ services:
     ports:
       - "${TRIM_SERVICE_PORT}:4100"
     volumes:
-      - ${TRIM_PKGVAR}/config:/etc/puter
-      - ${TRIM_PKGVAR}/data:/var/puter
+      - ${TRIM_PKGVAR:?}/config:/etc/puter
+      - ${TRIM_PKGVAR:?}/data:/var/puter
     environment:
       - TZ=Asia/Shanghai
     restart: unless-stopped

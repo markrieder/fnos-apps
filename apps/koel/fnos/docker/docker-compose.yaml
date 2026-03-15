@@ -5,10 +5,10 @@ services:
     ports:
       - "${TRIM_SERVICE_PORT}:80"
     volumes:
-      - ${MUSIC_DIR:-${TRIM_PKGVAR}/music}:/music
-      - ${TRIM_PKGVAR}/database:/var/www/html/database
-      - ${TRIM_PKGVAR}/covers:/var/www/html/public/img/storage
-      - ${TRIM_PKGVAR}/search-indexes:/var/www/html/storage/search-indexes
+      - ${MUSIC_DIR:-${TRIM_PKGVAR:?}/music}:/music
+      - ${TRIM_PKGVAR:?}/database:/var/www/html/database
+      - ${TRIM_PKGVAR:?}/covers:/var/www/html/public/img/storage
+      - ${TRIM_PKGVAR:?}/search-indexes:/var/www/html/storage/search-indexes
     environment:
       - TZ=Asia/Shanghai
       - DB_CONNECTION=sqlite-persistent

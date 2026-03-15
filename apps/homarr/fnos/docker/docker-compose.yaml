@@ -5,8 +5,8 @@ services:
     ports:
       - "${TRIM_SERVICE_PORT}:7575"
     volumes:
-      - ${TRIM_PKGVAR}/config:/appdata
-      - ${TRIM_PKGVAR}/icons:/icons
+      - ${TRIM_PKGVAR:?}/config:/appdata
+      - ${TRIM_PKGVAR:?}/icons:/icons
     environment:
       - TZ=Asia/Shanghai
       - SECRET_ENCRYPTION_KEY=${SECRET_ENCRYPTION_KEY}

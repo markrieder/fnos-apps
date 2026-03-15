@@ -5,7 +5,7 @@ services:
     ports:
       - "${TRIM_SERVICE_PORT}:8080"
     volumes:
-      - ${TRIM_PKGVAR}/models:/build/models
+      - ${TRIM_PKGVAR:?}/models:/build/models
     environment:
       - TZ=Asia/Shanghai
       - THREADS=4
