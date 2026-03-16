@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-03-16T07:47:51Z",
+  "generated_at": "2026-03-16T08:18:36Z",
   "source": {
     "name": "conversun/fnos-apps",
     "url": "https://github.com/conversun/fnos-apps"
@@ -276,7 +276,7 @@
         "arm"
       ],
       "updated_at": "2026-03-15T09:37:08Z",
-      "download_count": 79,
+      "download_count": 80,
       "app_type": "docker",
       "category": "browser"
     },
@@ -550,7 +550,7 @@
         "arm"
       ],
       "updated_at": "2026-03-15T09:36:39Z",
-      "download_count": 142,
+      "download_count": 144,
       "app_type": "docker",
       "category": "browser"
     },
@@ -875,9 +875,9 @@
       "file_prefix": "jackett",
       "display_name": "Jackett",
       "description": "Torrent 索引器代理，为 Sonarr/Radarr 等工具提供统一的搜索接口。",
-      "version": "0.24.1375",
-      "fpk_version": "0.24.1375-r1",
-      "release_tag": "jackett/v0.24.1375-r1",
+      "version": "0.24.1385",
+      "fpk_version": "0.24.1385",
+      "release_tag": "jackett/v0.24.1385",
       "service_port": 9117,
       "homepage_url": "https://github.com/Jackett/Jackett",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/jackett/fnos/ICON_256.PNG",
@@ -885,7 +885,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-15T09:37:17Z",
+      "updated_at": "2026-03-16T08:18:23Z",
       "download_count": 17,
       "app_type": "native",
       "category": "automation"
@@ -1191,9 +1191,9 @@
       "file_prefix": "mattermost",
       "display_name": "Mattermost",
       "description": "企业级即时通讯平台，Slack 的开源替代方案。",
-      "version": "11.4.2",
-      "fpk_version": "11.4.2-r1",
-      "release_tag": "mattermost/v11.4.2-r1",
+      "version": "11.3.3",
+      "fpk_version": "11.3.3",
+      "release_tag": "mattermost/v11.3.3",
       "service_port": 8065,
       "homepage_url": "https://mattermost.com",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/mattermost/fnos/ICON_256.PNG",
@@ -1201,7 +1201,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-15T09:36:16Z",
+      "updated_at": "2026-03-16T08:18:06Z",
       "download_count": 9,
       "app_type": "docker",
       "category": "system",
@@ -1276,9 +1276,9 @@
       "file_prefix": "melody-hub",
       "display_name": "MelodyHub",
       "description": "Web 音乐搜索与下载服务，基于 lx-music 核心，支持多平台音源聚合搜索、服务器端下载和歌曲管理。",
-      "version": "1.2.0",
-      "fpk_version": "1.2.0-r1",
-      "release_tag": "melody-hub/v1.2.0-r1",
+      "version": "1.2.3",
+      "fpk_version": "1.2.3",
+      "release_tag": "melody-hub/v1.2.3",
       "service_port": 3006,
       "homepage_url": "https://github.com/gefl24/melody-hub",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/melody-hub/fnos/ICON_256.PNG",
@@ -1286,7 +1286,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-15T09:36:14Z",
+      "updated_at": "2026-03-16T08:18:05Z",
       "download_count": 156,
       "app_type": "docker",
       "category": "media"
@@ -1530,9 +1530,9 @@
       "file_prefix": "nginx-ui",
       "display_name": "Nginx UI",
       "description": "Nginx可视化管理面板，内置Nginx引擎，支持在线编辑配置、一键Reload、SSL证书管理。",
-      "version": "2.3.3",
-      "fpk_version": "2.3.3-r1",
-      "release_tag": "nginx-ui/v2.3.3-r1",
+      "version": "2.3.4",
+      "fpk_version": "2.3.4",
+      "release_tag": "nginx-ui/v2.3.4",
       "service_port": 8889,
       "homepage_url": "https://github.com/0xJacky/nginx-ui",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/nginx-ui/fnos/ICON_256.PNG",
@@ -1540,7 +1540,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-15T09:37:24Z",
+      "updated_at": "2026-03-16T08:18:19Z",
       "download_count": 27,
       "app_type": "native",
       "category": "system"
@@ -1572,9 +1572,9 @@
       "file_prefix": "ntfy",
       "display_name": "Ntfy",
       "description": "自托管的推送通知服务器，支持 HTTP 接口发送通知到手机和桌面。",
-      "version": "2.18.0",
-      "fpk_version": "2.18.0-r1",
-      "release_tag": "ntfy/v2.18.0-r1",
+      "version": "2.19.1",
+      "fpk_version": "2.19.1",
+      "release_tag": "ntfy/v2.19.1",
       "service_port": 2586,
       "homepage_url": "https://ntfy.sh",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/ntfy/fnos/ICON_256.PNG",
@@ -1582,7 +1582,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-15T09:37:18Z",
+      "updated_at": "2026-03-16T08:18:16Z",
       "download_count": 18,
       "app_type": "native",
       "category": "system"
@@ -1719,9 +1719,9 @@
       "file_prefix": "paperless-ngx",
       "display_name": "Paperless-ngx",
       "description": "文档 OCR 扫描与归档管理系统，将纸质文件数字化并智能分类",
-      "version": "2.20.10",
-      "fpk_version": "2.20.10-r1",
-      "release_tag": "paperless-ngx/v2.20.10-r1",
+      "version": "2.20.11",
+      "fpk_version": "2.20.11",
+      "release_tag": "paperless-ngx/v2.20.11",
       "service_port": 8000,
       "homepage_url": "https://docs.paperless-ngx.com",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/paperless-ngx/fnos/ICON_256.PNG",
@@ -1729,7 +1729,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-15T09:37:04Z",
+      "updated_at": "2026-03-16T08:18:10Z",
       "download_count": 25,
       "app_type": "docker",
       "category": "content"
