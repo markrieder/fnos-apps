@@ -144,6 +144,7 @@
 | <img src="apps/ezbookkeeping/fnos/ICON.PNG" width="28"> | **EZBookkeeping** | `8580` | 轻量级个人记账应用，支持多币种、多账户和预算管理 | [GitHub](https://github.com/mayswind/ezbookkeeping) | [Release][r-ezbookkeeping] |
 | <img src="apps/penpot/fnos/ICON.PNG" width="28"> | **Penpot** | `9001` | 开源设计和原型工具，Figma 的自托管替代方案 | [官网](https://penpot.app) | [Release][r-penpot] |
 | <img src="apps/surveyking/fnos/ICON.PNG" width="28"> | **SurveyKing** | `1991` | 开源问卷调查和在线考试系统，支持多种题型、逻辑跳转和数据导出 | [官网](https://github.com/anji-plus/survey) | [Release][r-surveyking] |
+| <img src="apps/nvidia-driver/fnos/ICON.PNG" width="28"> | **NVIDIA Driver** | — | NVIDIA GPU 驱动（R580 LTS）+ nvidia-container-toolkit，仅 x86 | [官网](https://www.nvidia.com/drivers) | [Release][r-nvidia-driver] |
 
 ### 🌐 网络工具
 
@@ -345,3 +346,4 @@ fnos-apps/
 [r-ollama]: https://github.com/conversun/fnos-apps/releases?q=ollama
 [r-maxkb]: https://github.com/conversun/fnos-apps/releases?q=maxkb
 [r-tailscale]: https://github.com/conversun/fnos-apps/releases?q=tailscale
+[r-nvidia-driver]: https://github.com/conversun/fnos-apps/releases?q=nvidia-driver
