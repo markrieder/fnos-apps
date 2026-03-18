@@ -1,7 +1,7 @@
 # fnOS Apps
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-![Apps](https://img.shields.io/badge/apps-114-2ea44f)
+![Apps](https://img.shields.io/badge/apps-115-2ea44f)
 ![Platform](https://img.shields.io/badge/fnOS-third--party-orange)
 
 面向飞牛 fnOS 的第三方应用打包仓库。自动跟踪上游版本，构建可直接安装的 `.fpk` 包。
@@ -22,6 +22,7 @@
 
 | | App | 端口 | 说明 | 来源 | 下载 |
 |:---:|---|---:|---|:---:|:---:|
+| <img src="apps/zeroclaw/fnos/ICON.PNG" width="28"> | **ZeroClaw** | `42617` | 轻量级 AI 智能体运行时，Rust 编写，<5MB 内存占用 | [GitHub](https://github.com/zeroclaw-labs/zeroclaw) | [Release][r-zeroclaw] |
 | <img src="apps/openclaw/fnos/ICON.PNG" width="28"> | **OpenClaw** | `18789` | AI 智能体网关。配置复杂, Bug多, 建议使用 [sophnet.com](https://sophnet.com) 快速体验，或使用 MaxKB | [官网](https://docs.openclaw.ai) | [Release][r-openclaw] |
 | <img src="apps/localai/fnos/ICON.PNG" width="28"> | **LocalAI** | `8185` | 本地 AI 推理，兼容 OpenAI API | [官网](https://localai.io) | [Release][r-localai] |
 | <img src="apps/librechat/fnos/ICON.PNG" width="28"> | **LibreChat** | `3085` | AI 聊天界面，支持多模型 | [官网](https://librechat.ai) | [Release][r-librechat] |
@@ -347,3 +348,4 @@ fnos-apps/
 [r-maxkb]: https://github.com/conversun/fnos-apps/releases?q=maxkb
 [r-tailscale]: https://github.com/conversun/fnos-apps/releases?q=tailscale
 [r-nvidia-driver]: https://github.com/conversun/fnos-apps/releases?q=nvidia-driver
+[r-zeroclaw]: https://github.com/conversun/fnos-apps/releases?q=zeroclaw

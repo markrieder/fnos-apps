@@ -1,0 +1,19 @@
+{
+    "port-config": {
+        "protocol-file": "ZeroClaw.sc"
+    },
+    "data-share": {
+        "shares": [
+            {
+                "name": "ZeroClaw",
+                "permission": {
+                    "rw": [
+                        "zeroclaw"
+                    ]
+                }
+            }
+        ]
+    },
+    "systemd-unit": {
+    }
+}
