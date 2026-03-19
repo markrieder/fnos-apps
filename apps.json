@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-03-18T16:57:49Z",
+  "generated_at": "2026-03-19T08:09:09Z",
   "source": {
     "name": "conversun/fnos-apps",
     "url": "https://github.com/conversun/fnos-apps"
@@ -75,9 +75,9 @@
       "file_prefix": "ani-rss",
       "display_name": "ANI-RSS",
       "description": "动漫 RSS 自动追番、订阅、下载和刮削工具，支持自动识别季数集数和重命名。默认用户名admin，密码admin。",
-      "version": "3.0.13",
-      "fpk_version": "3.0.13-r1",
-      "release_tag": "ani-rss/v3.0.13-r1",
+      "version": "3.0.14",
+      "fpk_version": "3.0.14",
+      "release_tag": "ani-rss/v3.0.14",
       "service_port": 7789,
       "homepage_url": "https://github.com/wushuo894/ani-rss",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/ani-rss/fnos/ICON_256.PNG",
@@ -85,7 +85,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-18T16:07:17Z",
+      "updated_at": "2026-03-19T08:08:54Z",
       "download_count": 102,
       "app_type": "docker",
       "category": "content"
@@ -886,7 +886,7 @@
         "arm"
       ],
       "updated_at": "2026-03-18T16:07:48Z",
-      "download_count": 17,
+      "download_count": 18,
       "app_type": "native",
       "category": "automation"
     },
@@ -1213,9 +1213,9 @@
       "file_prefix": "maxkb",
       "display_name": "MaxKB",
       "description": "企业级智能体平台，支持 RAG 知识库、工作流引擎和多模型对话。",
-      "version": "2.6.1",
-      "fpk_version": "2.6.1-r2",
-      "release_tag": "maxkb/v2.6.1-r2",
+      "version": "2.7.0",
+      "fpk_version": "2.7.0",
+      "release_tag": "maxkb/v2.7.0",
       "service_port": 8083,
       "homepage_url": "https://github.com/1Panel-dev/MaxKB",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/maxkb/fnos/ICON_256.PNG",
@@ -1223,7 +1223,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-18T16:06:32Z",
+      "updated_at": "2026-03-19T08:08:52Z",
       "download_count": 4,
       "app_type": "docker",
       "category": "ai"
@@ -1234,9 +1234,9 @@
       "file_prefix": "mealie",
       "display_name": "Mealie",
       "description": "自托管食谱管理工具，支持网页导入和家庭共享",
-      "version": "3.13.0",
-      "fpk_version": "3.13.0",
-      "release_tag": "mealie/v3.13.0",
+      "version": "3.13.1",
+      "fpk_version": "3.13.1",
+      "release_tag": "mealie/v3.13.1",
       "service_port": 9925,
       "homepage_url": "https://mealie.io",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/mealie/fnos/ICON_256.PNG",
@@ -1244,7 +1244,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-18T16:06:19Z",
+      "updated_at": "2026-03-19T08:08:54Z",
       "download_count": 33,
       "app_type": "docker",
       "category": "content"
@@ -1414,7 +1414,7 @@
         "arm"
       ],
       "updated_at": "2026-03-18T16:57:14Z",
-      "download_count": 0,
+      "download_count": 42,
       "app_type": "docker",
       "category": "ai"
     },
@@ -1635,9 +1635,9 @@
       "file_prefix": "ollama",
       "display_name": "Ollama",
       "description": "本地大语言模型运行引擎，支持 Llama、Mistral、Gemma 等开源模型。",
-      "version": "0.18.1",
-      "fpk_version": "0.18.1-r1",
-      "release_tag": "ollama/v0.18.1-r1",
+      "version": "0.18.2",
+      "fpk_version": "0.18.2",
+      "release_tag": "ollama/v0.18.2",
       "service_port": 11434,
       "homepage_url": "https://github.com/ollama/ollama",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/ollama/fnos/ICON_256.PNG",
@@ -1645,7 +1645,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-18T16:06:30Z",
+      "updated_at": "2026-03-19T08:08:51Z",
       "download_count": 46,
       "app_type": "docker",
       "category": "ai"
@@ -1814,7 +1814,7 @@
         "arm"
       ],
       "updated_at": "2026-03-18T16:57:25Z",
-      "download_count": 0,
+      "download_count": 26,
       "app_type": "native",
       "category": "ai"
     },
@@ -2244,9 +2244,9 @@
       "file_prefix": "tailscale",
       "display_name": "Tailscale",
       "description": "Tailscale VPN 客户端，零配置组建安全私有网络，支持远程访问 NAS。",
-      "version": "1.94.2",
-      "fpk_version": "1.94.2-r2",
-      "release_tag": "tailscale/v1.94.2-r2",
+      "version": "1.96.2",
+      "fpk_version": "1.96.2",
+      "release_tag": "tailscale/v1.96.2",
       "service_port": 8088,
       "homepage_url": "https://github.com/tailscale/tailscale",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/tailscale/fnos/ICON_256.PNG",
@@ -2254,7 +2254,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-18T16:07:50Z",
+      "updated_at": "2026-03-19T08:08:54Z",
       "download_count": 10,
       "app_type": "docker",
       "category": "network"
@@ -2465,7 +2465,7 @@
         "arm"
       ],
       "updated_at": "2026-03-18T16:07:26Z",
-      "download_count": 0,
+      "download_count": 5,
       "app_type": "native",
       "category": "ai"
     }
