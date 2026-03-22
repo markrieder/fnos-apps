@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-03-21T08:03:34Z",
+  "generated_at": "2026-03-22T08:04:32Z",
   "source": {
     "name": "conversun/fnos-apps",
     "url": "https://github.com/conversun/fnos-apps"
@@ -213,7 +213,7 @@
         "arm"
       ],
       "updated_at": "2026-03-18T16:06:04Z",
-      "download_count": 9,
+      "download_count": 11,
       "app_type": "native",
       "category": "media"
     },
@@ -318,7 +318,7 @@
         "arm"
       ],
       "updated_at": "2026-03-18T16:07:22Z",
-      "download_count": 14,
+      "download_count": 21,
       "app_type": "docker",
       "category": "network"
     },
@@ -339,7 +339,7 @@
         "arm"
       ],
       "updated_at": "2026-03-18T16:07:30Z",
-      "download_count": 26,
+      "download_count": 27,
       "app_type": "native",
       "category": "download"
     },
@@ -402,7 +402,7 @@
         "arm"
       ],
       "updated_at": "2026-03-20T08:08:20Z",
-      "download_count": 25,
+      "download_count": 32,
       "app_type": "docker",
       "category": "system"
     },
@@ -444,7 +444,7 @@
         "arm"
       ],
       "updated_at": "2026-03-18T16:07:10Z",
-      "download_count": 8,
+      "download_count": 9,
       "app_type": "native",
       "category": "network"
     },
@@ -486,7 +486,7 @@
         "arm"
       ],
       "updated_at": "2026-03-18T16:07:50Z",
-      "download_count": 48,
+      "download_count": 58,
       "app_type": "docker",
       "category": "media",
       "post_install_note": "首次启动会初始化 PostgreSQL 和 MinIO，请耐心等待。"
@@ -529,7 +529,7 @@
         "arm"
       ],
       "updated_at": "2026-03-18T16:07:09Z",
-      "download_count": 80,
+      "download_count": 85,
       "app_type": "native",
       "category": "download"
     },
@@ -560,9 +560,9 @@
       "file_prefix": "fnos-apps-store",
       "display_name": "fnOS Apps",
       "description": "fnOS第三方应用中心，支持一键安装、更新和卸载来自conversun/fnos-apps的所有应用。",
-      "version": "1.7.4",
-      "fpk_version": "1.7.4-r1",
-      "release_tag": "fnos-apps-store/v1.7.4-r1",
+      "version": "1.7.5",
+      "fpk_version": "1.7.5",
+      "release_tag": "fnos-apps-store/v1.7.5",
       "service_port": 8011,
       "homepage_url": "https://github.com/conversun/fnos-store",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/fnos-apps-store/fnos/ICON_256.PNG",
@@ -570,7 +570,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-18T16:06:29Z",
+      "updated_at": "2026-03-22T08:04:00Z",
       "download_count": 1078,
       "app_type": "native",
       "category": "store"
@@ -655,7 +655,7 @@
         "arm"
       ],
       "updated_at": "2026-03-18T16:07:29Z",
-      "download_count": 7,
+      "download_count": 9,
       "app_type": "native",
       "category": "system"
     },
@@ -865,7 +865,7 @@
         "arm"
       ],
       "updated_at": "2026-03-18T16:07:32Z",
-      "download_count": 5,
+      "download_count": 10,
       "app_type": "docker",
       "category": "system"
     },
@@ -875,9 +875,9 @@
       "file_prefix": "jackett",
       "display_name": "Jackett",
       "description": "Torrent 索引器代理，为 Sonarr/Radarr 等工具提供统一的搜索接口。",
-      "version": "0.24.1427",
-      "fpk_version": "0.24.1427",
-      "release_tag": "jackett/v0.24.1427",
+      "version": "0.24.1431",
+      "fpk_version": "0.24.1431",
+      "release_tag": "jackett/v0.24.1431",
       "service_port": 9117,
       "homepage_url": "https://github.com/Jackett/Jackett",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/jackett/fnos/ICON_256.PNG",
@@ -885,8 +885,8 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-21T08:03:14Z",
-      "download_count": 18,
+      "updated_at": "2026-03-22T08:04:15Z",
+      "download_count": 32,
       "app_type": "native",
       "category": "automation"
     },
@@ -1224,7 +1224,7 @@
         "arm"
       ],
       "updated_at": "2026-03-21T08:03:02Z",
-      "download_count": 4,
+      "download_count": 6,
       "app_type": "docker",
       "category": "ai"
     },
@@ -1414,7 +1414,7 @@
         "arm"
       ],
       "updated_at": "2026-03-18T16:57:14Z",
-      "download_count": 81,
+      "download_count": 116,
       "app_type": "docker",
       "category": "ai"
     },
@@ -1456,7 +1456,7 @@
         "arm"
       ],
       "updated_at": "2026-03-18T16:07:49Z",
-      "download_count": 20,
+      "download_count": 21,
       "app_type": "docker",
       "category": "network",
       "post_install_note": "NetBird 客户端容器使用 host 网络模式运行。"
@@ -1740,9 +1740,9 @@
       "file_prefix": "paperless-ngx",
       "display_name": "Paperless-ngx",
       "description": "文档 OCR 扫描与归档管理系统，将纸质文件数字化并智能分类",
-      "version": "2.20.12",
-      "fpk_version": "2.20.12",
-      "release_tag": "paperless-ngx/v2.20.12",
+      "version": "2.20.13",
+      "fpk_version": "2.20.13",
+      "release_tag": "paperless-ngx/v2.20.13",
       "service_port": 8000,
       "homepage_url": "https://docs.paperless-ngx.com",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/paperless-ngx/fnos/ICON_256.PNG",
@@ -1750,7 +1750,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-21T08:03:00Z",
+      "updated_at": "2026-03-22T08:04:08Z",
       "download_count": 25,
       "app_type": "docker",
       "category": "content"
@@ -1814,7 +1814,7 @@
         "arm"
       ],
       "updated_at": "2026-03-18T16:57:25Z",
-      "download_count": 54,
+      "download_count": 63,
       "app_type": "native",
       "category": "ai"
     },
@@ -1835,7 +1835,7 @@
         "arm"
       ],
       "updated_at": "2026-03-18T16:07:09Z",
-      "download_count": 21,
+      "download_count": 28,
       "app_type": "docker",
       "category": "network"
     },
@@ -2255,7 +2255,7 @@
         "arm"
       ],
       "updated_at": "2026-03-20T08:08:12Z",
-      "download_count": 10,
+      "download_count": 20,
       "app_type": "docker",
       "category": "network"
     },
@@ -2286,9 +2286,9 @@
       "file_prefix": "tinymediamanager",
       "display_name": "tinyMediaManager",
       "description": "影视文件元数据管理工具，支持从 TheMovieDB、IMDb 刮削元数据，为 Kodi、Emby、Jellyfin、Plex 创建 NFO 文件，自动重命名和整理。含内置 JRE，通过虚拟显示运行。",
-      "version": "5.2.9",
-      "fpk_version": "5.2.9-r1",
-      "release_tag": "tinymediamanager/v5.2.9-r1",
+      "version": "5.2.10",
+      "fpk_version": "5.2.10",
+      "release_tag": "tinymediamanager/v5.2.10",
       "service_port": 5800,
       "homepage_url": "https://www.tinymediamanager.org",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/tinymediamanager/fnos/ICON_256.PNG",
@@ -2296,7 +2296,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-18T16:06:26Z",
+      "updated_at": "2026-03-22T08:03:59Z",
       "download_count": 52,
       "app_type": "docker",
       "category": "media"
@@ -2454,9 +2454,9 @@
       "file_prefix": "zeroclaw",
       "display_name": "ZeroClaw",
       "description": "轻量级 AI 智能体运行时，Rust 编写，<5MB 内存占用，支持多模型多通道自主智能体工作流",
-      "version": "0.5.4",
-      "fpk_version": "0.5.4",
-      "release_tag": "zeroclaw/v0.5.4",
+      "version": "0.5.7",
+      "fpk_version": "0.5.7",
+      "release_tag": "zeroclaw/v0.5.7",
       "service_port": 42617,
       "homepage_url": "https://github.com/zeroclaw-labs/zeroclaw",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/zeroclaw/fnos/ICON_256.PNG",
@@ -2464,7 +2464,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-21T08:03:07Z",
+      "updated_at": "2026-03-22T08:04:11Z",
       "download_count": 38,
       "app_type": "native",
       "category": "ai"
