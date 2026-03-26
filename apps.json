@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-03-25T08:12:39Z",
+  "generated_at": "2026-03-26T08:14:26Z",
   "source": {
     "name": "conversun/fnos-apps",
     "url": "https://github.com/conversun/fnos-apps"
@@ -65,7 +65,7 @@
         "arm"
       ],
       "updated_at": "2026-03-18T16:06:57Z",
-      "download_count": 17,
+      "download_count": 20,
       "app_type": "native",
       "category": "download"
     },
@@ -75,9 +75,9 @@
       "file_prefix": "ani-rss",
       "display_name": "ANI-RSS",
       "description": "动漫 RSS 自动追番、订阅、下载和刮削工具，支持自动识别季数集数和重命名。默认用户名admin，密码admin。",
-      "version": "3.0.16",
-      "fpk_version": "3.0.16",
-      "release_tag": "ani-rss/v3.0.16",
+      "version": "3.0.17",
+      "fpk_version": "3.0.17",
+      "release_tag": "ani-rss/v3.0.17",
       "service_port": 7789,
       "homepage_url": "https://github.com/wushuo894/ani-rss",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/ani-rss/fnos/ICON_256.PNG",
@@ -85,7 +85,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-21T08:03:02Z",
+      "updated_at": "2026-03-26T08:13:39Z",
       "download_count": 102,
       "app_type": "docker",
       "category": "content"
@@ -129,7 +129,7 @@
         "arm"
       ],
       "updated_at": "2026-03-20T08:08:17Z",
-      "download_count": 39,
+      "download_count": 40,
       "app_type": "docker",
       "category": "content"
     },
@@ -213,7 +213,7 @@
         "arm"
       ],
       "updated_at": "2026-03-18T16:06:04Z",
-      "download_count": 22,
+      "download_count": 24,
       "app_type": "native",
       "category": "media"
     },
@@ -223,9 +223,9 @@
       "file_prefix": "certimate",
       "display_name": "Certimate",
       "description": "SSL/TLS证书自动化管理工具，支持ACME协议自动申请和续签证书。",
-      "version": "0.4.19",
-      "fpk_version": "0.4.19-r1",
-      "release_tag": "certimate/v0.4.19-r1",
+      "version": "0.4.20",
+      "fpk_version": "0.4.20",
+      "release_tag": "certimate/v0.4.20",
       "service_port": 8090,
       "homepage_url": "https://github.com/certimate-go/certimate",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/certimate/fnos/ICON_256.PNG",
@@ -233,7 +233,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-18T16:06:10Z",
+      "updated_at": "2026-03-26T08:13:58Z",
       "download_count": 36,
       "app_type": "native",
       "category": "system"
@@ -276,7 +276,7 @@
         "arm"
       ],
       "updated_at": "2026-03-18T16:06:27Z",
-      "download_count": 167,
+      "download_count": 188,
       "app_type": "docker",
       "category": "browser"
     },
@@ -297,7 +297,7 @@
         "arm"
       ],
       "updated_at": "2026-03-18T16:07:33Z",
-      "download_count": 22,
+      "download_count": 24,
       "app_type": "docker",
       "category": "system"
     },
@@ -318,7 +318,7 @@
         "arm"
       ],
       "updated_at": "2026-03-18T16:07:22Z",
-      "download_count": 35,
+      "download_count": 41,
       "app_type": "docker",
       "category": "network"
     },
@@ -339,7 +339,7 @@
         "arm"
       ],
       "updated_at": "2026-03-18T16:07:30Z",
-      "download_count": 28,
+      "download_count": 31,
       "app_type": "native",
       "category": "download"
     },
@@ -402,7 +402,7 @@
         "arm"
       ],
       "updated_at": "2026-03-24T08:11:21Z",
-      "download_count": 60,
+      "download_count": 69,
       "app_type": "docker",
       "category": "system"
     },
@@ -444,7 +444,7 @@
         "arm"
       ],
       "updated_at": "2026-03-18T16:07:10Z",
-      "download_count": 9,
+      "download_count": 10,
       "app_type": "native",
       "category": "network"
     },
@@ -465,7 +465,7 @@
         "arm"
       ],
       "updated_at": "2026-03-18T16:08:05Z",
-      "download_count": 178,
+      "download_count": 201,
       "app_type": "native",
       "category": "media"
     },
@@ -475,9 +475,9 @@
       "file_prefix": "ente",
       "display_name": "Ente",
       "description": "端到端加密照片备份和存储服务，Google Photos 的隐私替代方案。",
-      "version": "photos-v1.3.24",
-      "fpk_version": "photos-v1.3.24-r1",
-      "release_tag": "ente/vphotos-v1.3.24-r1",
+      "version": "photos-v1.3.28",
+      "fpk_version": "photos-v1.3.28",
+      "release_tag": "ente/vphotos-v1.3.28",
       "service_port": 8510,
       "homepage_url": "https://ente.io",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/ente/fnos/ICON_256.PNG",
@@ -485,7 +485,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-18T16:07:50Z",
+      "updated_at": "2026-03-26T08:13:40Z",
       "download_count": 60,
       "app_type": "docker",
       "category": "media",
@@ -508,7 +508,7 @@
         "arm"
       ],
       "updated_at": "2026-03-23T08:14:35Z",
-      "download_count": 11,
+      "download_count": 12,
       "app_type": "native",
       "category": "system"
     },
@@ -529,7 +529,7 @@
         "arm"
       ],
       "updated_at": "2026-03-18T16:07:09Z",
-      "download_count": 90,
+      "download_count": 91,
       "app_type": "native",
       "category": "download"
     },
@@ -550,7 +550,7 @@
         "arm"
       ],
       "updated_at": "2026-03-18T16:06:49Z",
-      "download_count": 224,
+      "download_count": 235,
       "app_type": "docker",
       "category": "browser"
     },
@@ -571,7 +571,7 @@
         "arm"
       ],
       "updated_at": "2026-03-22T08:04:00Z",
-      "download_count": 1160,
+      "download_count": 1255,
       "app_type": "native",
       "category": "store"
     },
@@ -634,7 +634,7 @@
         "arm"
       ],
       "updated_at": "2026-03-23T08:14:28Z",
-      "download_count": 16,
+      "download_count": 18,
       "app_type": "docker",
       "category": "media"
     },
@@ -728,9 +728,9 @@
       "file_prefix": "grafana",
       "display_name": "Grafana",
       "description": "可视化监控仪表盘，支持 Prometheus、Loki 等多种数据源。",
-      "version": "12.4.1",
-      "fpk_version": "12.4.1-r2",
-      "release_tag": "grafana/v12.4.1-r2",
+      "version": "12.4.2",
+      "fpk_version": "12.4.2",
+      "release_tag": "grafana/v12.4.2",
       "service_port": 3010,
       "homepage_url": "https://grafana.com",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/grafana/fnos/ICON_256.PNG",
@@ -738,7 +738,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-18T16:07:27Z",
+      "updated_at": "2026-03-26T08:14:10Z",
       "download_count": 32,
       "app_type": "native",
       "category": "system"
@@ -781,7 +781,7 @@
         "arm"
       ],
       "updated_at": "2026-03-21T08:03:02Z",
-      "download_count": 24,
+      "download_count": 27,
       "app_type": "docker",
       "category": "system"
     },
@@ -802,7 +802,7 @@
         "arm"
       ],
       "updated_at": "2026-03-24T08:11:21Z",
-      "download_count": 51,
+      "download_count": 55,
       "app_type": "docker",
       "category": "system"
     },
@@ -844,7 +844,7 @@
         "arm"
       ],
       "updated_at": "2026-03-25T08:10:46Z",
-      "download_count": 65,
+      "download_count": 70,
       "app_type": "docker",
       "category": "media"
     },
@@ -875,9 +875,9 @@
       "file_prefix": "jackett",
       "display_name": "Jackett",
       "description": "Torrent 索引器代理，为 Sonarr/Radarr 等工具提供统一的搜索接口。",
-      "version": "0.24.1459",
-      "fpk_version": "0.24.1459",
-      "release_tag": "jackett/v0.24.1459",
+      "version": "0.24.1465",
+      "fpk_version": "0.24.1465",
+      "release_tag": "jackett/v0.24.1465",
       "service_port": 9117,
       "homepage_url": "https://github.com/Jackett/Jackett",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/jackett/fnos/ICON_256.PNG",
@@ -885,7 +885,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-25T08:10:58Z",
+      "updated_at": "2026-03-26T08:13:47Z",
       "download_count": 45,
       "app_type": "native",
       "category": "automation"
@@ -907,7 +907,7 @@
         "arm"
       ],
       "updated_at": "2026-03-18T16:07:46Z",
-      "download_count": 73,
+      "download_count": 76,
       "app_type": "native",
       "category": "media"
     },
@@ -970,7 +970,7 @@
         "arm"
       ],
       "updated_at": "2026-03-18T16:06:51Z",
-      "download_count": 18,
+      "download_count": 19,
       "app_type": "docker",
       "category": "media"
     },
@@ -991,7 +991,7 @@
         "arm"
       ],
       "updated_at": "2026-03-18T16:07:28Z",
-      "download_count": 15,
+      "download_count": 20,
       "app_type": "docker",
       "category": "content"
     },
@@ -1075,7 +1075,7 @@
         "arm"
       ],
       "updated_at": "2026-03-21T08:03:05Z",
-      "download_count": 25,
+      "download_count": 29,
       "app_type": "docker",
       "category": "ai",
       "post_install_note": "安装后请在 Web 界面配置 OpenAI/Anthropic 等 API Key。"
@@ -1107,9 +1107,9 @@
       "file_prefix": "linkwarden",
       "display_name": "Linkwarden",
       "description": "协作式书签管理器，支持网页存档和标签分类",
-      "version": "2.13.5",
-      "fpk_version": "2.13.5-r2",
-      "release_tag": "linkwarden/v2.13.5-r2",
+      "version": "2.14.0",
+      "fpk_version": "2.14.0",
+      "release_tag": "linkwarden/v2.14.0",
       "service_port": 3050,
       "homepage_url": "https://linkwarden.app",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/linkwarden/fnos/ICON_256.PNG",
@@ -1117,7 +1117,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-18T16:06:43Z",
+      "updated_at": "2026-03-26T08:13:48Z",
       "download_count": 10,
       "app_type": "docker",
       "category": "content"
@@ -1139,7 +1139,7 @@
         "arm"
       ],
       "updated_at": "2026-03-18T16:06:36Z",
-      "download_count": 27,
+      "download_count": 28,
       "app_type": "docker",
       "category": "ai"
     },
@@ -1149,9 +1149,9 @@
       "file_prefix": "loki",
       "display_name": "Loki",
       "description": "轻量级日志聚合系统，Grafana 生态的日志解决方案。",
-      "version": "3.6.7",
-      "fpk_version": "3.6.7-r2",
-      "release_tag": "loki/v3.6.7-r2",
+      "version": "3.6.8",
+      "fpk_version": "3.6.8",
+      "release_tag": "loki/v3.6.8",
       "service_port": 3100,
       "homepage_url": "https://grafana.com/oss/loki/",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/loki/fnos/ICON_256.PNG",
@@ -1159,7 +1159,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-18T16:08:06Z",
+      "updated_at": "2026-03-26T08:13:57Z",
       "download_count": 11,
       "app_type": "native",
       "category": "system"
@@ -1287,7 +1287,7 @@
         "arm"
       ],
       "updated_at": "2026-03-18T16:06:22Z",
-      "download_count": 191,
+      "download_count": 195,
       "app_type": "docker",
       "category": "media"
     },
@@ -1350,7 +1350,7 @@
         "arm"
       ],
       "updated_at": "2026-03-18T16:07:13Z",
-      "download_count": 17,
+      "download_count": 18,
       "app_type": "native",
       "category": "network"
     },
@@ -1360,9 +1360,9 @@
       "file_prefix": "moviepilot",
       "display_name": "MoviePilot",
       "description": "影视自动化管理工具,支持自动订阅、下载、整理和通知。首次启动通过 Web UI 配置。",
-      "version": "2.9.17",
-      "fpk_version": "2.9.17",
-      "release_tag": "moviepilot/v2.9.17",
+      "version": "2.9.18",
+      "fpk_version": "2.9.18",
+      "release_tag": "moviepilot/v2.9.18",
       "service_port": 3000,
       "homepage_url": "https://github.com/jxxghp/MoviePilot",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/moviepilot/fnos/ICON_256.PNG",
@@ -1370,7 +1370,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-25T08:10:48Z",
+      "updated_at": "2026-03-26T08:13:41Z",
       "download_count": 133,
       "app_type": "docker",
       "category": "content",
@@ -1382,9 +1382,9 @@
       "file_prefix": "n8n",
       "display_name": "n8n",
       "description": "可视化工作流自动化工具，支持连接数百种服务和 API。",
-      "version": "2.13.2",
-      "fpk_version": "2.13.2",
-      "release_tag": "n8n/v2.13.2",
+      "version": "2.13.3",
+      "fpk_version": "2.13.3",
+      "release_tag": "n8n/v2.13.3",
       "service_port": 5678,
       "homepage_url": "https://n8n.io",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/n8n/fnos/ICON_256.PNG",
@@ -1392,7 +1392,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-25T08:10:52Z",
+      "updated_at": "2026-03-26T08:13:41Z",
       "download_count": 28,
       "app_type": "docker",
       "category": "system"
@@ -1414,7 +1414,7 @@
         "arm"
       ],
       "updated_at": "2026-03-18T16:57:14Z",
-      "download_count": 144,
+      "download_count": 165,
       "app_type": "docker",
       "category": "ai"
     },
@@ -1541,7 +1541,7 @@
         "arm"
       ],
       "updated_at": "2026-03-18T16:06:05Z",
-      "download_count": 10,
+      "download_count": 14,
       "app_type": "docker",
       "category": "system"
     },
@@ -1625,7 +1625,7 @@
         "arm"
       ],
       "updated_at": "2026-03-25T08:12:25Z",
-      "download_count": 24,
+      "download_count": 42,
       "app_type": "native",
       "category": "system"
     },
@@ -1635,9 +1635,9 @@
       "file_prefix": "ollama",
       "display_name": "Ollama",
       "description": "本地大语言模型运行引擎，支持 Llama、Mistral、Gemma 等开源模型。",
-      "version": "0.18.2",
-      "fpk_version": "0.18.2",
-      "release_tag": "ollama/v0.18.2",
+      "version": "0.18.3",
+      "fpk_version": "0.18.3",
+      "release_tag": "ollama/v0.18.3",
       "service_port": 11434,
       "homepage_url": "https://github.com/ollama/ollama",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/ollama/fnos/ICON_256.PNG",
@@ -1645,8 +1645,8 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-19T08:08:51Z",
-      "download_count": 69,
+      "updated_at": "2026-03-26T08:13:41Z",
+      "download_count": 70,
       "app_type": "docker",
       "category": "ai"
     },
@@ -1677,9 +1677,9 @@
       "file_prefix": "open-webui",
       "display_name": "Open WebUI",
       "description": "AI 对话界面，支持连接 Ollama、OpenAI 等多种大语言模型。",
-      "version": "0.8.10",
-      "fpk_version": "0.8.10-r4",
-      "release_tag": "open-webui/v0.8.10-r4",
+      "version": "0.8.11",
+      "fpk_version": "0.8.11",
+      "release_tag": "open-webui/v0.8.11",
       "service_port": 8080,
       "homepage_url": "https://github.com/open-webui/open-webui",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/open-webui/fnos/ICON_256.PNG",
@@ -1687,8 +1687,8 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-18T16:07:57Z",
-      "download_count": 60,
+      "updated_at": "2026-03-26T08:13:43Z",
+      "download_count": 77,
       "app_type": "docker",
       "category": "ai"
     },
@@ -1772,7 +1772,7 @@
         "arm"
       ],
       "updated_at": "2026-03-25T08:10:48Z",
-      "download_count": 3,
+      "download_count": 5,
       "app_type": "docker",
       "category": "system"
     },
@@ -1803,9 +1803,9 @@
       "file_prefix": "picoclaw",
       "display_name": "PicoClaw",
       "description": "超轻量 AI 智能体框架，Go 编写，10MB 内存占用，支持多模型多通道智能自动化",
-      "version": "0.2.3",
-      "fpk_version": "0.2.3",
-      "release_tag": "picoclaw/v0.2.3",
+      "version": "0.2.4",
+      "fpk_version": "0.2.4",
+      "release_tag": "picoclaw/v0.2.4",
       "service_port": 18790,
       "homepage_url": "https://github.com/sipeed/picoclaw",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/picoclaw/fnos/ICON_256.PNG",
@@ -1813,8 +1813,8 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-18T16:57:25Z",
-      "download_count": 100,
+      "updated_at": "2026-03-26T08:13:40Z",
+      "download_count": 108,
       "app_type": "native",
       "category": "ai"
     },
@@ -1856,7 +1856,7 @@
         "arm"
       ],
       "updated_at": "2026-03-18T16:07:46Z",
-      "download_count": 113,
+      "download_count": 162,
       "app_type": "native",
       "category": "media"
     },
@@ -2129,7 +2129,7 @@
         "arm"
       ],
       "updated_at": "2026-03-20T08:08:41Z",
-      "download_count": 46,
+      "download_count": 49,
       "app_type": "native",
       "category": "automation"
     },
@@ -2192,7 +2192,7 @@
         "arm"
       ],
       "updated_at": "2026-03-18T16:06:43Z",
-      "download_count": 15,
+      "download_count": 19,
       "app_type": "docker",
       "category": "media"
     },
@@ -2255,7 +2255,7 @@
         "arm"
       ],
       "updated_at": "2026-03-20T08:08:12Z",
-      "download_count": 33,
+      "download_count": 35,
       "app_type": "docker",
       "category": "network"
     },
@@ -2276,7 +2276,7 @@
         "arm"
       ],
       "updated_at": "2026-03-18T16:07:31Z",
-      "download_count": 8,
+      "download_count": 9,
       "app_type": "docker",
       "category": "media"
     },
@@ -2381,7 +2381,7 @@
         "arm"
       ],
       "updated_at": "2026-03-18T16:07:47Z",
-      "download_count": 19,
+      "download_count": 21,
       "app_type": "docker",
       "category": "network"
     },
@@ -2465,7 +2465,7 @@
         "arm"
       ],
       "updated_at": "2026-03-25T08:10:57Z",
-      "download_count": 44,
+      "download_count": 60,
       "app_type": "native",
       "category": "ai"
     }
