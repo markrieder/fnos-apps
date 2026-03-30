@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-03-29T08:09:20Z",
+  "generated_at": "2026-03-30T08:27:52Z",
   "source": {
     "name": "conversun/fnos-apps",
     "url": "https://github.com/conversun/fnos-apps"
@@ -181,9 +181,9 @@
       "file_prefix": "beszel",
       "display_name": "Beszel",
       "description": "轻量级服务器监控工具，支持 Docker 容器资源监控",
-      "version": "0.18.5",
-      "fpk_version": "0.18.5",
-      "release_tag": "beszel/v0.18.5",
+      "version": "0.18.6",
+      "fpk_version": "0.18.6",
+      "release_tag": "beszel/v0.18.6",
       "service_port": 18090,
       "homepage_url": "https://github.com/henrygd/beszel",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/beszel/fnos/ICON_256.PNG",
@@ -191,7 +191,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-28T08:08:14Z",
+      "updated_at": "2026-03-30T08:27:18Z",
       "download_count": 41,
       "app_type": "native",
       "category": "system"
@@ -360,7 +360,7 @@
         "arm"
       ],
       "updated_at": "2026-03-26T16:49:59Z",
-      "download_count": 49,
+      "download_count": 56,
       "app_type": "docker",
       "category": "ai"
     },
@@ -444,7 +444,7 @@
         "arm"
       ],
       "updated_at": "2026-03-24T08:11:21Z",
-      "download_count": 88,
+      "download_count": 90,
       "app_type": "docker",
       "category": "system"
     },
@@ -886,7 +886,7 @@
         "arm"
       ],
       "updated_at": "2026-03-27T08:11:35Z",
-      "download_count": 78,
+      "download_count": 94,
       "app_type": "docker",
       "category": "media"
     },
@@ -917,9 +917,9 @@
       "file_prefix": "jackett",
       "display_name": "Jackett",
       "description": "Torrent 索引器代理，为 Sonarr/Radarr 等工具提供统一的搜索接口。",
-      "version": "0.24.1485",
-      "fpk_version": "0.24.1485",
-      "release_tag": "jackett/v0.24.1485",
+      "version": "0.24.1489",
+      "fpk_version": "0.24.1489",
+      "release_tag": "jackett/v0.24.1489",
       "service_port": 9117,
       "homepage_url": "https://github.com/Jackett/Jackett",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/jackett/fnos/ICON_256.PNG",
@@ -927,7 +927,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-29T08:08:14Z",
+      "updated_at": "2026-03-30T08:27:32Z",
       "download_count": 45,
       "app_type": "native",
       "category": "automation"
@@ -970,7 +970,7 @@
         "arm"
       ],
       "updated_at": "2026-03-26T16:25:00Z",
-      "download_count": 13,
+      "download_count": 18,
       "app_type": "docker",
       "category": "media"
     },
@@ -1677,9 +1677,9 @@
       "file_prefix": "ollama",
       "display_name": "Ollama",
       "description": "本地大语言模型运行引擎，支持 Llama、Mistral、Gemma 等开源模型。",
-      "version": "0.18.3",
-      "fpk_version": "0.18.3-r1",
-      "release_tag": "ollama/v0.18.3-r1",
+      "version": "0.19.0",
+      "fpk_version": "0.19.0",
+      "release_tag": "ollama/v0.19.0",
       "service_port": 11434,
       "homepage_url": "https://github.com/ollama/ollama",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/ollama/fnos/ICON_256.PNG",
@@ -1687,8 +1687,8 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-26T16:24:10Z",
-      "download_count": 107,
+      "updated_at": "2026-03-30T08:27:23Z",
+      "download_count": 110,
       "app_type": "docker",
       "category": "ai"
     },
@@ -1730,7 +1730,7 @@
         "arm"
       ],
       "updated_at": "2026-03-27T08:11:37Z",
-      "download_count": 111,
+      "download_count": 114,
       "app_type": "docker",
       "category": "ai"
     },
@@ -2003,7 +2003,7 @@
         "arm"
       ],
       "updated_at": "2026-03-26T16:24:36Z",
-      "download_count": 74,
+      "download_count": 76,
       "app_type": "native",
       "category": "automation"
     },
@@ -2360,7 +2360,7 @@
         "arm"
       ],
       "updated_at": "2026-03-26T16:24:43Z",
-      "download_count": 45,
+      "download_count": 47,
       "app_type": "docker",
       "category": "download"
     },
@@ -2454,9 +2454,9 @@
       "file_prefix": "wizarr",
       "display_name": "Wizarr",
       "description": "Plex/Jellyfin 用户邀请管理工具，简化媒体库共享流程。",
-      "version": "2026.2.1",
-      "fpk_version": "2026.2.1-r3",
-      "release_tag": "wizarr/v2026.2.1-r3",
+      "version": "2026.3.0",
+      "fpk_version": "2026.3.0",
+      "release_tag": "wizarr/v2026.3.0",
       "service_port": 5690,
       "homepage_url": "https://github.com/wizarrrr/wizarr",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/wizarr/fnos/ICON_256.PNG",
@@ -2464,7 +2464,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-26T16:24:07Z",
+      "updated_at": "2026-03-30T08:27:14Z",
       "download_count": 4,
       "app_type": "docker",
       "category": "media"
