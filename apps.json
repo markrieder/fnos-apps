@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-04-15T08:32:44Z",
+  "generated_at": "2026-04-16T08:30:04Z",
   "source": {
     "name": "conversun/fnos-apps",
     "url": "https://github.com/conversun/fnos-apps"
@@ -65,7 +65,7 @@
         "arm"
       ],
       "updated_at": "2026-04-15T08:29:59Z",
-      "download_count": 37,
+      "download_count": 44,
       "app_type": "native",
       "category": "download"
     },
@@ -150,7 +150,7 @@
         "arm"
       ],
       "updated_at": "2026-03-26T16:24:53Z",
-      "download_count": 27,
+      "download_count": 28,
       "app_type": "docker",
       "category": "automation"
     },
@@ -203,8 +203,8 @@
       "display_name": "Bililive-go",
       "description": "多平台直播录制工具，支持 Bilibili、斗鱼、虎牙等平台的自动录制",
       "version": "0.7.39",
-      "fpk_version": "0.7.39-r3",
-      "release_tag": "bililive-go/v0.7.39-r3",
+      "fpk_version": "0.7.39",
+      "release_tag": "bililive-go/v0.7.39",
       "service_port": 8680,
       "homepage_url": "https://github.com/bililive-go/bililive-go",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/bililive-go/fnos/ICON_256.PNG",
@@ -212,7 +212,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-26T16:24:15Z",
+      "updated_at": "2026-04-16T08:29:26Z",
       "download_count": 24,
       "app_type": "native",
       "category": "media"
@@ -276,7 +276,7 @@
         "arm"
       ],
       "updated_at": "2026-04-12T08:13:27Z",
-      "download_count": 241,
+      "download_count": 247,
       "app_type": "docker",
       "category": "browser"
     },
@@ -318,7 +318,7 @@
         "arm"
       ],
       "updated_at": "2026-03-26T16:24:30Z",
-      "download_count": 55,
+      "download_count": 59,
       "app_type": "docker",
       "category": "network"
     },
@@ -339,7 +339,7 @@
         "arm"
       ],
       "updated_at": "2026-03-26T16:24:54Z",
-      "download_count": 57,
+      "download_count": 58,
       "app_type": "native",
       "category": "download"
     },
@@ -402,7 +402,7 @@
         "arm"
       ],
       "updated_at": "2026-04-14T08:29:38Z",
-      "download_count": 142,
+      "download_count": 151,
       "app_type": "docker",
       "category": "ai"
     },
@@ -444,7 +444,7 @@
         "arm"
       ],
       "updated_at": "2026-04-07T08:21:53Z",
-      "download_count": 121,
+      "download_count": 125,
       "app_type": "docker",
       "category": "system"
     },
@@ -486,7 +486,7 @@
         "arm"
       ],
       "updated_at": "2026-03-26T16:25:19Z",
-      "download_count": 20,
+      "download_count": 21,
       "app_type": "native",
       "category": "network"
     },
@@ -507,7 +507,7 @@
         "arm"
       ],
       "updated_at": "2026-03-26T16:25:32Z",
-      "download_count": 298,
+      "download_count": 306,
       "app_type": "native",
       "category": "media"
     },
@@ -592,7 +592,7 @@
         "arm"
       ],
       "updated_at": "2026-03-26T16:25:14Z",
-      "download_count": 385,
+      "download_count": 397,
       "app_type": "docker",
       "category": "browser"
     },
@@ -613,7 +613,7 @@
         "arm"
       ],
       "updated_at": "2026-04-07T08:21:47Z",
-      "download_count": 2425,
+      "download_count": 2485,
       "app_type": "native",
       "category": "store"
     },
@@ -750,8 +750,8 @@
       "display_name": "Gotify",
       "description": "Gotify 是一个简单的自托管推送通知服务器，支持通过 REST API 发送和接收消息。",
       "version": "2.9.1",
-      "fpk_version": "2.9.1-r3",
-      "release_tag": "gotify/v2.9.1-r3",
+      "fpk_version": "2.9.1",
+      "release_tag": "gotify/v2.9.1",
       "service_port": 8070,
       "homepage_url": "https://gotify.net",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/gotify/fnos/ICON_256.PNG",
@@ -759,7 +759,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-26T16:24:17Z",
+      "updated_at": "2026-04-16T08:29:22Z",
       "download_count": 12,
       "app_type": "native",
       "category": "system"
@@ -865,7 +865,7 @@
         "arm"
       ],
       "updated_at": "2026-04-02T08:17:20Z",
-      "download_count": 67,
+      "download_count": 68,
       "app_type": "docker",
       "category": "system"
     },
@@ -917,9 +917,9 @@
       "file_prefix": "jackett",
       "display_name": "Jackett",
       "description": "Torrent 索引器代理，为 Sonarr/Radarr 等工具提供统一的搜索接口。",
-      "version": "0.24.1601",
-      "fpk_version": "0.24.1601",
-      "release_tag": "jackett/v0.24.1601",
+      "version": "0.24.1608",
+      "fpk_version": "0.24.1608",
+      "release_tag": "jackett/v0.24.1608",
       "service_port": 9117,
       "homepage_url": "https://github.com/Jackett/Jackett",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/jackett/fnos/ICON_256.PNG",
@@ -927,7 +927,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-04-15T08:29:47Z",
+      "updated_at": "2026-04-16T08:29:28Z",
       "download_count": 57,
       "app_type": "native",
       "category": "automation"
@@ -949,7 +949,7 @@
         "arm"
       ],
       "updated_at": "2026-04-06T08:28:05Z",
-      "download_count": 361,
+      "download_count": 369,
       "app_type": "native",
       "category": "media"
     },
@@ -970,7 +970,7 @@
         "arm"
       ],
       "updated_at": "2026-03-26T16:25:00Z",
-      "download_count": 39,
+      "download_count": 40,
       "app_type": "docker",
       "category": "media"
     },
@@ -1012,7 +1012,7 @@
         "arm"
       ],
       "updated_at": "2026-03-26T16:25:18Z",
-      "download_count": 33,
+      "download_count": 34,
       "app_type": "docker",
       "category": "media"
     },
@@ -1075,7 +1075,7 @@
         "arm"
       ],
       "updated_at": "2026-03-28T08:08:09Z",
-      "download_count": 36,
+      "download_count": 37,
       "app_type": "docker",
       "category": "media"
     },
@@ -1181,7 +1181,7 @@
         "arm"
       ],
       "updated_at": "2026-04-07T08:21:40Z",
-      "download_count": 51,
+      "download_count": 53,
       "app_type": "docker",
       "category": "ai"
     },
@@ -1213,8 +1213,8 @@
       "display_name": "Lucky",
       "description": "网络工具箱，集成 DDNS、反向代理、HTTPS 证书、端口转发等功能",
       "version": "2.27.2",
-      "fpk_version": "2.27.2-r3",
-      "release_tag": "lucky/v2.27.2-r3",
+      "fpk_version": "2.27.2",
+      "release_tag": "lucky/v2.27.2",
       "service_port": 16601,
       "homepage_url": "https://lucky666.cn",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/lucky/fnos/ICON_256.PNG",
@@ -1222,7 +1222,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-26T16:24:27Z",
+      "updated_at": "2026-04-16T08:29:28Z",
       "download_count": 17,
       "app_type": "native",
       "category": "system"
@@ -1233,9 +1233,9 @@
       "file_prefix": "mattermost",
       "display_name": "Mattermost",
       "description": "企业级即时通讯平台，Slack 的开源替代方案。",
-      "version": "11.5.2",
-      "fpk_version": "11.5.2",
-      "release_tag": "mattermost/v11.5.2",
+      "version": "11.6.0",
+      "fpk_version": "11.6.0",
+      "release_tag": "mattermost/v11.6.0",
       "service_port": 8065,
       "homepage_url": "https://mattermost.com",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/mattermost/fnos/ICON_256.PNG",
@@ -1243,7 +1243,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-04-15T08:29:42Z",
+      "updated_at": "2026-04-16T08:29:14Z",
       "download_count": 9,
       "app_type": "docker",
       "category": "system",
@@ -1266,7 +1266,7 @@
         "arm"
       ],
       "updated_at": "2026-04-11T08:09:15Z",
-      "download_count": 17,
+      "download_count": 19,
       "app_type": "docker",
       "category": "ai"
     },
@@ -1276,9 +1276,9 @@
       "file_prefix": "mealie",
       "display_name": "Mealie",
       "description": "自托管食谱管理工具，支持网页导入和家庭共享",
-      "version": "3.15.1",
-      "fpk_version": "3.15.1",
-      "release_tag": "mealie/v3.15.1",
+      "version": "3.15.2",
+      "fpk_version": "3.15.2",
+      "release_tag": "mealie/v3.15.2",
       "service_port": 9925,
       "homepage_url": "https://mealie.io",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/mealie/fnos/ICON_256.PNG",
@@ -1286,7 +1286,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-04-15T08:29:44Z",
+      "updated_at": "2026-04-16T08:29:21Z",
       "download_count": 40,
       "app_type": "docker",
       "category": "content"
@@ -1298,8 +1298,8 @@
       "display_name": "Medusa",
       "description": "电视剧自动化下载管理工具，支持自动搜索和下载新剧集。",
       "version": "1.0.25",
-      "fpk_version": "1.0.25-r3",
-      "release_tag": "medusa/v1.0.25-r3",
+      "fpk_version": "1.0.25",
+      "release_tag": "medusa/v1.0.25",
       "service_port": 8081,
       "homepage_url": "https://github.com/pymedusa/Medusa",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/medusa/fnos/ICON_256.PNG",
@@ -1307,7 +1307,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-26T16:24:23Z",
+      "updated_at": "2026-04-16T08:29:19Z",
       "download_count": 45,
       "app_type": "docker",
       "category": "automation"
@@ -1329,7 +1329,7 @@
         "arm"
       ],
       "updated_at": "2026-04-08T08:21:17Z",
-      "download_count": 332,
+      "download_count": 340,
       "app_type": "docker",
       "category": "media"
     },
@@ -1350,7 +1350,7 @@
         "arm"
       ],
       "updated_at": "2026-03-26T16:25:10Z",
-      "download_count": 21,
+      "download_count": 22,
       "app_type": "native",
       "category": "content"
     },
@@ -1477,7 +1477,7 @@
         "arm"
       ],
       "updated_at": "2026-04-13T08:37:09Z",
-      "download_count": 109,
+      "download_count": 110,
       "app_type": "native",
       "category": "media"
     },
@@ -1604,7 +1604,7 @@
         "arm"
       ],
       "updated_at": "2026-04-08T08:21:38Z",
-      "download_count": 47,
+      "download_count": 51,
       "app_type": "native",
       "category": "system"
     },
@@ -1667,7 +1667,7 @@
         "arm"
       ],
       "updated_at": "2026-03-26T16:25:33Z",
-      "download_count": 348,
+      "download_count": 354,
       "app_type": "native",
       "category": "system"
     },
@@ -1730,7 +1730,7 @@
         "arm"
       ],
       "updated_at": "2026-03-27T08:11:37Z",
-      "download_count": 233,
+      "download_count": 240,
       "app_type": "docker",
       "category": "ai"
     },
@@ -1940,7 +1940,7 @@
         "arm"
       ],
       "updated_at": "2026-04-05T08:08:36Z",
-      "download_count": 63,
+      "download_count": 65,
       "app_type": "native",
       "category": "automation"
     },
@@ -1982,7 +1982,7 @@
         "arm"
       ],
       "updated_at": "2026-03-26T16:24:51Z",
-      "download_count": 268,
+      "download_count": 282,
       "app_type": "native",
       "category": "download"
     },
@@ -2003,7 +2003,7 @@
         "arm"
       ],
       "updated_at": "2026-03-26T16:24:36Z",
-      "download_count": 182,
+      "download_count": 183,
       "app_type": "native",
       "category": "automation"
     },
@@ -2056,8 +2056,8 @@
       "display_name": "Readarr",
       "description": "电子书自动化管理工具，自动搜索和下载电子书与有声书",
       "version": "0.4.18.2805",
-      "fpk_version": "0.4.18.2805-r3",
-      "release_tag": "readarr/v0.4.18.2805-r3",
+      "fpk_version": "0.4.18.2805",
+      "release_tag": "readarr/v0.4.18.2805",
       "service_port": 8787,
       "homepage_url": "https://readarr.com",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/readarr/fnos/ICON_256.PNG",
@@ -2065,7 +2065,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-26T16:24:23Z",
+      "updated_at": "2026-04-16T08:29:38Z",
       "download_count": 84,
       "app_type": "native",
       "category": "automation"
@@ -2118,9 +2118,9 @@
       "file_prefix": "seerr",
       "display_name": "Seerr",
       "description": "影视媒体请求管理工具，支持 Plex/Jellyfin/Emby，Overseerr 的社区分支。",
-      "version": "3.1.1",
-      "fpk_version": "3.1.1",
-      "release_tag": "seerr/v3.1.1",
+      "version": "3.2.0",
+      "fpk_version": "3.2.0",
+      "release_tag": "seerr/v3.2.0",
       "service_port": 5055,
       "homepage_url": "https://github.com/seerr-team/seerr",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/seerr/fnos/ICON_256.PNG",
@@ -2128,8 +2128,8 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-04-14T08:29:33Z",
-      "download_count": 51,
+      "updated_at": "2026-04-16T08:29:16Z",
+      "download_count": 59,
       "app_type": "docker",
       "category": "media"
     },
@@ -2171,7 +2171,7 @@
         "arm"
       ],
       "updated_at": "2026-03-26T16:24:35Z",
-      "download_count": 57,
+      "download_count": 59,
       "app_type": "native",
       "category": "automation"
     },
@@ -2328,9 +2328,9 @@
       "file_prefix": "tinymediamanager",
       "display_name": "tinyMediaManager",
       "description": "影视文件元数据管理工具，支持从 TheMovieDB、IMDb 刮削元数据，为 Kodi、Emby、Jellyfin、Plex 创建 NFO 文件，自动重命名和整理。含内置 JRE，通过虚拟显示运行。",
-      "version": "5.2.10",
-      "fpk_version": "5.2.10-r1",
-      "release_tag": "tinymediamanager/v5.2.10-r1",
+      "version": "5.2.11",
+      "fpk_version": "5.2.11",
+      "release_tag": "tinymediamanager/v5.2.11",
       "service_port": 5800,
       "homepage_url": "https://www.tinymediamanager.org",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/tinymediamanager/fnos/ICON_256.PNG",
@@ -2338,7 +2338,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-26T16:24:16Z",
+      "updated_at": "2026-04-16T08:29:15Z",
       "download_count": 82,
       "app_type": "docker",
       "category": "media"
@@ -2371,8 +2371,8 @@
       "display_name": "Uptime Kuma",
       "description": "简洁美观的服务监控工具，支持多种监控类型和告警通知",
       "version": "2.2.1",
-      "fpk_version": "2.2.1-r3",
-      "release_tag": "uptime-kuma/v2.2.1-r3",
+      "fpk_version": "2.2.1",
+      "release_tag": "uptime-kuma/v2.2.1",
       "service_port": 3001,
       "homepage_url": "https://github.com/louislam/uptime-kuma",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/uptime-kuma/fnos/ICON_256.PNG",
@@ -2380,7 +2380,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-26T16:24:11Z",
+      "updated_at": "2026-04-16T08:29:18Z",
       "download_count": 46,
       "app_type": "docker",
       "category": "system"
@@ -2402,7 +2402,7 @@
         "arm"
       ],
       "updated_at": "2026-04-14T08:29:41Z",
-      "download_count": 37,
+      "download_count": 41,
       "app_type": "docker",
       "category": "system"
     },
@@ -2423,7 +2423,7 @@
         "arm"
       ],
       "updated_at": "2026-03-26T16:25:11Z",
-      "download_count": 83,
+      "download_count": 84,
       "app_type": "docker",
       "category": "network"
     },
@@ -2444,7 +2444,7 @@
         "arm"
       ],
       "updated_at": "2026-03-26T16:24:35Z",
-      "download_count": 18,
+      "download_count": 19,
       "app_type": "docker",
       "category": "content"
     },
@@ -2507,7 +2507,7 @@
         "arm"
       ],
       "updated_at": "2026-04-08T08:21:32Z",
-      "download_count": 107,
+      "download_count": 109,
       "app_type": "native",
       "category": "ai"
     }
