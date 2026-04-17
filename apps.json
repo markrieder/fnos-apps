@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-04-17T08:29:51Z",
+  "generated_at": "2026-04-17T08:30:11Z",
   "source": {
     "name": "conversun/fnos-apps",
     "url": "https://github.com/conversun/fnos-apps"
@@ -2161,8 +2161,8 @@
       "display_name": "Sonarr",
       "description": "电视剧自动化管理工具，自动搜索、下载和管理剧集",
       "version": "4.0.17.2952",
-      "fpk_version": "4.0.17.2952-r1",
-      "release_tag": "sonarr/v4.0.17.2952-r1",
+      "fpk_version": "4.0.17.2952",
+      "release_tag": "sonarr/v4.0.17.2952",
       "service_port": 8989,
       "homepage_url": "https://sonarr.tv",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/sonarr/fnos/ICON_256.PNG",
@@ -2170,7 +2170,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-26T16:24:35Z",
+      "updated_at": "2026-04-17T08:29:56Z",
       "download_count": 59,
       "app_type": "native",
       "category": "automation"
